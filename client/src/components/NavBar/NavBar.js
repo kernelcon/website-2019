@@ -1,23 +1,59 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import logo from '../../static/images/kernelcon_w_trans.png';
+import './NavBar.scss';
+
+import ResponsiveMenu from 'react-responsive-navbar';
+import { FaBars, FaClose } from 'react-icons/lib/fa';
 
 class NavBar extends Component {
+  static displayName = 'BackGround';
+
+  static propTypes = {
+    bkgColor: PropTypes.string
+  };
+
+  static defaultProps = {
+    bkgColor: 'transparent'
+  };
   render() {
+    const divStyle = {
+      backgroundColor: this.props.bkgColor
+    }
     return (
-      <header className='nav-bar'>
+      <div className='nav-bar'
+        style={divStyle}>
         <div className='container'>
-          <div className='nav-links'>
-            <a href="#">kernelcon</a>
-            <a href="#">sponsors</a>
-            <a href="#">con</a>
-            <a href="#">schedule</a>
-            <a href="#">speakers</a>
-            <a href="#">registration</a>
-            <a href="#">volunteers</a>
+          <div className='nav-container'>
+            <a href="/">
+              <img src={logo} height="30" alt="logo"/>
+            </a>
+            <div className='nav-menu'>
+              <ResponsiveMenu
+                menuOpenButton={<FaBars size={30} color="#fff" />}
+                menuCloseButton={<FaClose size={30} color="#fff" />}
+                changeMenuOn="1000px"
+                largeMenuClassName="nav-large"
+                smallMenuClassName="nav-small"
+                menu = {
+                  <div className='nav-links'>
+                    <a href="/venue">venue</a>  
+                    <a href="/dates">dates</a>
+                    <a href="/call-for-papers">call for papers</a>
+                    <a href="/con">con</a>
+                    <a href="/volunteers">volunteers</a>
+                    <a href="/sponsors">sponsors</a>
+                    <a href="/about">about</a>
+                  </div>
+                }
+              />
+            </div>
           </div>
         </div>
-      </header>
+      </div>
     );
   }
 }
 
 export default NavBar;
+
