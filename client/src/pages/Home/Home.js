@@ -7,7 +7,6 @@ import Modal from '../../components/Modal/Modal';
 
 import bkg from '../../static/images/cameras.jpg';
 import logo from '../../static/images/kernelcon_b_trans.png';
-import speakerLogo from '../../static/images/messages-people-person-bubble-oval.svg';
 
 class Home extends Component {
   constructor(props) {
@@ -67,7 +66,9 @@ class Home extends Component {
             </div>
             <div className='right-section'>
               <div className='call-out'>
-                <img src={logo} height="60"/>
+                <img src={logo} 
+                  alt="logo"
+                  height="60"/>
                 <h4 className='gold'>Check out the midwest's premier information security conference!</h4>
                 <div className='popup-section'>
                   <ul className='popup-list'>

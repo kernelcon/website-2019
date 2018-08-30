@@ -12,7 +12,6 @@ import Home from './pages/Home/Home';
 // Import Pages
 import Sponsors from './pages/Sponsors/Sponsors';
 import Venue from './pages/Venue/Venue';
-import Schedule from './pages/Schedule/Schedule';
 import Speakers from './pages/Speakers/Speakers';
 import Dates from './pages/Dates/Dates';
 import Registration from './pages/Registration/Registration';

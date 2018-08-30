@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 //import Tabs from 'react-responsive-tabs';
+
+import Competitions from './Competitions';
+import Villages from './Villages';
+import Workshops from './Workshops';
 import './Con.scss';
 
 class Con extends Component {
@@ -21,29 +25,13 @@ class Con extends Component {
 
 
                 <TabPanel tabId="vertical-tab-one">
-                  <div className='tab-title'>Workshops</div>
-                  <ul>
-                    <li>Arduino Workshop</li>
-                    <li>Network Analysis Workshop</li>
-                    <li>Building Control System - Incident Response Workshop</li>
-                  </ul>
+                  <Workshops />
                 </TabPanel>
                 <TabPanel tabId="vertical-tab-two">
-                  <div className='tab-title'>Villages</div>
-                  <ul>
-                    <li>TOOOL Lockpicking Village</li>
-                    <li>Resume Village</li>
-                    <li>Chillout Room</li>
-                  </ul>
+                  <Villages />
                 </TabPanel>
                 <TabPanel tabId="vertical-tab-three">
-                  <div className='tab-title'>Competitions</div>
-                  <ul>
-                    <li>Capture-the-Flag Event</li>
-                    <li>WiFi Fox and Hound Event</li>
-                    <li>Tech Olympics</li>
-                    <li>Chillout Room Video Game Competitions</li>
-                  </ul>
+                  <Competitions />
                 </TabPanel>
               </Tabs>
 
@@ -55,3 +43,6 @@ class Con extends Component {
 }
 
 export default Con;
+
+
+

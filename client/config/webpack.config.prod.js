@@ -349,6 +349,9 @@ module.exports = {
     child_process: 'empty',
   },
   externals: {
-    config: JSON.stringify(require('./config.json')), //eslint-disable-line
+    competitionConfig: JSON.stringify(require('./content/competitions.json')), //eslint-disable-line
+    dateConfig: JSON.stringify(require('./content/dates.json')), //eslint-disable-line
+    villageConfig: JSON.stringify(require('./content/villages.json')), //eslint-disable-line
+    workshopConfig: JSON.stringify(require('./content/workshops.json')), //eslint-disable-line
   },
 };

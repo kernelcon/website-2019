@@ -15,7 +15,7 @@ class Footer extends Component {
                 alt="logo"/>
             </div>
             <div className='footer-social'>
-              <a href='https://twitter.com/hatsecio'
+              <a href='http://twitter.com/_kernelcon_'
                 target='_blank'
                 rel='noopener noreferrer'>
                 <svg className='footer-social-icons'
@@ -55,7 +55,7 @@ class Footer extends Component {
           </div>
           <span className='footer-options'>
             <div className='footer__menu'>
-              <div className='copy'>Copyright 2018 KernelCon, LLC. All Rights Reserved.</div>
+              <div className='copy'>Copyright 2018 Kernelcon, LLC. All Rights Reserved.</div>
               
             </div>
           </span>

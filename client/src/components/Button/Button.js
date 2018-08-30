@@ -25,6 +25,7 @@ class Button extends Component {
   render() {
     return (
       <a onClick={this.handleClick}
+        rel="noopener noreferrer"
         href={this.props.href}
         className={`btn btn-sm animated-button victoria-four ${this.props.class}`}>
         {this.props.title}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Dates.scss';
 
-import config from 'config';
+import config from 'dateConfig';
 
 class Dates extends Component {
   static displayName = 'Dates';
@@ -10,9 +10,11 @@ class Dates extends Component {
 
     const dates = config.map((ele, idx) => {
       return (
-        <li key={`${ele}-${idx}`}>
-          {ele.title}
-        </li>
+        <div className='date-list'
+          key={`${ele}-${idx}`}>
+          <span className='dl-title'>{ele.title}</span>
+          <div>{ele.date}</div>
+        </div>
       );
     });
 
@@ -38,7 +40,7 @@ export default Dates;
 // <div className='dates'>
 //               <div className='date-group'>
 //                 <div className='date-title'>Conference Dates</div>
-//                 <div className='date-description'>KernelCon
+//                 <div className='date-description'>Kernelcon
 //               </div>
 //               <p>Call for Papers - Start</p>
 //               <p>Call for Papers - Close</p>
