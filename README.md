@@ -1,3 +1,3 @@
 # website
 
-Check out `/client/README.md' to run the project.
+Check out `/client/README.md` to run the project.
