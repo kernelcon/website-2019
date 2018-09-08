@@ -17,12 +17,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * [Node](https://nodejs.org/en/)
 
 
-## Running in Development
+## Running in Development (instructions from a fresh ubuntu install)
 
 * `git clone https://github.com/kernelcon/website.git`
-* `cd website`
+* `cd website/client`
+* `sudo apt-get update && sudo apt-get upgrade`
+* `sudo apt install npm`
 * `npm install`
-* `yarn start`
+* `npm run start`
 * Browser to http://localhost:3000
 
 
