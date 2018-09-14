@@ -12,6 +12,21 @@
     display: flex;
     flex-direction: column;
 
+    .top-nav {
+      display: flex;
+      justify-content: space-between;   /* space-evenly at 1000px and below */
+
+      .nav-date {
+        color: #eee;
+        font-size: 20px;
+        font-weight: 100;
+        text-transform: uppercase;
+        display: flex;
+        align-items:center;
+        z-index: 1;
+      }
+    }
+
     .nav-menu {
       margin: 10px 0px;
       flex: 1;

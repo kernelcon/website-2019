@@ -25,9 +25,14 @@ class NavBar extends Component {
         style={divStyle}>
         <div className='container'>
           <div className='nav-container'>
-            <a href="/">
-              <img src={logo} height="30" alt="logo"/>
-            </a>
+            <span className='top-nav'>
+              <a href="/">
+                <img src={logo} height="30" alt="logo"/>
+              </a>
+              <span className='nav-date'>
+                April 5-6, 2019
+              </span>
+            </span>
             <div className='nav-menu'>
               <ResponsiveMenu
                 menuOpenButton={<FaBars size={30} color="#fff" />}

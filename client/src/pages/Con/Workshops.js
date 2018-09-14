@@ -29,7 +29,6 @@ class Workshops extends Component {
 
     return (
       <span>
-        <div className='tab-title'>Workshops</div>
         {events}
       </span>
     );

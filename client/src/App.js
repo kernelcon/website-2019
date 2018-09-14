@@ -19,13 +19,13 @@ import Volunteers from './pages/Volunteers/Volunteers';
 import About from './pages/About/About';
 import CallForPapers from './pages/CallForPapers/CallForPapers';
 import Con from './pages/Con/Con';
-
+import Bio from './pages/Con/Bio';
 
 
 class App extends Component {
   render() {
     const homeNavColor = window.location.pathname === '/' ? '' : '#2d2c30';
-    const pageBoxColor = window.location.pathname === '/' ? '' : '#fff';
+    const pageBoxColor = window.location.pathname === '/' ? '' : window.location.pathname === '/dates' ?  '#eee' : '#fff';
     const divStyle = {
       backgroundColor: `${pageBoxColor}`
     }
@@ -45,7 +45,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/call-for-papers" component={CallForPapers} />
             <Route exact path="/con" component={Con} />
-            
+            <Route path="/bio" component={Bio} />
           </div>
           <Footer />
         </div>

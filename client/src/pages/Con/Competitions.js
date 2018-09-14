@@ -28,7 +28,6 @@ class Competitions extends Component {
 
     return (
       <span>
-        <div className='tab-title'>Competitions</div>
         {events}
       </span>
     );

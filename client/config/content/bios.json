@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Clay Dowling",
+    "title": "Arduino Workshop Instructor",
+    "bio": "Clay Dowling is a software consultant specializing in agile practices & extremem programming techniques. In his spare time he builds machines driven by microcontrollers & negotiates with his cats for access to the keyboard.",
+    "image": ""
+  }, {
+    "id": 2,
+    "name": "Nathan Schlehlein",
+    "title": "Arduino Workshop Instructor",
+    "bio": "Nathan Schlehlein is a wannabe problem solver who earns his living making dreams come true for people via software. A semi-recent transplant to the semi-bustling city of Des Moines, IA, he resides in the “pretty OK” western burbs with his three awesome kids, long-suffering wife, & hyperactive dog. He is an enthusiast of intriguing, historically significant, & / or dangerous technology & enjoys good scotch, beer with a back story, & a well-executed fake foreign accent.",
+    "image": ""
+  }, {
+    "id": 3,
+    "name": "Brad Miller",
+    "title": "NARI Workshops Instructor",
+    "bio": "Brad Miller is an instructor and testbed technician with Nebraska Applied Research Institute (NARI), where he trains attendees of NARIs cyber security courses and designs and develops testbeds for companies. He joined the NARI team in 2017 after retiring from the US Marine Corps. While he was on active duty, he maintained F-18 Hornets for Marine Aviation and had the opportunity to achieve his Master Training Specialist certification. Brad has instructed attendees from Cyber Protection Brigade, Iowa National Guard and Defense Threat Reduction Agency during courses and has worked with Honeywell and Siemens components during testbed development, among other distinctions in the cyber security field for NARI. Brad helps the building control systems (BCS) industry by giving facility and building engineers cutting edge training in BCS cyber security techniques. He also gives NARIs cyber engineers a platform with the testbeds, allowing them to develop new BCS hardening techniques and data.",
+    "image": ""
+  }, {
+    "id": 4,
+    "name": "Josh Bunstock",
+    "title": "NARI Workshops Instructor",
+    "bio": "Josh Bunstock is the Cyber Training and Instructional Design Lead at the Nebraska Applied Research Institute.  Josh has taken part in the development and delivery of four separate courses for NARI including Network Analysis, Executive Cyber Security, Building Control System Incident Response, and NIST Special Publication 800-171 Compliance for Businesses.  He joined the NARI team in July of 2017 after transitioning from 20 years of service in the Navy’s Submarine Force.  While in the Navy, Josh achieved Master Training Specialist Mentor status establishing him as an expert in his craft.  His Navy background included work as an instructor, electronics technician, security program manager, undersea research and design technician, and more.  He holds a Bachelor’s degree in Applied Science and Technology with an emphasis in electronics and is pursuing a Master’s degree in Instructional Technology.",
+    "image": ""
+  }, {
+    "id": 5,
+    "name": "Dr. Owen Redwood",
+    "title": "NARI Workshops Subject Matter Expert",
+    "bio": "Dr. Owen Redwood is the Chief Research Officer at NARI. Dr. Redwood earned his M.S. and Ph.D. degrees in Computer Science from the Florida State University, focusing on vulnerability research and virtualization research of cyber physical systems. Dr. Redwood earned his B.S. in Computer Science from the Georgia Institute of Technology. His research background spans IT and OT vulnerability research, reverse engineering, cyber physical systems virtualization research, hybrid approaches for static/dynamic/symbolic analysis, physical-impact payload development, and automated exploitation and mitigation. Dr. Redwood also created and maintains the “Offensive Computer Security” online open-courseware which has been adopted by faculty members at over 20 universities and is the world’s top open-courseware on vulnerability research and exploitation. In a past life, Dr. Redwood was a member of the Raytheon Deep Red team for the DARPA Cyber Grand Challenge, where he focused on automating vulnerability discovery, vulnerability mitigation, and exploitation.  He also previously worked for Sandia National Labs and another government cybersecurity research and development organization focusing on securing critical infrastructure. Dr. Redwood’s past cyber physical system vulnerability research has covered devices in energy critical infrastructure, oil/gas critical infrastructure, maritime systems, vehicular systems, building automation systems, and more. Dr. Redwood has a Global Industrial Cyber Security Professional (GICSP) certification, and has passed the CISSP exam and is awaiting the CISSP certification award currently.",
+    "image": ""
+  }
+]
+

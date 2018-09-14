@@ -12,13 +12,15 @@ class Modal extends Component {
     title: PropTypes.string,
     modalContentStyle: PropTypes.node,
     height: PropTypes.string,
-    width: PropTypes.string
+    width: PropTypes.string,
+    class: PropTypes.string
   };
 
   static defaultProps = {
     modalContentStyle: {
       padding: '20px'
-    }
+    },
+    class: ''
   };
 
   render() {
@@ -28,7 +30,7 @@ class Modal extends Component {
 
     return (
       <div className='backdrop'>
-        <div className='modal-container'>
+        <div className={`modal-container ${this.props.class}`}>
           <div className='modal-header'>
             <div className='modal-title'>
               {this.props.title}

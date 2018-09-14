@@ -10,10 +10,11 @@ class Dates extends Component {
 
     const dates = config.map((ele, idx) => {
       return (
-        <div className='date-list'
+        <div className='date-box'
           key={`${ele}-${idx}`}>
           <span className='dl-title'>{ele.title}</span>
-          <div>{ele.date}</div>
+          {ele.description && <div className='dl-description'>{ele.description}</div>}
+          <div className='dl-date'>{ele.date}</div>
         </div>
       );
     });
@@ -23,7 +24,9 @@ class Dates extends Component {
         <div className='container'>
           <div className='venue-section'>
             <h1 className='title'>Important Dates</h1>
-            {dates}
+            <div className='dates-list'>
+              {dates}
+            </div>
           </div>
         </div>
       </div>

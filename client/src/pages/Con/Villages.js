@@ -28,7 +28,6 @@ class Villages extends Component {
 
     return (
       <span>
-        <div className='tab-title'>Villages</div>
         {events}
       </span>
     );

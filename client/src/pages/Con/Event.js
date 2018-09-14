@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './Con.scss';
 
@@ -40,22 +41,31 @@ class Event extends Component {
   render() {
     const authorList = this.props.author.map((ele, idx) => {
       return (
-        <div className='event-author-list'
-          key={`${idx}`}>
-          <div className='event-author'>{ele.name}</div>
-          <div className='event-author-bio'>{ele.bio}</div>
-        </div>
+        <span className='event-author'>
+          <Link to={`/bio?id=${ele.id}`}>
+            {ele.name}
+          </Link>
+        </span>
       )
     });
+
+    const authorGroup = (
+      <div className='event-author-list'>
+        {authorList}
+      </div>
+    );
 
     const eventClassName = this.props.leftCol ? 'event-left' : '';
 
     return (
       <div className='event'>
         <div className={eventClassName}>
-          <div className='event-title'>
+          <div className='tab-title'>
             {this.props.title}
           </div>
+          {authorList && <div className='event-authors'>
+            {authorGroup}
+          </div>}
           <div className='event-description'>
             {this.props.description}
           </div>
@@ -65,9 +75,6 @@ class Event extends Component {
               {this.getBullets()}
             </ul>
           }
-        </div>
-        <div className='event-right'>
-          {authorList}
         </div>
       </div>
     );

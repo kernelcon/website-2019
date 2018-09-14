@@ -26,7 +26,7 @@ class Home extends Component {
   render() {
     const modalContentStyle = {
       padding: '0px',
-      marginTop: '-170px'
+      marginTop: '-100px'
     }
     return (
       <div id='main_hero' className=''>
@@ -44,24 +44,24 @@ class Home extends Component {
                   <Button onClick={this.toggleModal} href="#" title="Sign Up" />
                 </div>
               </div>
-              <div className='posts'>
-                <h2>POSTS</h2>
-                <Modal show={this.state.isOpen}
-                  onClose={this.toggleModal}
-                  title='Subscribe for Updates'
-                  modalContentStyle={modalContentStyle}
-                  height='420'
-                  width='500'>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBplS_8WifTAZMQJ802Djd05wEm9xywlwOWY963tplDdZz9g/viewform?embedded=true"
-                      title="sign-up-form"
-                      frameBorder="0"
-                      marginHeight="0"
-                      marginWidth="0"
-                      className='google-form'
-                      style={{'marginLeft': '-30px'}}>
-                      Loading...
-                    </iframe>
-                </Modal>
+              <Modal show={this.state.isOpen}
+                onClose={this.toggleModal}
+                title='Subscribe for Updates'
+                modalContentStyle={modalContentStyle}
+                height='420'
+                width='500'>
+                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBplS_8WifTAZMQJ802Djd05wEm9xywlwOWY963tplDdZz9g/viewform?embedded=true"
+                    title="sign-up-form"
+                    frameBorder="0"
+                    marginHeight="0"
+                    marginWidth="0"
+                    className='google-form'
+                    style={{'marginLeft': '-30px'}}>
+                    Loading...
+                  </iframe>
+              </Modal>
+              <div className='twitter-zone'>
+                {/* TODO */}
               </div>
             </div>
             <div className='right-section'>

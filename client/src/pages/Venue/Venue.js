@@ -6,12 +6,13 @@ import MediaQuery from 'react-responsive';
 import './Venue.scss';
 
 import logo from '../../static/images/embassy-suites.png';
-import venue from '../../static/images/venue.jpg';
+import venue from '../../static/images/room_map_black.png';
 import atrium from '../../static/images/atrium.jpg';
 import bedroom from '../../static/images/bedroom.jpg';
 import pool from '../../static/images/pool.jpg';
 import bar from '../../static/images/bar.jpg';
 import hotel from '../../static/images/embassy-suites-hotel.jpg';
+import parking from '../../static/images/parking_map_black.png';
 
 
 class Venue extends Component {
@@ -54,7 +55,7 @@ class Venue extends Component {
                 </iframe>
               </div>
             </div>
-            <div className='venue-reservation'>
+            <div className='venue-reservation' style={{display:'none'}}>
               <Button href="http://embassysuites3.hilton.com/en/hotels/nebraska/embassy-suites-by-hilton-omaha-downtown-old-market-OMADTES/index.html" title="Reserve today!" class="baltic-sea"/>
             </div>
           </div>
@@ -107,7 +108,8 @@ class Venue extends Component {
         <TabPanel tabId="vertical-tab-five">
           <div className='tab-title'>Where to Park</div>
           <p className='venue-sub-text'>For the locals:</p>
-          <p className='venue-sub-text'>We're happy to say that the conference parking is readily available.</p>
+          <p className='venue-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
+          <img src={parking} height="400" alt="parking-map"/>
         </TabPanel>
       </Tabs>
     );
