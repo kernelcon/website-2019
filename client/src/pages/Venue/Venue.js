@@ -41,6 +41,9 @@ class Venue extends Component {
                   <div className='hotel-sub-text'>TEL: +1-402-346-9000</div>
                 </div>
               </div>
+              <div className='venue-hotel-title'>
+                 <div className='venue-text'>Room block registration link coming soon!</div>
+              </div>
               <img src={hotel} height="150" alt="hotel"/>
               <div className="map-container">
                 <iframe title="hotel-map"
@@ -67,6 +70,11 @@ class Venue extends Component {
         </TabPanel>
         <TabPanel tabId="vertical-tab-three">
           <div className='tab-title'>Venue Amenities</div>
+          <div className='amnenities-list'>
+            <div className='amnenities-col'>
+              <div className='venue-sub-text'>Room block registration link coming soon!</div>
+            </div>
+          </div>
           <div className='amnenities-list'>
             <img src={atrium} height="100" alt="atrium" className='amnenities-col'/>
             <div className='amnenities-col'>
