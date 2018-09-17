@@ -146,7 +146,7 @@ class Home extends Component {
                         <div className='popup-text'>
                           <div className='popup-flavor-text'>Want to experience the con your own way?</div>
                         </div>
-                        <div className='popup-text'>Check out one or more of our many activites! KernelCon is hosting a Scavenger Hunt, Con Karaokee, Tech Olympics, and much, much more.</div>
+                        <div className='popup-text'>Check out one or more of our many activites! Kernelcon is hosting a WiFi Fox and Hound Competition, Tech Olympics, Workshops and much, much more.</div>
                       </div>
                     </li>
                     <li className='popup-items'>
