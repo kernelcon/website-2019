@@ -23,9 +23,16 @@ h1, h2 {
   margin-right: auto;
   margin-left: auto;
 }
+
+.section {
+  margin-top: 60px;
+  display: flex;
+}
 @media screen and (min-width: 320px) {
   .container {
     max-width: 260px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   img.App-logo {
     height: 60px;
@@ -47,6 +54,35 @@ h1, h2 {
     height: 580px;
     width: 370px; 
     margin-top:10px;
+  }
+  .section {
+    flex-direction: column;
+  }
+  .twitter-zone {
+    display: flex;
+    justify-content: center;
+  }
+  .updates h2 {
+    text-align: center;
+  }
+  .sign-up-btn {
+    width: 90% !important;
+  }
+  .sign-up-btn, .call-out {
+    margin: 0 auto;
+  }
+  .call-out {
+    width: unset !important;
+    margin: 0px !important;
+  }
+  .nav-bar .nav-container .top-nav .nav-date {
+    display: none !important;
+  }
+  .image-area {
+    display: none !important;
+  }
+  .text-block {
+    padding-bottom: 20px !important;
   }
 }
 @media screen and (min-width: 380px) {
@@ -152,6 +188,9 @@ h1, h2 {
     width: 560px; 
     margin-top:0px;
   }
+  .image-area {
+    display: block !important;
+  }
 }
 @media screen and (min-width: 992px) {
   .container {
@@ -177,6 +216,26 @@ h1, h2 {
     height: 580px;
     width: 560px; 
     margin-top:0px;
+  }
+  .section {
+    flex-direction: row;
+  }
+  .twitter-zone {
+    display: block;
+  }
+  .updates h2 {
+    text-align: left;
+  }
+  .call-out {
+    width: unset !important;
+    margin: 30px !important;
+  }
+  .sign-up-btn {
+    width: 90% !important;
+    margin: 0px !important;
+  }
+  .nav-bar .nav-container .top-nav .nav-date {
+    display: flex !important;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -205,11 +264,7 @@ h1, h2 {
     margin-top:0px;
   }
 }
-.section {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-}
+
 
 .page-box {
   min-height: calc(100vh - 100px);

@@ -61,7 +61,13 @@ class Home extends Component {
                   </iframe>
               </Modal>
               <div className='twitter-zone'>
-                {/* TODO */}
+                <a class="twitter-timeline" 
+                  data-width="360"
+                  data-height="500"
+                  data-theme="light"
+                  href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">
+                  Tweets by _kernelcon_
+                </a> 
               </div>
             </div>
             <div className='right-section'>
