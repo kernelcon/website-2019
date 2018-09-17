@@ -1,0 +1,114 @@
+@import './colors';
+@import './variables';
+
+.rwt__tabs[data-rwt-vertical="true"] {
+  display: flex;
+}
+
+.rwt__tablist:not([aria-orientation="vertical"]) {
+  border-bottom: 1px solid #ddd;
+}
+
+.rwt__tablist[aria-orientation="vertical"] {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border-right: 1px solid #ddd;
+  margin-right: 25px;
+  /*height: 400px;*/
+}
+
+.rwt__tab {
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px 20px 10px 0px;
+  transition: background 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  text-align: end;
+  width: 150px;
+}
+
+.rwt__tab[aria-selected="false"]:hover,
+.rwt__tab:focus {
+  outline: 0;
+  background-color: #f4f4f4;
+  background-color: rgba(0,0,0,0.05);
+  cursor: pointer;
+}
+
+.rwt__tab[aria-selected="true"] {
+  position: relative;
+}
+
+.rwt__tab[aria-selected="true"]:after {
+  content: '';
+  position: absolute;
+}
+
+.rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]:after {
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  border-bottom: 3px solid $light-gold;
+}
+
+.rwt__tablist[aria-orientation="vertical"] .rwt__tab[aria-selected="true"]:after {
+  right: -1px;
+  top: 0;
+  height: 100%;
+  border-right: 3px solid $light-gold;
+}
+
+.rwt__tabpanel {
+  min-height: 580px;
+  overflow-y: scroll;
+}
+
+.tab-title {
+  font-family: 'Jura', 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+
+/*****************
+     MOBILE
+******************/
+
+.rwt__tabs[data-rwt-vertical="false"] {
+  display: block;
+
+  .rwt__tablist[aria-orientation="vertical"] {
+    display: block;
+    border-right: none;
+    padding-bottom: 10px;
+  }
+
+  .rwt__tablist[aria-orientation="vertical"] .rwt__tab[aria-selected="true"]:after {
+    right: -1px;
+    top: 0;
+    height: 100%;
+    border-right: none
+  }
+
+  .rwt__tab {
+    padding: 10px;
+    width: inherit;
+    border: 1px solid #eee;
+    font-size: 16px;
+    font-weight: 100;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .rwt__tabpanel {
+    height: inherit;
+
+    .tab-title {
+      display: none;
+    }
+  }
+}

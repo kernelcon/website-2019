@@ -1,0 +1,325 @@
+@import 'variables';
+@import 'colors';
+@import 'tabs';
+@import url('https://fonts.googleapis.com/css?family=Forum|Jura:300,400,500,700|Montserrat|Roboto:100,300,500,700,900');
+
+html, header, body {
+  top: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: $base-bkg;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: 'Jura', 'Montserrat', sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section {
+  margin-top: 60px;
+  display: flex;
+}
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 260px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  img.App-logo {
+    height: 60px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 16px;
+  }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 300px;
+  }
+  .google-form {
+    height: 580px;
+    width: 370px; 
+    margin-top:10px;
+  }
+  .section {
+    flex-direction: column;
+  }
+  .twitter-zone {
+    display: flex;
+    justify-content: center;
+  }
+  .updates h2 {
+    text-align: center;
+  }
+  .sign-up-btn {
+    width: 90% !important;
+  }
+  .sign-up-btn, .call-out {
+    margin: 0 auto;
+  }
+  .call-out {
+    width: unset !important;
+    margin: 0px !important;
+  }
+  .nav-bar .nav-container .top-nav .nav-date {
+    display: none !important;
+  }
+  .image-area {
+    display: none !important;
+  }
+  .text-block {
+    padding-bottom: 20px !important;
+  }
+  .nav-bar .nav-container {
+    flex-direction: row !important;
+  }
+  .nav-bar .nav-container .nav-menu .nav-small div[role=button] {
+    position: sticky !important;
+  }
+  .nav-bar .nav-container .nav-menu {
+    margin: -10px 20px 0px 0px !important;
+    display: flex !important;
+    flex: 1 !important;
+    justify-content: flex-end !important;
+    align-items: baseline !important;
+  }
+  .nav-bar .nav-container .top-nav {
+    padding-bottom: 10px;
+    margin-top: -10px;
+  }
+}
+@media screen and (min-width: 380px) {
+  .container {
+    max-width: 340px;
+  }
+  img.App-logo {
+    height: 60px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 16px;
+  }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 330px;
+  }
+  .google-form {
+    height: 580px;
+    width: 395px; 
+    margin-top:10px;
+  }
+}
+@media screen and (min-width: 420px) {
+  .container {
+    max-width: 380px;
+  }
+  img.App-logo {
+    height: 70px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 18px;
+  }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 360px;
+  }
+  .google-form {
+    height: 580px;
+    width: 425px; 
+    margin-top:10px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+  img.App-logo {
+    height: 80px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 18px;
+  }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 400px;
+  }
+  .google-form {
+    height: 580px;
+    width: 465px; 
+    margin-top:10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  img.App-logo {
+    height: 100px;
+  }
+  .coming-text {
+    font-size: 50px;
+  }
+  .sub-text {
+    font-size: 24px;
+  }
+  .backdrop {
+    padding: 150px;
+  }
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+  .google-form {
+    height: 580px;
+    width: 560px; 
+    margin-top:0px;
+  }
+  .image-area {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+  img.App-logo {
+    height: 150px;
+  }
+  .coming-text {
+    font-size: 60px;
+  }
+  .sub-text {
+    font-size: 30px;
+  }
+  .backdrop {
+    padding: 150px;
+  }
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+  .google-form {
+    height: 580px;
+    width: 560px; 
+    margin-top:0px;
+  }
+  .section {
+    flex-direction: row;
+  }
+  .twitter-zone {
+    display: block;
+  }
+  .updates h2 {
+    text-align: left;
+  }
+  .call-out {
+    width: unset !important;
+    margin: 30px !important;
+  }
+  .sign-up-btn {
+    width: 90% !important;
+    margin: 0px !important;
+  }
+  .nav-bar .nav-container .top-nav .nav-date {
+    display: flex !important;
+  }
+  .nav-bar .nav-container {
+    flex-direction: column !important;
+  }
+  .nav-bar .nav-container .nav-menu .nav-small div[role=button] {
+    position: fixed !important;
+  }
+  .nav-bar .nav-container .nav-menu {
+    margin: 10px 0px !important;
+    flex: 1 !important;
+    display: block !important;
+    align-items: center !important;
+  }
+  .nav-bar .nav-container .top-nav {
+    padding-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  img.App-logo {
+    height: 150px;
+  }
+  .coming-text {
+    font-size: 60px;
+  }
+  .sub-text {
+    font-size: 30px;
+  }
+  .backdrop {
+    padding: 150px;
+  }
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+  .google-form {
+    height: 580px;
+    width: 560px; 
+    margin-top:0px;
+  }
+}
+
+
+.page-box {
+  min-height: calc(100vh - 100px);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.text-block {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+
+  h3 {
+    font-size:28px;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  a {
+    color: $gold;
+  }
+}

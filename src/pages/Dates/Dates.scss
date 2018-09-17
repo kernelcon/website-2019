@@ -1,0 +1,33 @@
+@import '../../static/styles/colors';
+
+.dates-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -20px;
+
+  .date-box {
+    font-weight: 300;
+    padding:10px;
+    font-size:14px;
+    background-color: #fff;
+    width: 200px;
+    margin: 20px;
+    border-left: 6px solid $gold;
+
+    .dl-title {
+      font-weight: 500;
+      font-size:16px;
+      line-height: 20px
+    }
+
+    .dl-description {
+      margin-top: 3px;
+    }
+
+    .dl-date {
+      margin-top:5px;
+      color: $gold;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+/*
+    Colors named using http://chir.ag/projects/name-that-color/
+*/
+
+/******************************
+    Monochrome, Greys
+*******************************/
+  $gallery:             #eee;
+  $alto:                #ddd;
+  $silver:              #ccc;
+  $mine-shaft:          #292828;
+  $alabaster:           #fcfcfc;   /* could be f9f9f9 */
+  $baltic-sea:          #2d2c30;
+
+
+
+
+/******************************
+    Standard Colors
+*******************************/
+  $black:               #000;
+  $white:               #fff;
+
+
+  $gold:                #ad974f;
+  $light-gold:          #cfad7d;
+
+
+  $red:                 #ff0000;
+
+
+
+
+.baltic-sea {
+  background-color: $baltic-sea;
+}
