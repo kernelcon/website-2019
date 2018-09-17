@@ -84,6 +84,23 @@ h1, h2 {
   .text-block {
     padding-bottom: 20px !important;
   }
+  .nav-bar .nav-container {
+    flex-direction: row !important;
+  }
+  .nav-bar .nav-container .nav-menu .nav-small div[role=button] {
+    position: sticky !important;
+  }
+  .nav-bar .nav-container .nav-menu {
+    margin: -10px 20px 0px 0px !important;
+    display: flex !important;
+    flex: 1 !important;
+    justify-content: flex-end !important;
+    align-items: baseline !important;
+  }
+  .nav-bar .nav-container .top-nav {
+    padding-bottom: 10px;
+    margin-top: -10px;
+  }
 }
 @media screen and (min-width: 380px) {
   .container {
@@ -236,6 +253,21 @@ h1, h2 {
   }
   .nav-bar .nav-container .top-nav .nav-date {
     display: flex !important;
+  }
+  .nav-bar .nav-container {
+    flex-direction: column !important;
+  }
+  .nav-bar .nav-container .nav-menu .nav-small div[role=button] {
+    position: fixed !important;
+  }
+  .nav-bar .nav-container .nav-menu {
+    margin: 10px 0px !important;
+    flex: 1 !important;
+    display: block !important;
+    align-items: center !important;
+  }
+  .nav-bar .nav-container .top-nav {
+    padding-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
