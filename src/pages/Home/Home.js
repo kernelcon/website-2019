@@ -75,7 +75,7 @@ class Home extends Component {
                 <img src={logo} 
                   alt="logo"
                   height="60"/>
-                <h4 className='gold'>Check out the midwest's premier information security conference!</h4>
+                <h4 className='gold'>Come check out one of the midwest's premier information security conferences!</h4>
                 <div className='popup-section'>
                   <ul className='popup-list'>
                     <li className='popup-items'>

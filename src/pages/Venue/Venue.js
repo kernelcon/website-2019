@@ -66,7 +66,7 @@ class Venue extends Component {
         <TabPanel tabId="vertical-tab-two">
           <div className='tab-title'>Venue Setup</div>
           {/* Need to get better picture, maybe draw it in a program instead */}
-          <img src={venue} height="400" alt="venue"/>
+          <img className='venue-map' src={venue} height="400" alt="venue"/>
         </TabPanel>
         <TabPanel tabId="vertical-tab-three">
           <div className='tab-title'>Venue Amenities</div>
@@ -117,7 +117,7 @@ class Venue extends Component {
           <div className='tab-title'>Where to Park</div>
           <p className='venue-sub-text'>For the locals:</p>
           <p className='venue-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
-          <img src={parking} height="400" alt="parking-map"/>
+          <img className='parking-map' src={parking} height="400" alt="parking-map"/>
         </TabPanel>
       </Tabs>
     );

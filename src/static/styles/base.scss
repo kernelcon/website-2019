@@ -61,6 +61,7 @@ h1, h2 {
   .twitter-zone {
     display: flex;
     justify-content: center;
+    min-width: 260px;
   }
   .updates h2 {
     text-align: center;
@@ -74,6 +75,13 @@ h1, h2 {
   .call-out {
     width: unset !important;
     margin: 0px !important;
+
+    img {
+      height: 40px;
+    }
+  }
+  .popup-section .popup-icon-col {
+    max-width: 60px !important;
   }
   .nav-bar .nav-container .top-nav .nav-date {
     display: none !important;
@@ -100,6 +108,13 @@ h1, h2 {
   .nav-bar .nav-container .top-nav {
     padding-bottom: 10px;
     margin-top: -10px;
+  }
+  .parking-map {
+    height: 300px !important;
+  }
+  .venue-map {
+    height: 180px !important;
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 380px) {
@@ -179,6 +194,17 @@ h1, h2 {
     width: 465px; 
     margin-top:10px;
   }
+  .call-out {
+    img {
+      height: 60px;
+    }
+  }
+  .popup-section .popup-icon-col {
+    max-width: 75px !important;
+  }
+  .parking-map {
+    height: 400px !important;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -207,6 +233,9 @@ h1, h2 {
   }
   .image-area {
     display: block !important;
+  }
+  .venue-map {
+    height: 400px !important;
   }
 }
 @media screen and (min-width: 992px) {
