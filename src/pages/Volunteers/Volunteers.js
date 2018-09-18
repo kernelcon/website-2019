@@ -32,8 +32,7 @@ class Volunteers extends Component {
           <div className='venue-section'>
             <h1 className='title'>Volunteers</h1>
             <div className='tagline'>Interested in being a part of the Kernelcon Crew?</div>
-            <div className='call-to-order'>Sign up today for guaranteed swag, special Kernelcon Crew t-shirt, and other exclusive gear!</div>
-
+            <div className='call-to-order'>Use the link below to add yourself to our growing list of volunteers.  More details to follow in the coming weeks!  Accepted volunteers receive guaranteed swag, special Kernelcon Crew t-shirt, and other exclusive gear!</div>
 
             <Button onClick={this.toggleModal} href="#" title="Sign Up" class="baltic-sea volunteer-btn"/>
 

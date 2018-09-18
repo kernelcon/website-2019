@@ -95,7 +95,7 @@ class Home extends Component {
                       </div>
                       <div className='popup-writeup'>
                         <div className='popup-heading'>Great speakers</div>
-                        <div className='popup-text'>We are bringing in some of information security's top talents from across the nation. Plus, learn from and network with some of Omaha's best speakers!</div>
+                        <div className='popup-text'>We are bringing in some of information security's top talents from across the nation. Plus learn from and network with some of Omaha's best speakers!</div>
                       </div>
                     </li>
                     <li className='popup-items'>
