@@ -41,8 +41,10 @@ class Venue extends Component {
                   <div className='hotel-sub-text'>TEL: +1-402-346-9000</div>
                 </div>
               </div>
-              <div className='venue-hotel-title'>
-                 <div className='venue-text'>Room block registration link coming soon!</div>
+              <div className='venue-hotel-info'>
+                 <div className='venue-sub-text'>We have a special Kernelcon room block! </div>
+                 <div className='venue-sub-text'>The URL is <a href='http://group.embassysuites.com/KernelCon2019'>http://group.embassysuites.com/KernelCon2019</a>.  </div>
+                 <div className='venue-sub-text'>When making phone reservations, please use the Hotel Code: <b>OMADT</b> and Group Code: <b>NSC</b>. </div>
               </div>
               <img className='hotel-img' src={hotel} alt="hotel"/>
               <div className="map-container">
@@ -58,8 +60,8 @@ class Venue extends Component {
                 </iframe>
               </div>
             </div>
-            <div className='venue-reservation' style={{display:'none'}}>
-              <Button href="http://embassysuites3.hilton.com/en/hotels/nebraska/embassy-suites-by-hilton-omaha-downtown-old-market-OMADTES/index.html" title="Reserve today!" class="baltic-sea"/>
+            <div className='venue-reservation' >
+              <Button href="http://group.embassysuites.com/KernelCon2019" title="Reserve today!" class="baltic-sea"/>
             </div>
           </div>
         </TabPanel>
