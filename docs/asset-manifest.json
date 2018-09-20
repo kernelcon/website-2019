@@ -1,6 +1,7 @@
 {
-  "main.js": "static/js/main.02b3fed2.js",
-  "main.js.map": "static/js/main.02b3fed2.js.map",
+  "main.js": "static/js/main.33684907.js",
+  "main.js.map": "static/js/main.33684907.js.map",
+  "static/media/aaron.png": "static/media/aaron.339100ef.png",
   "static/media/adam.png": "static/media/adam.de7006ec.png",
   "static/media/atrium.jpg": "static/media/atrium.2c72d57a.jpg",
   "static/media/bar.jpg": "static/media/bar.e8bc0b79.jpg",
@@ -13,6 +14,7 @@
   "static/media/female-silhoutte.jpg": "static/media/female-silhoutte.100b2532.jpg",
   "static/media/field-of-corn.jpg": "static/media/field-of-corn.c796a3d8.jpg",
   "static/media/heather.png": "static/media/heather.3363edb7.png",
+  "static/media/jason.png": "static/media/jason.8f697825.png",
   "static/media/justin.png": "static/media/justin.77abfc35.png",
   "static/media/kernelcon_b_trans.png": "static/media/kernelcon_b_trans.bc4c0fd5.png",
   "static/media/kernelcon_k_b.png": "static/media/kernelcon_k_b.7f7f6afe.png",
@@ -26,8 +28,10 @@
   "static/media/pool.jpg": "static/media/pool.185c9b14.jpg",
   "static/media/room_map_black.png": "static/media/room_map_black.b4b2987f.png",
   "static/media/sarah.png": "static/media/sarah.6db59143.png",
+  "static/media/skip.png": "static/media/skip.ad6afba1.png",
   "static/media/test-bitmoji.png": "static/media/test-bitmoji.2faf56d5.png",
   "static/media/trent.png": "static/media/trent.b42d5fe0.png",
   "static/media/tyler.png": "static/media/tyler.8d085644.png",
-  "static/media/venue.jpg": "static/media/venue.13b42577.jpg"
+  "static/media/venue.jpg": "static/media/venue.13b42577.jpg",
+  "static/media/wacey.png": "static/media/wacey.e23102ae.png"
 }

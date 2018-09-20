@@ -3,7 +3,7 @@
     "id": 1,
     "name": "SecurityShrimp",
     "title": "WiFi Fox and Hound Organizer",
-    "image": "",
+    "image": "skip.png",
     "twitter": "@securityshrimp"
   }, {
     "id": 2,
@@ -15,7 +15,7 @@
     "id": 3,
     "name": "Wacey Lanier",
     "title": "Lockpicking Village Chair",
-    "image": "",
+    "image": "wacey.png",
     "twitter": ""
   }, {
     "id": 4,
@@ -43,7 +43,7 @@
     "twitter": "@infosecanon"
   }, {
     "id": 8,
-    "name": "Jerry",
+    "name": "Jeremiah Hoferer",
     "title": "Electronic Badge",
     "image": "",
     "twitter": ""
@@ -57,7 +57,7 @@
     "id": 10,
     "name": "Jason Lehr",
     "title": "Vice General Chair",
-    "image": "",
+    "image": "jason.png",
     "twitter": "@__JCL__"
   }, {
     "id": 11,
@@ -69,7 +69,7 @@
     "id": 12,
     "name": "Aaron Gunning",
     "title": "Logistics Chair",
-    "image": "",
+    "image": "aaron.png",
     "twitter": "@scotchsec"
   }, {
     "id": 13,
