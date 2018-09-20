@@ -1,8 +1,56 @@
+@import '../../static/styles/colors';
+
 .in-touch-icons {
   width: 100px;
   fill: #333;
 
   &:first-child{
     margin-right: 40px;
+  }
+}
+
+
+.oc-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.oc-member {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.oc-member {
+  width: 200px;
+
+  .oc-name {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .oc-title {
+    color: $gold;
+    text-transform: uppercase;
+  }
+  .oc-title, .oc-twitter {
+    font-size: 14px;
+  }
+  .oc-twitter {
+    color: black;
+  }
+}
+
+.organizers .tab-title {
+  font-weight: 500;
+  padding: 0px 0px 10px 0px;
+}
+
+.oc-member-box {
+  display: flex;
+  flex-direction: row;
+
+  .oc-member-img {
+    margin-right: 10px;
   }
 }

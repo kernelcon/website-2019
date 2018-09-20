@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "SecurityShrimp",
+    "title": "WiFi Fox and Hound Organizer",
+    "image": "",
+    "twitter": "@securityshrimp"
+  }, {
+    "id": 2,
+    "name": "Sarah Noles",
+    "title": "Speaker Liason",
+    "image": "sarah.png",
+    "twitter": "@sarahnsec"
+  }, {
+    "id": 3,
+    "name": "Wacey Lanier",
+    "title": "Lockpicking Village Chair",
+    "image": "",
+    "twitter": ""
+  }, {
+    "id": 4,
+    "name": "Tyler Rosonke",
+    "title": "Electronic Badge",
+    "image": "tyler.png",
+    "twitter": "@zonksec"
+  }, {
+    "id": 5,
+    "name": "Dan Browder",
+    "title": "Resume and Print Chair",
+    "image": "dan.png",
+    "twitter": "@nevon"
+  }, {
+    "id": 6,
+    "name": "Justin Williams",
+    "title": "Chillout Village Chair",
+    "image": "justin.png",
+    "twitter": "@fpieces"
+  }, {
+    "id": 7,
+    "name": "Heather Lawrence",
+    "title": "Marketing Chair",
+    "image": "heather.png",
+    "twitter": "@infosecanon"
+  }, {
+    "id": 8,
+    "name": "Jerry",
+    "title": "Electronic Badge",
+    "image": "",
+    "twitter": ""
+  }, {
+    "id": 9,
+    "name": "Adam Schaal",
+    "title": "General Chair",
+    "image": "adam.png",
+    "twitter": "@adamschaal"
+  }, {
+    "id": 10,
+    "name": "Jason Lehr",
+    "title": "Vice General Chair",
+    "image": "",
+    "twitter": "@__JCL__"
+  }, {
+    "id": 11,
+    "name": "Tim Vidas",
+    "title": "Program Chair",
+    "image": "",
+    "twitter": "@tvidas"
+  }, {
+    "id": 12,
+    "name": "Aaron Gunning",
+    "title": "Logistics Chair",
+    "image": "",
+    "twitter": "@scotchsec"
+  }, {
+    "id": 13,
+    "name": "Trent Williams",
+    "title": "Communications Chair",
+    "image": "trent.png",
+    "twitter": "@trentgw"
+  }
+]
+

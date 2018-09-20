@@ -116,6 +116,9 @@ h1, h2 {
     height: 180px !important;
     margin-top: 20px;
   }
+  .hotel-img {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 380px) {
   .container {
@@ -165,6 +168,9 @@ h1, h2 {
   .google-form {
     width: 425px; 
     margin-top:10px;
+  }
+  .hotel-img {
+    width: 90%;
   }
 }
 @media screen and (min-width: 500px) {
@@ -233,6 +239,11 @@ h1, h2 {
   .venue-map {
     height: 400px !important;
   }
+  .hotel-img {
+    width: unset;
+    height: 150px;
+  }
+
 }
 @media screen and (min-width: 992px) {
   .container {

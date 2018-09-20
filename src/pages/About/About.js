@@ -3,6 +3,7 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 import './About.scss';
 
+import Organizers from './Organizers';
 import CodeOfConduct from '../../components/CodeOfConduct/CodeOfConduct';
 
 class About extends Component {
@@ -16,6 +17,7 @@ class About extends Component {
           <Tab tabFor="vertical-tab-one">Kernelcon</Tab>
           <Tab tabFor="vertical-tab-two">Code Of Conduct</Tab>
           <Tab tabFor="vertical-tab-three">Contact</Tab>
+          <Tab tabFor="vertical-tab-four">Organizers</Tab>
         </TabList>
         <span>
           <TabPanel tabId="vertical-tab-one">
@@ -52,6 +54,9 @@ class About extends Component {
                 </svg>
               </a>
             </div>
+          </TabPanel>
+          <TabPanel tabId="vertical-tab-four">
+            <Organizers />
           </TabPanel>
         </span>
       </Tabs>

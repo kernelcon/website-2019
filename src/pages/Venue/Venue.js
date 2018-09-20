@@ -44,7 +44,7 @@ class Venue extends Component {
               <div className='venue-hotel-title'>
                  <div className='venue-text'>Room block registration link coming soon!</div>
               </div>
-              <img src={hotel} height="150" alt="hotel"/>
+              <img className='hotel-img' src={hotel} alt="hotel"/>
               <div className="map-container">
                 <iframe title="hotel-map"
                   id="hotelMap"

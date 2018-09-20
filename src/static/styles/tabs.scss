@@ -7,6 +7,7 @@
 
 .rwt__tablist:not([aria-orientation="vertical"]) {
   border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
 }
 
 .rwt__tablist[aria-orientation="vertical"] {
@@ -91,7 +92,7 @@
     right: -1px;
     top: 0;
     height: 100%;
-    border-right: none
+    border-right: none;
   }
 
   .rwt__tab {

@@ -54,6 +54,7 @@
 
   .venue-location {
     flex-direction: column;
+    width: 100%;
   }
   .venue-reservation {
     flex-direction: column;
@@ -81,8 +82,6 @@
   /* hide annoying, pointless block in map */
   display: none !important;
 }
-
-
 
 
 

@@ -97,6 +97,12 @@
   }
 }
 
-.event-left .tab-title {
+.event div .tab-title {
   display: block !important;
+  margin-top:10px;
+}
+.organizers .tab-title {
+  display: block !important;
+  margin-top:15px;
+  margin-bottom: 10px;
 }

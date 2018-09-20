@@ -354,5 +354,6 @@ module.exports = {
     villageConfig: JSON.stringify(require('./content/villages.json')), //eslint-disable-line
     workshopConfig: JSON.stringify(require('./content/workshops.json')), //eslint-disable-line
     bioConfig: JSON.stringify(require('./content/bios.json')), //eslint-disable-line
+    ocConfig: JSON.stringify(require('./content/oc.json')), //eslint-disable-line
   },
 };
