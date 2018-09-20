@@ -119,6 +119,14 @@ h1, h2 {
   .hotel-img {
     width: 100%;
   }
+  .amnenities-list {
+    flex-direction: column !important;
+
+    img {
+      height: unset !important;
+      width: 100%;
+    }
+  }
 }
 @media screen and (min-width: 380px) {
   .container {
@@ -243,7 +251,14 @@ h1, h2 {
     width: unset;
     height: 150px;
   }
+  .amnenities-list {
+    flex-direction: row !important;
 
+    img {
+      height: 100px !important;
+      width: unset;
+    }
+  }
 }
 @media screen and (min-width: 992px) {
   .container {

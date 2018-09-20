@@ -78,21 +78,21 @@ class Venue extends Component {
           <div className='amnenities-list'>
             <img src={atrium} height="100" alt="atrium" className='amnenities-col'/>
             <div className='amnenities-col'>
-              <div className='venue-sub-text'>Atrium</div>
+              <div className='hotel-amn-heading'>Atrium</div>
               <div className='hotel-sub-text'>Free Breakfast and room to spread out during the Con.</div>
             </div>
           </div>
           <div className='amnenities-list'>
             <img src={bedroom} height="100" alt="bedroom" className='amnenities-col'/>
             <div className='amnenities-col'>
-              <div className='venue-sub-text'>Suites</div>
+              <div className='hotel-amn-heading'>Suites</div>
               <div className='hotel-sub-text'>Starting at just $144/night.</div>
             </div>
           </div>
           <div className='amnenities-list'>
             <img src={bar} height="100" alt="bar" className='amnenities-col'/>
             <div className='amnenities-col'>
-              <div className='venue-sub-text'>Bar</div>
+              <div className='hotel-amn-heading'>Bar</div>
               <div className='hotel-sub-text'>In addition to the available all-day coffee bar, this bar is open for business until midnight.</div>
               <div className='hotel-sub-text'>Hotel guests are invited to a social hour between 5:30 - 7:30pm where Embassy Suites offers complimentary drinks.</div>
             </div>
@@ -100,7 +100,7 @@ class Venue extends Component {
           <div className='amnenities-list'>
             <img src={pool} height="100" alt="pool" className='amnenities-col'/>
             <div className='amnenities-col'>
-              <div className='venue-sub-text'>Other</div>
+              <div className='hotel-amn-heading'>Other</div>
               <div className='hotel-sub-text'>Pool.</div>
             </div>
           </div>
