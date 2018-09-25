@@ -37,7 +37,7 @@ class NavBar extends Component {
               <ResponsiveMenu
                 menuOpenButton={<FaBars size={30} color="#fff" />}
                 menuCloseButton={<FaClose size={30} color="#fff" />}
-                changeMenuOn="1000px"
+                changeMenuOn="992px"
                 largeMenuClassName="nav-large"
                 smallMenuClassName="nav-small"
                 menu = {

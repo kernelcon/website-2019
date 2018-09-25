@@ -42,8 +42,8 @@ class Venue extends Component {
                 </div>
               </div>
               <div className='venue-hotel-info'>
-                 <div className='venue-sub-text'>We have a special Kernelcon room block! </div>
-                 <div className='venue-sub-text'>The URL is <a href='http://group.embassysuites.com/KernelCon2019'>http://group.embassysuites.com/KernelCon2019</a>.  </div>
+               <div className='venue-text'>We have a special Kernelcon room block!</div>
+                 <div className='venue-sub-text'>The URL is <a href='http://group.embassysuites.com/KernelCon2019'>http://group.embassysuites.com/KernelCon2019</a>.</div>
                  <div className='venue-sub-text'>When making phone reservations, please use the Hotel Code: <b>OMADT</b> and Group Code: <b>NSC</b>. </div>
               </div>
               <img className='hotel-img' src={hotel} alt="hotel"/>
@@ -73,8 +73,10 @@ class Venue extends Component {
         <TabPanel tabId="vertical-tab-three">
           <div className='tab-title'>Venue Amenities</div>
           <div className='amnenities-list'>
-            <div className='amnenities-col'>
-              <div className='venue-sub-text'>Room block registration link coming soon!</div>
+            <div className='venue-hotel-info'>
+               <div className='venue-text'>We have a special Kernelcon room block!</div>
+               <div className='venue-sub-text'>The URL is <a href='http://group.embassysuites.com/KernelCon2019'>http://group.embassysuites.com/KernelCon2019</a>.</div>
+               <div className='venue-sub-text'>When making phone reservations, please use the Hotel Code: <b>OMADT</b> and Group Code: <b>NSC</b>. </div>
             </div>
           </div>
           <div className='amnenities-list'>

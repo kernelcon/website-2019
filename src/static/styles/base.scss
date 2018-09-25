@@ -30,7 +30,7 @@ h1, h2 {
 }
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 260px;
+    max-width: 300px;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -44,19 +44,16 @@ h1, h2 {
     font-size: 16px;
   }
   .backdrop {
-    padding: 10vh 5px;
+    padding: 10vh 5px !important;
   }
   .modal-container {
-    height: 600px;
+    height: 440px;
     width: 300px;
   }
   .google-form {
     height: 615px;
     width: 370px; 
     margin-top:10px;
-  }
-  .section {
-    flex-direction: column;
   }
   .twitter-zone {
     display: flex;
@@ -126,6 +123,15 @@ h1, h2 {
       height: unset !important;
       width: 100%;
     }
+  }
+  .main-content {
+    margin-top: -1670px !important;
+  }
+  .section {
+    flex-direction: column-reverse;
+  }
+  .hero header {
+    height: 1700px;
   }
 }
 @media screen and (min-width: 380px) {
@@ -215,6 +221,15 @@ h1, h2 {
   }
   .parking-map {
     height: 400px !important;
+  }
+  .main-content {
+    margin-top: -1170px !important;
+  }
+  .section {
+    flex-direction: column-reverse;
+  }
+  .hero header {
+    height: 1200px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -319,6 +334,15 @@ h1, h2 {
   .nav-bar .nav-container .top-nav {
     padding-bottom: 0px;
   }
+  .main-content {
+    margin-top: -770px !important;
+  }
+  .section {
+    flex-direction: row;
+  }
+  .hero header {
+    height: 800px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
@@ -355,7 +379,7 @@ h1, h2 {
 
 .text-block {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 
   h3 {
@@ -364,7 +388,7 @@ h1, h2 {
   }
 
   h4 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
   }
 

@@ -55,7 +55,7 @@ class Footer extends Component {
           </div>
           <span className='footer-options'>
             <div className='footer__menu'>
-              <div className='copy'>Copyright 2018 Kernelcon, LLC. All Rights Reserved.</div>
+              <div className='copy'>Copyright 2018 Kernelcon, All Rights Reserved.</div>
               
             </div>
           </span>

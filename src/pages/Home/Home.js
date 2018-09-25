@@ -29,7 +29,7 @@ class Home extends Component {
       marginTop: '-100px'
     }
     return (
-      <div id='main_hero' className=''>
+      <div id='main_hero' className='hero'>
         <BackGround img={bkg}/>
         <div className='container main-content'>
           <div className='section'>
