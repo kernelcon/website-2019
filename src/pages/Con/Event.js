@@ -29,11 +29,19 @@ class Event extends Component {
 
   getBullets() {
     return this.props.bullets.map((ele, idx) => {
+      const sub_bullets = ele.bullets.map((el, id) => {
+        return (
+          <li className='event-bullet'
+            key={`${id}`}>
+            {el}
+          </li>
+        )
+      })
       return (
-        <li className='event-bullet'
-          key={`${idx}`}>
-          {ele}
-        </li>
+        <ul className='event-bullet-list'>
+          <div className='event-bullet-header'>{ele.heading}</div>
+          {sub_bullets}
+        </ul>
       )
     });
   }
@@ -69,12 +77,7 @@ class Event extends Component {
           <div className='event-description'>
             {this.props.description}
           </div>
-          {this.props.bullets && 
-            <ul className='event-bullet-list'>
-            <div className='event-bullet-header'>Students in this class will learn:</div>
-              {this.getBullets()}
-            </ul>
-          }
+          {this.props.bullets && this.getBullets()}
         </div>
       </div>
     );

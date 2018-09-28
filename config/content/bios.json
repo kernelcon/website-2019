@@ -10,7 +10,7 @@
     "name": "Nathan Schlehlein",
     "title": "Arduino Workshop Instructor",
     "bio": "Nathan Schlehlein is a wannabe problem solver who earns his living making dreams come true for people via software. A semi-recent transplant to the semi-bustling city of Des Moines, IA, he resides in the “pretty OK” western burbs with his three awesome kids, long-suffering wife, & hyperactive dog. He is an enthusiast of intriguing, historically significant, & / or dangerous technology & enjoys good scotch, beer with a back story, & a well-executed fake foreign accent.",
-    "image": ""
+    "image": "nathan.jpeg"
   }, {
     "id": 3,
     "name": "Brad Miller",
@@ -28,7 +28,25 @@
     "name": "Dr. Owen Redwood",
     "title": "NARI Workshops Subject Matter Expert",
     "bio": "Dr. Owen Redwood is the Chief Research Officer at NARI. Dr. Redwood earned his M.S. and Ph.D. degrees in Computer Science from the Florida State University, focusing on vulnerability research and virtualization research of cyber physical systems. Dr. Redwood earned his B.S. in Computer Science from the Georgia Institute of Technology. His research background spans IT and OT vulnerability research, reverse engineering, cyber physical systems virtualization research, hybrid approaches for static/dynamic/symbolic analysis, physical-impact payload development, and automated exploitation and mitigation. Dr. Redwood also created and maintains the “Offensive Computer Security” online open-courseware which has been adopted by faculty members at over 20 universities and is the world’s top open-courseware on vulnerability research and exploitation. In a past life, Dr. Redwood was a member of the Raytheon Deep Red team for the DARPA Cyber Grand Challenge, where he focused on automating vulnerability discovery, vulnerability mitigation, and exploitation.  He also previously worked for Sandia National Labs and another government cybersecurity research and development organization focusing on securing critical infrastructure. Dr. Redwood’s past cyber physical system vulnerability research has covered devices in energy critical infrastructure, oil/gas critical infrastructure, maritime systems, vehicular systems, building automation systems, and more. Dr. Redwood has a Global Industrial Cyber Security Professional (GICSP) certification, and has passed the CISSP exam and is awaiting the CISSP certification award currently.",
-    "image": ""
+    "image": "owen.jpeg"
+  }, {
+    "id": 6,
+    "name": "Alex Lauerman",
+    "title": "Security Consultant",
+    "bio": "Alex has had a lifelong interest in computer security and is thrilled to have a career in it.  He has spent the last decade breaking into applications, networks, and devices. He enjoys application security, cryptography, software defined radio, reverse engineering, exploitation, and developing tools that can help solve security problems at scale. Alex founded SecKC, which is a non-profit organization which is designed to foster information security in Kansas City.",
+    "image": "tf_alex.jpg"
+  }, {
+    "id": 7,
+    "name": "Tyler Rosonke",
+    "title": "Security Consultant",
+    "bio": "Tyler is a security professional based in Omaha, Nebraska. His main area of focus is in penetration testing. He loves learning and scripting his way out of a tight spot, which makes this area of security right up his alley. Tyler graduated from the University of Nebraska at Omaha with a B.S. in Information Assurance in 2014 and has been working in the offensive security roles ever since. Tyler is highly involved with the security community. He has contributed to open source projects, he has spoken at security conferences (DefCon), and he writes/operates the ZonkSec security blog. If Tyler is not banging his head against his monitor, you’ll likely find him in a garage banging his head against a vintage 2-stroke moped or wandering around in the great outdoors.",
+    "image": "tf_tyler.jpg"
+  }, {
+    "id": 8,
+    "name": "Matt South",
+    "title": "Security Consultant",
+    "bio": "Matt has been an amateur security enthusiast since childhood and was a regular 2600 attendee in high school. After graduating The University of Kansas with a B.S. in Computer Science, Matt spent 6 years as an IT Consultant to local businesses in Kansas City. In 2013, he combined his knowledge of business systems and love for security to become a penetration tester for TrustFoundry. Since then, he has hacked on hundreds of systems. He’s given talks at security events such as SecKC and TriKC. He also had the privilege to present a tool of his own design at BlackHat USA 2015 and 2017. When he’s not hacking, you can find Matt fishing with family, traveling with his wife, or killing plants in his garden.",
+    "image": "tf_matt.jpg"
   }
 ]
 

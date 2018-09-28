@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import bioConfig from 'bioConfig';
 import './Con.scss';
-import man from '../../static/images/man-silhoutte.png';
 
 class Bio extends Component {
   static displayName = 'Bio';
@@ -14,6 +13,12 @@ class Bio extends Component {
   static propTypes = {};
   static defaultProps = {};
 
+  getImage(ele) {
+    const imageName =  ele.image ? ele.image : 'man-silhoutte.png';
+    const imgUrl = require(`../../static/images/${imageName}`);
+
+    return imgUrl;
+  }
 
   render() {
     const id = this.props.location.search ? parseInt(this.props.location.search.split('?id=')[1], 10) : 0;
@@ -25,12 +30,14 @@ class Bio extends Component {
 
     console.log('person', person);
 
+    const imgUrl = this.getImage(person);
+
     return (
       <div id='main_hero' className=''>
         <div className='container'>
           <div className='venue-section bio'>
             <div className='bio-image-area'>
-              <img src={man}
+              <img src={imgUrl}
                 alt='bio'
                 height="200" />
             </div>

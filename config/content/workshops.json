@@ -31,11 +31,16 @@
     ],
     "description": "Students learn how to use Wireshark to analyze multiple protocols within the common IT network stack. Students gain multiple hours of hands-on experience and essential skills for analyzing network traffic on Information Technology (IT) and Operational Technology (OT) networks.",
     "extra": [
-      "A basic understanding of IT and OT networks including but not limited to the OSI model, the TCP/IP model, and network taps. Students also learn the differences between IT (information management) networks and OT (physical operations systems) networks and how to capture and analyze network traffic.",
-      "A basic understanding of CANbus, BACnet, and other control system protocols and technologies.",
-      "A basic understanding of how to use GrassMarlin to analyze network traffic and relationships.",
-      "How to setup and conögure Wireshark for use in packet capture and analysis.",
-      "How to use Wireshark to capture packets from IT networks and perform analysis of captured packets, as well as access and analyze network traffic commonly found on IT and OT networks."
+      {
+        "heading": "Students in this class will learn:",
+        "bullets": [
+          "A basic understanding of IT and OT networks including but not limited to the OSI model, the TCP/IP model, and network taps. Students also learn the differences between IT (information management) networks and OT (physical operations systems) networks and how to capture and analyze network traffic.",
+          "A basic understanding of CANbus, BACnet, and other control system protocols and technologies.",
+          "A basic understanding of how to use GrassMarlin to analyze network traffic and relationships.",
+          "How to setup and conögure Wireshark for use in packet capture and analysis.",
+          "How to use Wireshark to capture packets from IT networks and perform analysis of captured packets, as well as access and analyze network traffic commonly found on IT and OT networks."
+        ]
+      }
     ]
   },
   {
@@ -56,11 +61,47 @@
     ],
     "description": "Hands-on exercises utilizing OT networks are used to develop the skill objectives of the course, including the fundamentals of triage, network hunting, and active defense in OT networks. Teamwork, communication, and proper application of these skills are required to pass the final exercise, where students must work together to identify and stop an active sabotage attack against an OT network. Students gain real-world experience in the fundamentals of BCS incident response on BACnet-based systemsand networks.",
     "extra": [
-      "A basic understanding of BACnet protocol, covering BACnet objects, services, networking, vulnerabilities and attacks.",
-      "A basic understanding of p • A basic understanding of physical dependencies in building control systems and how control systems interact with one another.",
-      "A basic understanding of the attack surface and impact surface for building control systems.",
-      "A basic understanding of triage and network analysis regarding incident response of building control systems.",
-      "An ability to communicate effectively with OT engineers during incident response for control systems."
+      {
+        "heading": "Students in this class will learn:",
+        "bullets": [
+          "A basic understanding of BACnet protocol, covering BACnet objects, services, networking, vulnerabilities and attacks.",
+          "A basic understanding of p • A basic understanding of physical dependencies in building control systems and how control systems interact with one another.",
+          "A basic understanding of the attack surface and impact surface for building control systems.",
+          "A basic understanding of triage and network analysis regarding incident response of building control systems.",
+          "An ability to communicate effectively with OT engineers during incident response for control systems."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Introduction to Web Application Penetration Testing",
+    "author": [
+      {
+        "id": 6,
+        "name": "Alex Lauerman"
+      },
+      {
+        "id": 7,
+        "name": "Tyler Rosonke"
+      },
+      {
+        "id": 8,
+        "name": "Matt South"
+      }
+    ],
+    "description": "Learn the tools and techniques for conducting a web application penetration test. Get your hands dirty with HTTP and Burp Suite. This workshop will provide a solid introduction to web application penetration testing. This class is designed for those with little to no web application penetration testing experience, although it will move quickly. This class will include hands on challenges where attendees use skills acquired during the class to exploit web applications. Attendees will walk away with a basic understanding of the tools and processes for conducting a web application penetration test.",
+    "extra": [
+      {
+        "heading": "Prerequisites:",
+        "bullets": [
+          "Basic knowledge of HTTP requests and responses, and any web application programming experience will be helpful, but is not required."
+        ]
+      }, {
+        "heading": "Materials:",
+        "bullets": [
+          "Laptop with Firefox, Java, and virtualization software (VMWare/Vbox) installed."
+        ]
+      }
     ]
   }
 ]
