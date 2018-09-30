@@ -41,7 +41,7 @@ class Venue extends Component {
                   <div className='hotel-sub-text'>TEL: +1-402-346-9000</div>
                 </div>
               </div>
-              <div className='venue-hotel-info'>
+              <div className='venue-hotel-block'>
                <div className='venue-text'>We have a special Kernelcon room block!</div>
                  <div className='venue-sub-text'>The URL is <a href='http://group.embassysuites.com/KernelCon2019'>http://group.embassysuites.com/KernelCon2019</a>.</div>
                  <div className='venue-sub-text'>When making phone reservations, please use the Hotel Code: <b>OMADT</b> and Group Code: <b>NSC</b>. </div>

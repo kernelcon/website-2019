@@ -55,7 +55,6 @@
 
 .venue-hotel {
   display: flex;
-  flex-direction: row;
 
   .venue-location {
     flex-direction: column;
@@ -88,7 +87,7 @@
   display: none !important;
 }
 
-.venue-hotel-info {
+.venue-hotel-block {
   padding: 10px 0px;
 }
 

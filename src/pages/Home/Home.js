@@ -35,6 +35,15 @@ class Home extends Component {
           <div className='section'>
             <div className='left-section'>
               <div className='updates'>
+                <h2>REGISTER</h2>
+                <div className='update-text'>
+                  <p>Registration is now open for tickets and all workshops!</p>
+                </div>
+                <div className='sign-up-btn'>
+                  <Button href="/register" title="Register" />
+                </div>
+              </div>
+              <div className='updates'>
                 <h2>UPDATES</h2>
                 <div className='update-text'>
                   <p>Stay up-to-date with the latest news about kernelcon. We will be sharing every step in our process so you know that we are hard at work making this con the best we can!</p>

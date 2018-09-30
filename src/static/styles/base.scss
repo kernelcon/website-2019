@@ -133,6 +133,12 @@ h1, h2 {
   .hero header {
     height: 1700px;
   }
+  .venue-section {
+    padding: 50px 0px 10px 0px !important;
+  }
+  .venue-hotel { 
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 380px) {
   .container {
@@ -342,6 +348,12 @@ h1, h2 {
   }
   .hero header {
     height: 800px;
+  }
+  .venue-section {
+    padding: 100px 0px 10px 0px !important;
+  }
+  .venue-hotel { 
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
