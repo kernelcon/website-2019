@@ -16,7 +16,8 @@ class Event extends Component {
     author: PropTypes.array,
     bullets: PropTypes.array,
     description: PropTypes.string,
-    leftCol: PropTypes.bool
+    leftCol: PropTypes.bool,
+    sessions: PropTypes.array
   };
 
   static defaultProps = {
@@ -24,7 +25,8 @@ class Event extends Component {
     author: [],
     bullets: null,
     description: '',
-    leftCol: false
+    leftCol: false,
+    sessions: []
   };
 
   getBullets() {
@@ -44,6 +46,27 @@ class Event extends Component {
         </ul>
       )
     });
+  }
+
+  getSessions() {
+    return this.props.sessions.map((ele, idx) => {
+      return (
+        <div className='session-box'>
+          <div className='session-heading'>
+            SESSION
+          </div>
+          <div className='session-text'>{ele.day}</div>
+          <div className='session-heading'>
+            TIME
+          </div>
+          <div className='session-text'>{ele.time}</div>
+          <div className='session-heading'>
+            # SPOTS
+          </div>
+          <div className='session-text'>{ele.spots}</div>
+        </div>
+      )
+    })
   }
 
   render() {
@@ -78,6 +101,9 @@ class Event extends Component {
             {this.props.description}
           </div>
           {this.props.bullets && this.getBullets()}
+        </div>
+        <div className='sessions'>
+          {this.props.sessions && this.getSessions()}
         </div>
       </div>
     );

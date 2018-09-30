@@ -46,7 +46,7 @@ class NavBar extends Component {
                     <a href="/dates">dates</a>
                     <a href="/call-for-papers">call for papers</a>
                     <a href="/con">con</a>
-                    <a href="/volunteers">volunteers</a>
+                    <a href="/register">register</a>
                     <a href="/sponsors">sponsors</a>
                     <a href="/about">about</a>
                   </div>

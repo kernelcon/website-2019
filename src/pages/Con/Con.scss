@@ -106,3 +106,30 @@
   margin-top:15px;
   margin-bottom: 10px;
 }
+
+
+.session-box {
+  margin: 0px 0px 20px 25px;
+  border: 1px solid #ccc;
+  width: 80px;
+
+  .session-heading {
+    background-color: #555;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    padding: 2px;
+    font-weight: 300;
+  }
+
+  .session-text {
+    font-size: 13px;
+    padding: 2px;
+    font-weight: 300;
+    text-align: center;
+    color: $gold;
+  }
+
+}

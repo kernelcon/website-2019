@@ -22,7 +22,8 @@ class Workshops extends Component {
           title={ele.title}
           author={ele.author}
           bullets={ele.extra}
-          description={ele.description} 
+          description={ele.description}
+          sessions={ele.sessions} 
           leftCol/>
       );
     }); 

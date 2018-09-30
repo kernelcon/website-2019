@@ -1,6 +1,6 @@
 [
   {
-    "title": "Build Your Own Arduino Workshop",
+    "title": "Build Your Own Microcontroller Multi-Tool",
     "author": [
       {
         "id": 1,
@@ -11,7 +11,19 @@
         "name": "Nathan Schlehlein"
       }
     ],
-    "description": "Participants in this workshop will be handed a shifty looking baggie full of inexpensive parts which they will use to create their very own Arduino - compatible microcontroller board. While constructing the board, we’ll discuss & tinker with each component (clock source, power regulation, etc.) to see how they work. Then we’ll boot ‘em up & (provided the blue smoke hasn’t escaped by this point) start writing some code & talking to some devices."
+    "description": "Do you live with your head in a cloud? Do you fear small things? Is your mastery of virtualization and IAAS to the point where you haven't seen a real computer in months? Do you (most importantly) feel an unexplainable compulsion to open anti-static baggies handed to you by (almost) strangers and tinker with the contents therein? If so, have we got a workshop, nay, a way of life for you! In the Build Your Own Microcontroller Multi-Tool workshop, you and a handful of your newest and coolest friends will get to construct an ESP32 microcontroller-based device that you can take home! While constructing the device, we will discuss and tinker with each component to see what makes it tick. Then we'll boot things up and (provided the blue smoke hasn't escaped by this point) write some code, interface with sensors to measure the environment, tap into common communications buses for fun and profit, mess with wireless communications, and maybe even lose some time playing a video game.",
+    "sessions": [
+      {
+        "day": "Friday",
+        "time": "8am - 12pm",
+        "spots": "30"
+      },
+      {
+        "day": "Saturday",
+        "time": "8am - 12pm",
+        "spots": "30"
+      }
+    ]
   },
   {
     "title": "Network Analysis Workshop",
@@ -40,6 +52,13 @@
           "How to setup and conögure Wireshark for use in packet capture and analysis.",
           "How to use Wireshark to capture packets from IT networks and perform analysis of captured packets, as well as access and analyze network traffic commonly found on IT and OT networks."
         ]
+      }
+    ],
+    "sessions": [
+      {
+        "day": "Friday",
+        "time": "8am - 5pm",
+        "spots": "30"
       }
     ]
   },
@@ -71,6 +90,13 @@
           "An ability to communicate effectively with OT engineers during incident response for control systems."
         ]
       }
+    ],
+    "sessions": [
+      {
+        "day": "Saturday",
+        "time": "8am - 5pm",
+        "spots": "30"
+      }
     ]
   },
   {
@@ -101,6 +127,13 @@
         "bullets": [
           "Laptop with Firefox, Java, and virtualization software (VMWare/Vbox) installed."
         ]
+      }
+    ],
+    "sessions": [
+      {
+        "day": "Saturday",
+        "time": "1pm - 5pm",
+        "spots": "30"
       }
     ]
   }

@@ -14,8 +14,7 @@ import Sponsors from './pages/Sponsors/Sponsors';
 import Venue from './pages/Venue/Venue';
 import Speakers from './pages/Speakers/Speakers';
 import Dates from './pages/Dates/Dates';
-import Registration from './pages/Registration/Registration';
-import Volunteers from './pages/Volunteers/Volunteers';
+import Register from './pages/Registration/Registration';
 import About from './pages/About/About';
 import CallForPapers from './pages/CallForPapers/CallForPapers';
 import Con from './pages/Con/Con';
@@ -40,8 +39,7 @@ class App extends Component {
             <Route exact path="/venue" component={Venue} />
             <Route exact path="/dates" component={Dates} />
             <Route exact path="/speakers" component={Speakers} />
-            <Route exact path="/registration" component={Registration} />
-            <Route exact path="/volunteers" component={Volunteers} />
+            <Route exact path="/register" component={Register} />
             <Route exact path="/about" component={About} />
             <Route exact path="/call-for-papers" component={CallForPapers} />
             <Route exact path="/con" component={Con} />
