@@ -40,7 +40,7 @@ class Organizers extends Component {
             <div className='oc-text-section'>
               <div className='oc-name'>{ele.name}</div>
               <div className='oc-title'>{ele.title}</div>
-              {ele.twitter && <a className='oc-twitter' href={`https://twitter.com/${ele.twitter}`}>{ele.twitter}</a>}
+              {ele.twitter && <a className='oc-twitter' href={`https://twitter.com/${ele.twitter}`}>{`@${ele.twitter}`}</a>}
             </div>
           </div>
         </div>

@@ -38,6 +38,7 @@ class Home extends Component {
                 <h2>REGISTER</h2>
                 <div className='update-text'>
                   <p>Registration is now open for tickets and all workshops!</p>
+                  <p>On-site registration will also be available, but register now to secure your portion of the limited availability of electronic badges, t-shirts, and more!</p>
                 </div>
                 <div className='sign-up-btn'>
                   <Button href="/register" title="Register" />

@@ -4,79 +4,79 @@
     "name": "SecurityShrimp",
     "title": "WiFi Fox and Hound Organizer",
     "image": "skip.png",
-    "twitter": "@securityshrimp"
+    "twitter": "securityshrimp"
   }, {
     "id": 2,
     "name": "Sarah Noles",
     "title": "Speaker Liason",
     "image": "sarah.png",
-    "twitter": "@sarahnsec"
+    "twitter": "sarahnsec"
   }, {
     "id": 3,
     "name": "Wacey Lanier",
     "title": "Lockpicking Village Chair",
     "image": "wacey.png",
-    "twitter": "@_wacey"
+    "twitter": "_wacey"
   }, {
     "id": 4,
     "name": "Tyler Rosonke",
     "title": "Electronic Badge",
     "image": "tyler.png",
-    "twitter": "@zonksec"
+    "twitter": "zonksec"
   }, {
     "id": 5,
     "name": "Dan Browder",
     "title": "Resume and Print Chair",
     "image": "dan.png",
-    "twitter": "@nevon"
+    "twitter": "nevon"
   }, {
     "id": 6,
     "name": "Justin Williams",
     "title": "Chillout Village Chair",
     "image": "justin.png",
-    "twitter": "@fpieces"
+    "twitter": "fpieces"
   }, {
     "id": 7,
     "name": "Heather Lawrence",
     "title": "Marketing Chair",
     "image": "heather.png",
-    "twitter": "@infosecanon"
+    "twitter": "infosecanon"
   }, {
     "id": 8,
     "name": "Jeremiah Hoferer",
     "title": "Electronic Badge",
     "image": "jerry.png",
-    "twitter": "@DiggerOfLogs"
+    "twitter": "DiggerOfLogs"
   }, {
     "id": 9,
     "name": "Adam Schaal",
     "title": "General Chair",
     "image": "adam.png",
-    "twitter": "@adamschaal"
+    "twitter": "adamschaal"
   }, {
     "id": 10,
     "name": "Jason Lehr",
     "title": "Vice General Chair",
     "image": "jason.png",
-    "twitter": "@__JCL__"
+    "twitter": "__JCL__"
   }, {
     "id": 11,
     "name": "Tim Vidas",
     "title": "Program Chair",
     "image": "tim.png",
-    "twitter": "@tvidas"
+    "twitter": "tvidas"
   }, {
     "id": 12,
     "name": "Aaron Gunning",
     "title": "Logistics Chair",
     "image": "aaron.png",
-    "twitter": "@scotchsec"
+    "twitter": "scotchsec"
   }, {
     "id": 13,
     "name": "Trent Williams",
     "title": "Communications Chair",
     "image": "trent.png",
-    "twitter": "@trentgw"
+    "twitter": "trentgw"
   }
 ]
 

@@ -64,6 +64,10 @@ class Event extends Component {
             # SPOTS
           </div>
           <div className='session-text'>{ele.spots}</div>
+          <div className='session-heading'>
+            COST
+          </div>
+          <div className='session-text'>{ele.cost}</div>
         </div>
       )
     })

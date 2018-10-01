@@ -12,16 +12,26 @@
       }
     ],
     "description": "Do you live with your head in a cloud? Do you fear small things? Is your mastery of virtualization and IAAS to the point where you haven't seen a real computer in months? Do you (most importantly) feel an unexplainable compulsion to open anti-static baggies handed to you by (almost) strangers and tinker with the contents therein? If so, have we got a workshop, nay, a way of life for you! In the Build Your Own Microcontroller Multi-Tool workshop, you and a handful of your newest and coolest friends will get to construct an ESP32 microcontroller-based device that you can take home! While constructing the device, we will discuss and tinker with each component to see what makes it tick. Then we'll boot things up and (provided the blue smoke hasn't escaped by this point) write some code, interface with sensors to measure the environment, tap into common communications buses for fun and profit, mess with wireless communications, and maybe even lose some time playing a video game.",
+    "extra": [
+      {
+        "heading": "Materials:",
+        "bullets": [
+          "Laptop with Visual Studio Code installed."
+        ]
+      }
+    ],
     "sessions": [
       {
         "day": "Friday",
         "time": "8am - 12pm",
-        "spots": "30"
+        "spots": "30",
+        "cost": "$70"
       },
       {
         "day": "Saturday",
         "time": "8am - 12pm",
-        "spots": "30"
+        "spots": "30",
+        "cost": "$70"
       }
     ]
   },
@@ -52,13 +62,19 @@
           "How to setup and conögure Wireshark for use in packet capture and analysis.",
           "How to use Wireshark to capture packets from IT networks and perform analysis of captured packets, as well as access and analyze network traffic commonly found on IT and OT networks."
         ]
+      }, {
+        "heading": "Materials:",
+        "bullets": [
+          "Laptop with Wireshark installed."
+        ]
       }
     ],
     "sessions": [
       {
         "day": "Friday",
         "time": "8am - 5pm",
-        "spots": "30"
+        "spots": "30",
+        "cost": "$30"
       }
     ]
   },
@@ -84,10 +100,15 @@
         "heading": "Students in this class will learn:",
         "bullets": [
           "A basic understanding of BACnet protocol, covering BACnet objects, services, networking, vulnerabilities and attacks.",
-          "A basic understanding of p • A basic understanding of physical dependencies in building control systems and how control systems interact with one another.",
+          "A basic understanding of physical dependencies in building control systems and how control systems interact with one another.",
           "A basic understanding of the attack surface and impact surface for building control systems.",
           "A basic understanding of triage and network analysis regarding incident response of building control systems.",
           "An ability to communicate effectively with OT engineers during incident response for control systems."
+        ]
+      }, {
+        "heading": "Materials:",
+        "bullets": [
+          "Laptop with Wireshark installed."
         ]
       }
     ],
@@ -95,7 +116,8 @@
       {
         "day": "Saturday",
         "time": "8am - 5pm",
-        "spots": "30"
+        "spots": "30",
+        "cost": "$30"
       }
     ]
   },
@@ -133,7 +155,8 @@
       {
         "day": "Saturday",
         "time": "1pm - 5pm",
-        "spots": "30"
+        "spots": "30",
+        "cost": "$30"
       }
     ]
   }
