@@ -33,7 +33,7 @@ class Registration extends Component {
             <div className='register-section'>
               <h1 className='title'>Register</h1>
               <div className='tagline'>Sign up today for Omaha's inaugural hacker conference.</div>
-              <div className='call-to-order'>Be sure to look over our <a href="/con">workshops</a> before going to sign up! Take advantage of early bird pricing while your</div>
+              <div className='call-to-order'>Be sure to look over our <a href="/con">workshops</a> before going to sign up! Take advantage of early bird pricing while you can!</div>
               <Button href="https://kernelcon.ticketspice.com/kernelcon2019" title="Register Now" class="baltic-sea volunteer-btn"/>
             </div>
 

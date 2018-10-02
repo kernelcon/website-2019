@@ -97,5 +97,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "rc-collapse": "^1.10.0"
   }
 }

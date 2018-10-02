@@ -4,6 +4,7 @@ import MediaQuery from 'react-responsive';
 import './About.scss';
 
 import Organizers from './Organizers';
+import FAQ from './FAQ';
 import CodeOfConduct from '../../components/CodeOfConduct/CodeOfConduct';
 
 class About extends Component {
@@ -18,6 +19,7 @@ class About extends Component {
           <Tab tabFor="vertical-tab-two">Code Of Conduct</Tab>
           <Tab tabFor="vertical-tab-three">Contact</Tab>
           <Tab tabFor="vertical-tab-four">Organizers</Tab>
+          <Tab tabFor="vertical-tab-five">FAQ</Tab>
         </TabList>
         <span>
           <TabPanel tabId="vertical-tab-one">
@@ -57,6 +59,9 @@ class About extends Component {
           </TabPanel>
           <TabPanel tabId="vertical-tab-four">
             <Organizers />
+          </TabPanel>
+          <TabPanel tabId="vertical-tab-five">
+            <FAQ />
           </TabPanel>
         </span>
       </Tabs>
