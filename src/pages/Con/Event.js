@@ -40,7 +40,8 @@ class Event extends Component {
         )
       })
       return (
-        <ul className='event-bullet-list'>
+        <ul className='event-bullet-list'
+          key={idx}>
           <div className='event-bullet-header'>{ele.heading}</div>
           {sub_bullets}
         </ul>
@@ -51,7 +52,8 @@ class Event extends Component {
   getSessions() {
     return this.props.sessions.map((ele, idx) => {
       return (
-        <div className='session-box'>
+        <div className='session-box'
+          key={idx}>
           <div className='session-heading'>
             SESSION
           </div>
@@ -76,7 +78,8 @@ class Event extends Component {
   render() {
     const authorList = this.props.author.map((ele, idx) => {
       return (
-        <span className='event-author'>
+        <span className='event-author'
+          key={idx}>
           <Link to={`/bio?id=${ele.id}`}>
             {ele.name}
           </Link>

@@ -11,24 +11,43 @@ import './Con.scss';
 class Con extends Component {
   static displayName = 'Con';
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      defaultTab: 'workshops'
+    }
+  }
+
+  componentWillMount() {
+    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'workshops';
+    this.setState({
+      defaultTab: defaultTab
+    });
+    window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
+  }
+
+  changeTab(tabId) {
+    window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
+  }
+
   getTabs(vert) {
-    console.log('vert', vert);
     return (
-      <Tabs defaultTab="vertical-tab-one"
+      <Tabs defaultTab={this.state.defaultTab}
+        onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList>
-          <Tab tabFor="vertical-tab-one">Workshops</Tab>
-          <Tab tabFor="vertical-tab-two">Villages</Tab>
-          <Tab tabFor="vertical-tab-three">Competitions</Tab>
+          <Tab tabFor="workshops">Workshops</Tab>
+          <Tab tabFor="villages">Villages</Tab>
+          <Tab tabFor="competitions">Competitions</Tab>
         </TabList>
 
-        <TabPanel tabId="vertical-tab-one">
+        <TabPanel tabId="workshops">
           <Workshops />
         </TabPanel>
-        <TabPanel tabId="vertical-tab-two">
+        <TabPanel tabId="villages">
           <Villages />
         </TabPanel>
-        <TabPanel tabId="vertical-tab-three">
+        <TabPanel tabId="competitions">
           <Competitions />
         </TabPanel>
       </Tabs>

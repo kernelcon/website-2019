@@ -19,7 +19,7 @@ import About from './pages/About/About';
 import CallForPapers from './pages/CallForPapers/CallForPapers';
 import Con from './pages/Con/Con';
 import Bio from './pages/Con/Bio';
-
+import Emails from './pages/Emails/Emails';
 
 class App extends Component {
   render() {
@@ -44,6 +44,7 @@ class App extends Component {
             <Route exact path="/call-for-papers" component={CallForPapers} />
             <Route exact path="/con" component={Con} />
             <Route path="/bio" component={Bio} />
+            <Route path="/email" component={Emails} />
           </div>
           <Footer />
         </div>

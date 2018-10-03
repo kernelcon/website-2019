@@ -18,18 +18,38 @@ import parking from '../../static/images/parking_map_black.png';
 class Venue extends Component {
   static displayName = 'Venue';
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      defaultTab: 'hotel'
+    }
+  }
+
+  componentWillMount() {
+    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'hotel';
+    this.setState({
+      defaultTab: defaultTab
+    });
+    window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
+  }
+
+  changeTab(tabId) {
+    window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
+  }
+
   getTabs(vert) {
     return (
-      <Tabs defaultTab="vertical-tab-one"
+      <Tabs defaultTab={this.state.defaultTab}
+        onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList>
-          <Tab tabFor="vertical-tab-one">Hotel</Tab>
-          <Tab tabFor="vertical-tab-two">Venue</Tab>
-          <Tab tabFor="vertical-tab-three">Amenities</Tab>
-          <Tab tabFor="vertical-tab-four">Omaha</Tab>
-          <Tab tabFor="vertical-tab-five">Parking</Tab>
+          <Tab tabFor="hotel">Hotel</Tab>
+          <Tab tabFor="venue">Venue</Tab>
+          <Tab tabFor="amenities">Amenities</Tab>
+          <Tab tabFor="omaha">Omaha</Tab>
+          <Tab tabFor="parking">Parking</Tab>
         </TabList>
-        <TabPanel tabId="vertical-tab-one">
+        <TabPanel tabId="hotel">
           <div className='tab-title'>Hotel & Location Information</div>       
           <div className='venue-hotel'>
             <div className='venue-location'>
@@ -65,12 +85,12 @@ class Venue extends Component {
             </div>
           </div>
         </TabPanel>
-        <TabPanel tabId="vertical-tab-two">
+        <TabPanel tabId="venue">
           <div className='tab-title'>Venue Setup</div>
           {/* Need to get better picture, maybe draw it in a program instead */}
           <img className='venue-map' src={venue} height="400" alt="venue"/>
         </TabPanel>
-        <TabPanel tabId="vertical-tab-three">
+        <TabPanel tabId="amenities">
           <div className='tab-title'>Venue Amenities</div>
           <div className='amnenities-list'>
             <div className='venue-hotel-info'>
@@ -109,7 +129,7 @@ class Venue extends Component {
             </div>
           </div>
         </TabPanel>
-        <TabPanel tabId="vertical-tab-four">
+        <TabPanel tabId="omaha">
           <div className='tab-title'>Why Omaha?</div>
           <p className='venue-sub-text'>Kernelcon was founded with one goal in mind:</p>
           <p className='venue-hightlight-text'> To be the midwest's premier information security conference.</p>
@@ -117,7 +137,7 @@ class Venue extends Component {
           <p className='venue-sub-text'>Kernelcon will be held in the heart of Omaha’s historic Old Market, alongside the Missouri River.  The Old Market is the hub of Omaha’s nightlife, with excellent bars, breweries, restaurants and shops all around.</p>
           <p className='venue-sub-text'>Our venue, the Embassy Suites Omaha, is a quick drive/shuttle ride from Omaha Eppley Airfield.  Omaha is less than a day’s drive from many large cities in the Midwest and is an easy flight from both coasts.  Pack your bags and plan for a trip where the people are friendly, the steaks are fresh, and hacking goes all night.</p>
         </TabPanel>
-        <TabPanel tabId="vertical-tab-five">
+        <TabPanel tabId="parking">
           <div className='tab-title'>Where to Park</div>
           <p className='venue-sub-text'>For the locals:</p>
           <p className='venue-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
