@@ -14,5 +14,13 @@
   {
     "question": "What is the refund policy?",
     "answer": "<ul><li>100% refund if cancelled before March 1st, 2019.</li><li>50% refund if cancelled between March 1st and April 4th, 2019.</li><li>0% refund after con starts on April 5th, 2019.</li></ul>"
+  },
+  {
+    "question": "I want to submit a talk, does it have to be about kernels?",
+    "answer": "No, but we smile when talks include core parts of a operating system, a softer typically edible part of a nut, cereal, grain, fruit, corn, a convolution matrix, classes of algorithms like SVM, or an unmarked linguistic string."
+  },
+  {
+    "question": "Are talks streamed or recorded?",
+    "answer": "There are currently no plans for this."
   }
 ]
