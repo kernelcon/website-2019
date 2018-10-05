@@ -13,7 +13,7 @@
   },
   {
     "question": "What is the refund policy?",
-    "answer": "<ul><li>100% refund if cancelled before March 1st, 2019.</li><li>50% refund if cancelled between March 1st and April 4th, 2019.</li><li>0% refund after con starts on April 5th, 2019.</li></ul>"
+    "answer": "<ul><li>100% refund if canceled before March 1st, 2019.</li><li>50% refund if canceled between March 1st and April 4th, 2019.</li><li>0% refund after con starts on April 5th, 2019.</li></ul>"
   },
   {
     "question": "I want to submit a talk, does it have to be about kernels?",
@@ -22,5 +22,9 @@
   {
     "question": "Are talks streamed or recorded?",
     "answer": "There are currently no plans for this."
+  },
+  {
+    "question": "I can't or don't want to register online (technical issue, privacy issue, etc), can I still attend?",
+    "answer": "Yes!  If you have an issue but still want to register early, please contact us at info@kernelcon.org.  We will be accepting cash at the door.  Keep in mind that registering early guarantees you swag, that clothing is appropriate size, that workshops you want aren't full, etc."
   }
 ]
