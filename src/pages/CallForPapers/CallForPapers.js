@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './CallForPapers.scss';
-import corn from '../../static/images/field-of-corn.jpg';
 
 class CallForPapers extends Component {
   static displayName = 'CallForPapers';
@@ -27,7 +26,7 @@ class CallForPapers extends Component {
 
 <h3 className='tab-title'>About Kernelcon</h3>
 
-<p>In 2017, local collectives of information security professionals gathered together to start sharing knowledge and experiences here in Omaha. Many beers were had and slides discussed before culminating in a mission to gather knowledge seekers from across the Midwest to propagate their techniques and mastery. Enter Kernelcon. We welcome both seasoned professionals and novice beginners to network, share their wisdom, and learn from one another during our two days of affordable Cornhusker camaraderie. Laughs will be had and popcorn eaten at this intimate and enriching event. Our organizers are driven to provide both a new generation with the experiences that inspired us to love Infosec and bolster our community with a strong network of professionals. We are made stronger together.</p>
+<p>In 2017, local collectives of information security professionals gathered together to start sharing knowledge and experiences here in Omaha. Many beers were had and slides discussed before culminating in a mission to gather knowledge seekers from across the Midwest to propagate their techniques and mastery.</p><p>Enter Kernelcon.</p><p>We welcome both seasoned professionals and novice beginners to network, share their wisdom, and learn from one another during our two days of affordable Cornhusker camaraderie. Laughs will be had and popcorn eaten at this intimate and enriching event. Our organizers are driven to provide both a new generation with the experiences that inspired us to love Infosec and bolster our community with a strong network of professionals. We are made stronger together.</p>
 
 <h3 className='tab-title'>Suggested topic areas</h3>
 <p>Kernelcon submissions should focus on topics that are of interest to the security and hacking communities.  The list below is meant as a guideline, not an exhaustive list.</p>
@@ -108,18 +107,11 @@ class CallForPapers extends Component {
 
 <p>Novel, new, on-topic talks receive the most preference.  Submissions by first-time presenters are not discounted in any way.  Conversely, first-timers are whole-heartedly encouraged to submit.  Blatant vendor pitches, recycled talks, presentations on well-known topics that are *not* depicted as 101 or intro, are unlikely to be accepted.  We expect presentations that are considerate, planned, thought-out, and delivered well.  All talks are considered on their merits.  Everyone, including sponsors, internet legends, cultural icons, and Jeff Moss must submit just like all other speakers.</p>
 
-<p>A printable checklist for the submission can be found in the PDF CFP 
-<a href="/cfp/CFP-2019.pdf">https://kernelcon.org/cfp/CFP-2019.pdf</a></p>
-<p>Templates are available in 
-<a href="/cfp/CFP-template.txt">plaintext</a>, 
-<a href="/cfp/CFP-template.md">markdown</a>, 
-<a href="/cfp/CFP-template.docx">docx</a>, 
-<a href="/cfp/CFP-template.odt">odt</a>, and 
-<a href="/cfp/CFP-template.tex">LaTeX</a>.</p> 
-<p>A sample submission can be found at 
-<a href="/cfp/CFP-example.txt">https://kernelcon.org/cfp/CFP-example.txt</a></p>
+<p>A printable checklist for the submission can be found in the PDF CFP <a href="/cfp/CFP-2019.pdf">https://kernelcon.org/cfp/CFP-2019.pdf</a></p>
+<p>Templates are available in <a href="/cfp/CFP-template.txt">plaintext</a>, <a href="/cfp/CFP-template.md">markdown</a>, <a href="/cfp/CFP-template.docx">docx</a>, <a href="/cfp/CFP-template.odt">odt</a>, and <a href="/cfp/CFP-template.tex">LaTeX</a>.</p> 
+<p>A sample submission can be found at <a href="/cfp/CFP-example.txt">https://kernelcon.org/cfp/CFP-example.txt</a></p>
 
-<p>Submissions should be sent to cfp@kernelcon.org.  You should receive a automated confirmation email immediately denoting that the system has received your submission, and a manual confirmation email within 36 hours. If you don't, you should inquire at cfp@kernelcon.org.</p>
+<p>Submissions should be sent to <a href='mailto:cfp@kernelcon.org' className='email-address'>cfp@kernelcon.org</a>.  You should receive a automated confirmation email immediately denoting that the system has received your submission, and a manual confirmation email within 36 hours. If you don't, you should inquire at <a href='mailto:cfp@kernelcon.org' className='email-address'>cfp@kernelcon.org</a>.</p>
 
 <p>Again, your core submission should be in plain text or PDF.  The PDF should contain the required information as text - the content will be extracted from the PDF.  Supplementary files such as draft slides, extended outlines, and whitepapers may help your submission and may also be attached to the email.</p>
 
