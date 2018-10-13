@@ -202,7 +202,7 @@ module.exports = {
             include: paths.appSrc,
             loader: require.resolve('file-loader'),
             options: {
-              name: 'static/media/[name].[ext]',
+              name: 'cfp/[name].[ext]',
             },
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.

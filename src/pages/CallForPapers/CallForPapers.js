@@ -20,7 +20,7 @@ class CallForPapers extends Component {
             <h1 className='title'>Call For Papers</h1>
             <div className='text-block'>
               <h3 className='highlight-text'>The Kernelcon Crew is soliciting presentations for the inaugural Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 5-6, 2019.   </h3>
-              <p>Download as PDF at <a href={pdf} download>https://kernelcon.org/static/media/CFP-2019.pdf</a></p>
+              <p>Download as PDF at <a href={pdf} download>https://kernelcon.org/cfp/CFP-2019.pdf</a></p>
               <p>Create something fun in your home lab? Develop a new technique? Wish you could spare someone else the horrors you faced? Impart your wisdom, start the conversations that need to be started, submit your work to our CFP!</p>
               <h3 className='tab-title'>Important Dates</h3>
               <p>Important dates can be found on our dates page at <a href='https://kernelcon.org/dates'>https://kernelcon.org/dates</a>, which will always have the most current information.</p>
@@ -95,9 +95,9 @@ class CallForPapers extends Component {
               <p>**As intended for the conference program and website.</p>
               <p>Incomplete or misformatted submissions greatly reduce the likelihood of your talk being accepted.</p>
               <p>Novel, new, on-topic talks receive the most preference.  Submissions by first-time presenters are not discounted in any way.  Conversely, first-timers are whole-heartedly encouraged to submit.  Blatant vendor pitches, recycled talks, presentations on well-known topics that are *not* depicted as 101 or intro, are unlikely to be accepted.  We expect presentations that are considerate, planned, thought-out, and delivered well.  All talks are considered on their merits.  Everyone, including sponsors, internet legends, cultural icons, and Jeff Moss must submit just like all other speakers.</p>
-              <p>A printable checklist for the submission can be found in the PDF CFP <a href={pdf} download>https://kernelcon.org/static/media/CFP-2019.pdf</a></p>
+              <p>A printable checklist for the submission can be found in the PDF CFP <a href={pdf} download>https://kernelcon.org/cfp/CFP-2019.pdf</a></p>
               <p>Templates are available in <a href={plaintext} download>plaintext</a>, <a href={markdown} download>markdown</a>, <a href={docx} download>docx</a>, <a href={odt} download>odt</a>, and <a href={tex} download>LaTeX</a>.</p>
-              <p>A sample submission can be found at <a href={example} download>https://kernelcon.org/static/media/CFP-example.txt</a></p>
+              <p>A sample submission can be found at <a href={example} download>https://kernelcon.org/cfp/CFP-example.txt</a></p>
               <p>Submissions should be sent to <a href='mailto:cfp@kernelcon.org' className='email-address'>cfp@kernelcon.org</a>.  You should receive a automated confirmation email immediately denoting that the system has received your submission, and a manual confirmation email within 36 hours. If you don't, you should inquire at <a href='mailto:cfp@kernelcon.org' className='email-address'>cfp@kernelcon.org</a>.</p>
               <p>Again, your core submission should be in plain text or PDF.  The PDF should contain the required information as text - the content will be extracted from the PDF.  Supplementary files such as draft slides, extended outlines, and whitepapers may help your submission and may also be attached to the email.</p>
               <h3 className='tab-title'>Review process</h3>
