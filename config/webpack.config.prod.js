@@ -140,7 +140,7 @@ module.exports = {
             loader: require.resolve('url-loader'),
             options: {
               limit: 10000,
-              name: 'static/media/[name].[ext]',
+              name: 'static/media/[name].[hash:8].[ext]',
             },
           },
           // Process JS with Babel.
@@ -220,6 +220,14 @@ module.exports = {
               require.resolve('css-loader'),
               require.resolve('sass-loader')
             ]
+          }, 
+          {
+            test: /\.(pdf|md|txt|docx|odt|tex)$/,
+            include: paths.appSrc,
+            loader: require.resolve('file-loader'),
+            options: {
+              name: 'static/media/[name].[ext]',
+            },
           },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.
@@ -233,7 +241,7 @@ module.exports = {
             // by webpacks internal loaders.
             exclude: [/\.scss$/, /\.(js|jsx|mjs)$/, /\.html$/, /\.json$/],
             options: {
-              name: 'static/media/[name].[ext]',
+              name: 'static/media/[name].[hash:8].[ext]',
             },
           },
           // ** STOP ** Are you adding a new loader?
