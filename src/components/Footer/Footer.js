@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import logo from '../../static/images/kernelcon_w_trans.png';
+import swlogo from '../../static/images/swlogo.svg';
 import './Footer.scss';
 
 class Footer extends Component {
@@ -52,12 +53,19 @@ class Footer extends Component {
                 </svg>
               </a>
             </div>
+            <div className='copy'>Copyright 2018 Kernelcon, All Rights Reserved.</div>
           </div>
           <span className='footer-options'>
-            <div className='footer__menu'>
-              <div className='copy'>Copyright 2018 Kernelcon, All Rights Reserved.</div>
-              
-            </div>
+            {/* <div className='footer-sponsors'>Sponsors</div>
+            <div className=''>
+              <a href="https://www.secureworks.com/"
+                target="_blank"
+                rel='noopener noreferrer'>
+                <img src={swlogo}
+                  height="30"
+                  alt="Secure Works"/>
+              </a>
+            </div> */}
           </span>
         </div>
       </div>

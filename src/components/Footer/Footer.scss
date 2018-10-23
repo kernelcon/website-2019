@@ -31,15 +31,13 @@
   }
   .footer-options {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     height: 100%;
-    min-width: 300px;
+    /* min-width: 300px; */
+    flex-direction: column;
 
-    .footer__menu {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: flex-end;
-      /*padding: 12px 0px;*/
+    .footer-sponsors {
+      font-family: 'Jura', 'Montserrat', sans-serif;
     }
   }
   .footer-link {
@@ -74,12 +72,12 @@
     }
   }
   .footer-social {
-    margin-top: 12px;
+    margin: 12px 0px;
 
     .footer-social-icons {
       width: 20px;
       fill: $footer-text;
-      margin-right: 15px;
+      margin-right: 41px;
     }
   }
   .copy {
