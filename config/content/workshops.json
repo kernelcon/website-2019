@@ -14,6 +14,12 @@
     "description": "Do you live with your head in a cloud? Do you fear small things? Is your mastery of virtualization and IAAS to the point where you haven't seen a real computer in months? Do you (most importantly) feel an unexplainable compulsion to open anti-static baggies handed to you by (almost) strangers and tinker with the contents therein? If so, have we got a workshop, nay, a way of life for you! In the Build Your Own Microcontroller Multi-Tool workshop, you and a handful of your newest and coolest friends will get to construct an ESP32 microcontroller-based device that you can take home! While constructing the device, we will discuss and tinker with each component to see what makes it tick. Then we'll boot things up and (provided the blue smoke hasn't escaped by this point) write some code, interface with sensors to measure the environment, tap into common communications buses for fun and profit, mess with wireless communications, and maybe even lose some time playing a video game.",
     "extra": [
       {
+        "heading": "Prerequisites:",
+        "bullets": [
+          "git"
+        ]
+      },
+      {
         "heading": "Materials:",
         "bullets": [
           "Laptop with Arduino IDE - https://www.arduino.cc/en/Main/Software"
