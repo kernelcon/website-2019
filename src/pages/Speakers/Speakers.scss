@@ -1,0 +1,36 @@
+@import '../../static/styles/colors';
+
+.speaker-section {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.keynote-section {
+  display: flex;
+
+
+  .kernelcon-text-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio-name {
+    margin: 30px 0px 0px 0px;
+  }
+  .bio-title {
+    margin-block-start: 10px;
+    color: $gold;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  .bio-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .keynote-image-area {
+    padding: 40px 10px 10px 20px;
+  }
+}
+

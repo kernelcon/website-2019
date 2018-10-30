@@ -139,6 +139,9 @@ h1, h2 {
   .venue-hotel { 
     flex-direction: column;
   }
+  .keynote-section {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 380px) {
   .container {
@@ -279,6 +282,9 @@ h1, h2 {
       height: 100px !important;
       width: unset;
     }
+  }
+  .keynote-section {
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 992px) {
