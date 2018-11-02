@@ -27,7 +27,7 @@ class Sponsors extends Component {
             </div>
           </div>
           <div className='spons-block'>
-            <h1 className='title'>2018 Sponsors</h1>
+            <h1 className='title'>2019 Sponsors</h1>
             <div className='text-block'>
               <p>We would like to thank all of our sponsors who make Kernelcon the best it can be.  Without our sponsors, our conference wouldn't happen.</p>
               <h3 className='gold'>Gold</h3>
