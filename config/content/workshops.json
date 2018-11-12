@@ -165,5 +165,35 @@
         "cost": "$30"
       }
     ]
+  },
+  {
+    "title": "FPV Drone Build-n-Race Workshop",
+    "author": [
+      {
+        "id": 9,
+        "name": "Mike Lollis"
+      },
+      {
+        "id": 9,
+        "name": "FPV Prowler Group"
+      }
+    ],
+    "description": "FPV Drones are not the off-the-shelf toys that show up at Christmas time, and they're not the heavy, expensive aerial photography drones that basically fly for you... these drones are meant for racing. In this workshop we will cover the basics of FPV Drones and piloting. We will start from scratch, physically assemblying an indoor racing drone, programming the on-board controller, and ultimately racing against other attendees. Workshop participants will take home the drone, controller, and FPV goggles - everything is included! Basic soldering skills are highly recommended for this workshop.",
+    "extra": [
+      {
+        "heading": "Materials:",
+        "bullets": [
+          "Laptop with BetaFlight installed.  Note: You do not need to know how to use BetaFlight - we will cover that."
+        ]
+      }
+    ],
+    "sessions": [
+      {
+        "day": "Saturday",
+        "time": "8am - 12pm",
+        "spots": "30",
+        "cost": "$210"
+      }
+    ]
   }
 ]

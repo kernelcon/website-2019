@@ -35,6 +35,14 @@
 }
 
 .register-section, .volunteer-section {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   display: inline-block;
+
+  &:last-child {
+    margin-bottom: 50px;
+  }
+
+  ul {
+    font-weight: 300
+  }
 }

@@ -44,6 +44,19 @@ class Registration extends Component {
               <Button onClick={this.toggleModal} href="#" title="Sign Up" class="baltic-sea volunteer-btn"/>
             </div>
 
+            <div className='volunteer-section'>
+              <h1 className='title'>Students</h1>
+              <div className='tagline'>Are you interested in attending Kernelcon, but cannot afford the con?</div>
+              <div className='call-to-order'>Students, aged 18 and over, who are interested in applying for this opportunity will need the following:</div>
+              <ul>
+                <li>Proof that you are a student. Picture at school with your student ID.</li>
+                <li>Letter of recommendation from an advisor or instructor from your institution.</li>
+                <li>A brief letter of interest, telling us why you are interested in attending Kernelcon and what you hope to learn.</li>
+                <li>Lastly, one or both of the letters should be sent from a school email address.</li>
+              </ul>
+              <div className='call-to-order'>Students should submit the above information along with any questions or concerns to <a className='highlight-text' href="mailto:students@kernelcon.org">students@kernelcon.org</a>. Accepted students will receive admission to the conferece, a hotel room (for traveling students), and this year's "hacker education kit".</div>
+            </div>
+
             <Modal show={this.state.isOpen}
               onClose={this.toggleModal}
               title='Show Your Interest'

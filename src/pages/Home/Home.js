@@ -72,7 +72,7 @@ class Home extends Component {
               </Modal>
               <div className='twitter-zone'>
                 <a class="twitter-timeline" 
-                  data-width="360"
+                  data-width="90%"
                   data-height="500"
                   data-theme="light"
                   href="https://twitter.com/_kernelcon_?ref_src=twsrc%5Etfw">
