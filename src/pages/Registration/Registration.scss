@@ -48,7 +48,8 @@
 }
 
 .volunteer-modal {
-  overflow-y: scroll;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: auto !important;
 }
 
 .freebirdFormviewerViewItemsItemItemTitle {
