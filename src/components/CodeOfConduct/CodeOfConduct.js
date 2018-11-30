@@ -9,7 +9,7 @@ class CodeOfConduct extends Component {
       <div>
         <div className='tab-title'>Code Of Conduct</div>
         <div className='code-of-conduct-text'>
-          <p>Kernelcon is commited to providing a harassment-free experience for every person, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, religion, or editor preference. We do not tolerate any forms of harassment of group participants.</p>
+          <p>Kernelcon is committed to providing a harassment-free experience for every person, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, age, race, religion, or editor preference. We do not tolerate any forms of harassment of group participants.</p>
           <p>This code of conduct applies to all Kernelcon mediums, including meetups, events, and online chats. Anyone who violates this code of conduct may be sanctioned or expelled from these mediums at the discretion of the Kernelcon BODs.</p>
 
 
@@ -18,7 +18,7 @@ class CodeOfConduct extends Component {
             <li>Offensive comments related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, religion, or technical skill level.</li>
             <li>Unwelcome comments regarding a person's lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.</li>
             <li>Deliberate misgendering or use of 'dead' or rejected names.</li>
-            <li>Gratuitous or off-topic sexual images or behaviour in spaces where they're not appropriate.</li>
+            <li>Gratuitous or off-topic sexual images or behavior in spaces where they're not appropriate.</li>
             <li>Physical contact and simulated physical contact (eg, textual descriptions like "hug" or "backrub") without consent or after a request to stop.</li>
             <li>Threats of violence.</li>
             <li>Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm.</li>
