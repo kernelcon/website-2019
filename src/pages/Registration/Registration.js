@@ -54,7 +54,7 @@ class Registration extends Component {
                 <li>A brief letter of interest, telling us why you are interested in attending Kernelcon and what you hope to learn.</li>
                 <li>Lastly, one or both of the letters should be sent from a school email address.</li>
               </ul>
-              <div className='call-to-order'>Students should submit the above information along with any questions or concerns to <a className='highlight-text' href="mailto:students@kernelcon.org">students@kernelcon.org</a>. Accepted students will receive admission to the conferece, a hotel room (for traveling students), and this year's "hacker education kit".</div>
+              <div className='call-to-order'>Students should submit the above information along with any questions or concerns to <a className='highlight-text' href="mailto:students@kernelcon.org">students@kernelcon.org</a>. Accepted students will receive admission to the conference, a hotel room (for traveling students), and this year's "hacker education kit".</div>
             </div>
 
             <Modal show={this.state.isOpen}
