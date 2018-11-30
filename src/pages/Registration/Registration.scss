@@ -52,9 +52,10 @@
   -webkit-overflow-scrolling: touch !important;
 }
 
-.freebirdFormviewerViewItemsItemItemTitle {
-  font-size: 16px !important;
+.freebirdFormviewerViewItemsItemItemTitle.exportItemTitle.freebirdCustomFont {
+    font-size: 16px!important;
 }
+
 .freebirdFormviewerViewItemsCheckboxLabel {
   font-size: 14px !important;
   padding-bottom: 0px;
