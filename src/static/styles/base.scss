@@ -55,6 +55,9 @@ h1, h2 {
     width: 370px; 
     margin-top:10px;
   }
+  .google-form[title="volunteer-interest-form"] {
+    height: 670px;
+  }
   .twitter-zone {
     display: flex;
     justify-content: center;
@@ -159,7 +162,7 @@ h1, h2 {
   .backdrop {
     padding: 10vh 5px;
   }
-  .modal-container, .volunteer-modal {
+  .modal-container {
     height: 435px;
     width: 330px;
   }
@@ -379,7 +382,7 @@ h1, h2 {
     padding: 150px;
   }
   .modal-container {
-    height: 420px;
+    height: 520px;
     width: 500px;
   }
   .google-form {
