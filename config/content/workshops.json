@@ -14,15 +14,16 @@
     "description": "Do you live with your head in a cloud? Do you fear small things? Is your mastery of virtualization and IAAS to the point where you haven't seen a real computer in months? Do you (most importantly) feel an unexplainable compulsion to open anti-static baggies handed to you by (almost) strangers and tinker with the contents therein? If so, have we got a workshop, nay, a way of life for you! In the Build Your Own Microcontroller Multi-Tool workshop, you and a handful of your newest and coolest friends will get to construct an ESP32 microcontroller-based device that you can take home! While constructing the device, we will discuss and tinker with each component to see what makes it tick. Then we'll boot things up and (provided the blue smoke hasn't escaped by this point) write some code, interface with sensors to measure the environment, tap into common communications buses for fun and profit, mess with wireless communications, and maybe even lose some time playing a video game.",
     "extra": [
       {
-        "heading": "Prerequisites:",
+        "heading": "Take Aways:",
         "bullets": [
-          "git"
+          "Users will get to keep the Microcontroller they spend the workshop building and modifying."
         ]
-      },
+      }, 
       {
         "heading": "Materials:",
         "bullets": [
-          "Laptop with Arduino IDE - https://www.arduino.cc/en/Main/Software"
+          "Laptop with Arduino IDE - https://www.arduino.cc/en/Main/Software",
+          "git knowledge"
         ]
       }
     ],
@@ -81,6 +82,44 @@
         "time": "8am - 5pm",
         "spots": "30",
         "cost": "$30"
+      }
+    ]
+  },
+  {
+    "title": "An Introduction to Hardware Hacking and IOT",
+    "author": [
+      {
+        "id": 10,
+        "name": "Matt Virus" 
+      }
+    ],
+    "description": "In this hands-on hacking village, users will be walked through modifying a (minimally) functional smart-home outlet plug. In its default state, the smart plug runs feature-limited, insecure firmware and software that depends on cloud connections and, in some cases, beacons to an external address in China. We will replace the software with open-source pieces and configure the plug to run with 100% local-only, non-cloud, control. Users will also be walked-through connecting the newly converted plug to a home-automation platform for software control via MQTT which enables web-based control, voice-based control, and control of state by a physical button.",
+    "extra": [
+      {
+        "heading": "Take Aways:",
+        "bullets": [
+          "Users will get to keep the plug they spend the workshop modifying. "
+        ]
+      }, {
+        "heading": "Materials:",
+        "bullets": [
+          "Soldering irons, supplies, laptops, and all adapters will be provided.",
+          "A live home-assistant environment will be available for demo/test as well."
+        ]
+      }
+    ],    
+    "sessions": [
+      {
+        "day": "Friday",
+        "time": "1pm - 2pm",
+        "spots": "30",
+        "cost": "$20"
+      }, 
+      {
+        "day": "Friday",
+        "time": "3pm - 4pm",
+        "spots": "30",
+        "cost": "$20"
       }
     ]
   },
@@ -178,9 +217,14 @@
         "name": "FPV Prowler Group"
       }
     ],
-    "description": "FPV Drones are not the off-the-shelf toys that show up at Christmas time, and they're not the heavy, expensive aerial photography drones that basically fly for you... these drones are meant for racing. In this workshop we will cover the basics of FPV Drones and piloting. We will start from scratch, physically assembling an indoor racing drone, programming the on-board controller, and ultimately racing against other attendees. Workshop participants will take home the drone, controller, and FPV goggles - everything is included! Basic soldering skills are highly recommended for this workshop.",
+    "description": "FPV Drones are not the off-the-shelf toys that show up at Christmas time, and they're not the heavy, expensive aerial photography drones that basically fly for you... these drones are meant for racing. In this workshop we will cover the basics of FPV Drones and piloting. We will start from scratch, physically assembling an indoor racing drone, programming the on-board controller, and ultimately racing against other attendees.",
     "extra": [
       {
+        "heading": "Take Aways:",
+        "bullets": [
+          "Workshop participants will take home the drone, controller, and FPV goggles - everything is included!"
+        ]
+      }, {
         "heading": "Materials:",
         "bullets": [
           "Laptop with BetaFlight installed.  Note: You do not need to know how to use BetaFlight - we will cover that."

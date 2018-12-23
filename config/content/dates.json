@@ -5,6 +5,11 @@
     "date": "OCT 1, 2018",
     "hidden": "false"
   }, {
+    "title": "Workshop Signups",
+    "description": "Limited number of seats available.",
+    "date": "OCT 1, 2018",
+    "hidden": "false"
+  }, {
     "title": "Call for Papers Announced",
     "description": "",
     "date": "OCT 12, 2018",
@@ -45,11 +50,6 @@
     "date": "APR 5 - 6, 2019",
     "hidden": "false"
   }, {
-    "title": "Workshop Signups",
-    "description": "Limited number of seats available.",
-    "date": "TBD",
-    "hidden": "false"
-  },  {
     "title": "CTF Registration Available",
     "description": "Teams of up to four, must be present to claim prizes.",
     "date": "TBD",
