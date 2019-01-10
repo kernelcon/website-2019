@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import logo from '../../static/images/kernelcon_w_trans.png';
-import swlogo from '../../static/images/swlogo.svg';
 import './Footer.scss';
 
 class Footer extends Component {

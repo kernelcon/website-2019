@@ -9,7 +9,6 @@ import logo from '../../static/images/embassy-suites.png';
 import venue from '../../static/images/room_map_black.png';
 import atrium from '../../static/images/atrium.jpg';
 import bedroom from '../../static/images/bedroom.jpg';
-import pool from '../../static/images/pool.jpg';
 import bar from '../../static/images/bar.jpg';
 import hotel from '../../static/images/embassy-suites-hotel.jpg';
 import parking from '../../static/images/parking_map_black.png';
@@ -119,13 +118,6 @@ class Venue extends Component {
               <div className='hotel-amn-heading'>Bar</div>
               <div className='hotel-sub-text'>In addition to the available all-day coffee bar, this bar is open for business until midnight.</div>
               <div className='hotel-sub-text'>Hotel guests are invited to a social hour between 5:30 - 7:30pm where Embassy Suites offers complimentary drinks.</div>
-            </div>
-          </div>
-          <div className='amnenities-list'>
-            <img src={pool} height="100" alt="pool" className='amnenities-col'/>
-            <div className='amnenities-col'>
-              <div className='hotel-amn-heading'>Other</div>
-              <div className='hotel-sub-text'>Pool.</div>
             </div>
           </div>
         </TabPanel>

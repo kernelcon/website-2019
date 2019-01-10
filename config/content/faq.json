@@ -25,6 +25,10 @@
   },
   {
     "question": "I can't or don't want to register online (technical issue, privacy issue, etc), can I still attend?",
-    "answer": "Yes!  If you have an issue but still want to register early, please contact us at info@kernelcon.org.  We will be accepting cash at the door.  Keep in mind that registering early guarantees you swag, that clothing is appropriate size, that workshops you want aren't full, etc."
+    "answer": "Yes!  If you have an issue but still want to register early, please contact us at <a class='gold' href='mailto:info@kernelcon.org'>info@kernelcon.org</a>.  We will be accepting cash at the door.  Keep in mind that registering early guarantees you swag, that clothing is appropriate size, that workshops you want aren't full, etc."
+  },
+  {
+    "question": "Do you offer a group discount?",
+    "answer": "We do!  Please contact <a class='gold' href='mailto:info@kernelcon.org'>info@kernelcon.org</a> for group orders of 10 or more!"
   }
 ]

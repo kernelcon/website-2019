@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Kernel PANIC Party",
+    "description": "Join us at the Kernel Panic Party on April 5th at 6pm sponsored by <a class='gold' href='https://www.nttsecurity.com/en-us'>NTT Security</a>. Come together for the Tech Olympics, Who's Slide Is It Anyways, drinks, and socializing.",
+    "extra": [
+      {
+        "heading": "Tech Olympics:",
+        "bullets": [
+          "Competitions surrounding technology - think 'Floppy Disk Throw'"
+        ]
+      }, 
+      {
+        "heading": "Who's Slide Is It Anyways:",
+        "bullets": [
+          "Want to present at Kernelcon, but didn't get time to submit a CFP?  Come to Who's Slide Is It Anyways where we will give you the chance!",
+          "But wait! There's a catch. You will be presenting our slides and we will only give you a few minutes to prepare.  Our slides could be awesome 'Phreaky Friday' or super awesome 'How Dwight Schrute Saved my Life'."
+        ]
+      }
+    ]
+  }
+]

@@ -1,3 +1,5 @@
+@import '../../static/styles/colors';
+
 .no-margin-bottom {
   margin-bottom: 0 !important;
 }
@@ -5,9 +7,48 @@
 .spons-block {
   margin-top: 30px;
 
-  h3 {
-    font-family: 'Jura', 'Montserrat', sans-serif;
-    margin-bottom: 10px;
-    font-weight: 900;
+  .spons-groups {
+    text-align: center;
+    padding-bottom: 50px !important;
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 10px;
+      font-weight: 900;
+      font-size: calc(3vh + 3vw);
+      text-transform: uppercase;
+    }
+
+    h4 {
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 10px;
+      font-weight: 900;
+      font-size: calc(2.5vh + 2.5vw);
+      text-transform: uppercase;
+    }
+
+    .spons-img {
+      max-width:100%;
+      max-height:100%;
+    }
+
+    .gold-spons {
+      width: calc(30vh + 30vw);
+    }
+
+    .other-spons {
+      width: calc(20vh + 20vw);
+    }
+
+    .spons-text-block {
+      font-size: calc(1vh + 1vw);
+
+      .party-text {
+        font-family: 'Jura', 'Montserrat', sans-serif;
+        font-size: calc(1.2vh + 1.2vw);
+        color: $gold;
+        font-weight: 500;
+      }
+    }
   }
 }

@@ -105,7 +105,7 @@ class Event extends Component {
             {authorGroup}
           </div>}
           <div className='event-description'>
-            {this.props.description}
+            <span dangerouslySetInnerHTML={{ __html: this.props.description }} />
           </div>
           {this.props.bullets && this.getBullets()}
         </div>

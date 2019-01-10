@@ -3,6 +3,7 @@ import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
 //import Tabs from 'react-responsive-tabs';
 
+import Activities from './Activities';
 import Competitions from './Competitions';
 import Villages from './Villages';
 import Workshops from './Workshops';
@@ -39,6 +40,7 @@ class Con extends Component {
           <Tab tabFor="workshops">Workshops</Tab>
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
+          <Tab tabFor="activities">Activities</Tab>
         </TabList>
 
         <TabPanel tabId="workshops">
@@ -49,6 +51,9 @@ class Con extends Component {
         </TabPanel>
         <TabPanel tabId="competitions">
           <Competitions />
+        </TabPanel>
+        <TabPanel tabId="activities">
+          <Activities />
         </TabPanel>
       </Tabs>
     )

@@ -36,7 +36,11 @@ class Registration extends Component {
               <div className='call-to-order'>Be sure to look over our <a href="/con">workshops</a> before going to sign up! Take advantage of early bird pricing while you can!</div>
               <Button href="https://kernelcon.ticketspice.com/kernelcon2019" title="Register Now" class="baltic-sea volunteer-btn"/>
             </div>
-
+            <div>
+              <div className='tagline group-line'>Registering as a Group?</div> 
+              <p className='call-to-order'>Contact us about our group rates here: <a href="mailto:info@kernelcon.org">info@kernelcon.org</a></p>
+            </div>
+            
             <div className='volunteer-section'>
               <h1 className='title'>Volunteer</h1>
               <div className='tagline'>Interested in being a part of the Kernelcon Crew?</div>

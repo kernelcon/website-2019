@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Sponsors.scss';
 import swlogo from '../../static/images/swlogo.svg';
+import nttlogo from '../../static/images/ntt-logo.png';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -30,14 +31,24 @@ class Sponsors extends Component {
             <h1 className='title'>2019 Sponsors</h1>
             <div className='text-block'>
               <p>We would like to thank all of our sponsors who make Kernelcon the best it can be.  Without our sponsors, our conference wouldn't happen.</p>
+            </div>
+            <div className='text-block spons-groups'>
               <h3 className='gold'>Gold</h3>
               <a href="https://www.secureworks.com/"
                 target="_blank"
                 rel='noopener noreferrer'>
                 <img src={swlogo}
-                  height="100"
-                  style={{'marginLeft': '-40px'}}
+                  className='spons-img gold-spons'
                   alt="Secure Works"/>
+              </a>
+
+              <h4 className='gold'>Party Sponsor</h4>
+              <a href="https://www.nttsecurity.com/en-us"
+                target="_blank"
+                rel='noopener noreferrer'>
+                <img src={nttlogo}
+                  className='spons-img other-spons'
+                  alt="NTT Security"/>
               </a>
             </div>
           </div>
