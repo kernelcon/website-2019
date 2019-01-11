@@ -38,7 +38,7 @@ class Registration extends Component {
             </div>
             <div>
               <div className='tagline group-line'>Registering as a Group?</div> 
-              <p className='call-to-order'>Contact us about our group rates here: <a href="mailto:info@kernelcon.org">info@kernelcon.org</a></p>
+              <p className='call-to-order'>We give discounts at 10 or more signups! Contact us about our group rates here: <a href="mailto:info@kernelcon.org">info@kernelcon.org</a></p>
             </div>
             
             <div className='volunteer-section'>
