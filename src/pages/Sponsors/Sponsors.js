@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './Sponsors.scss';
 import swlogo from '../../static/images/swlogo.svg';
+import fnbo from '../../static/images/fnbo.png';
 import nttlogo from '../../static/images/ntt-logo.png';
+import toool from '../../static/images/toool.svg';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -41,6 +43,14 @@ class Sponsors extends Component {
                   className='spons-img gold-spons'
                   alt="Secure Works"/>
               </a>
+              <h3 className='gold'>Silver</h3>
+              <a href=""
+                target="_blank"
+                rel='noopener noreferrer'>
+                <img src={fnbo}
+                  className='spons-img other-spons'
+                  alt="First National Bank"/>
+              </a>
 
               <h4 className='gold'>Party Sponsor</h4>
               <a href="https://www.nttsecurity.com/en-us"
@@ -49,6 +59,14 @@ class Sponsors extends Component {
                 <img src={nttlogo}
                   className='spons-img other-spons'
                   alt="NTT Security"/>
+              </a>
+              <h4 className='gold'>Other Sponsors</h4>
+              <a href="https://toool.us/"
+                target="_blank"
+                rel='noopener noreferrer'>
+                <img src={toool}
+                  className='spons-img other-spons'
+                  alt="TOOOL"/>
               </a>
             </div>
           </div>
