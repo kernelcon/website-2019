@@ -44,7 +44,7 @@ class Sponsors extends Component {
                   alt="Secure Works"/>
               </a>
               <h3 className='gold'>Silver</h3>
-              <a href=""
+              <a href="https://fnbo.com/"
                 target="_blank"
                 rel='noopener noreferrer'>
                 <img src={fnbo}
