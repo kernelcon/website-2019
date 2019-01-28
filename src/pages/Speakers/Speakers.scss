@@ -19,9 +19,22 @@
   }
   .bio-title {
     margin-block-start: 10px;
-    color: $gold;
     font-weight: 100;
     letter-spacing: 2px;
+
+    a {
+      color: $gold;
+      text-decoration: none;
+
+      &:not(:first-child) {
+        &:before {
+          content: "\2022";
+          color: $gold;
+          margin: 0px 8px;
+        }
+      }
+    }
+
   }
   .bio-text {
     font-weight: 300;
