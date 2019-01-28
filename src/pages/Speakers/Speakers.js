@@ -33,11 +33,11 @@ class Speakers extends Component {
                   width="300" />
               </div>
             </div>
-            <div className='keynote-section'>
+            <div className='keynote-section keynote-reversed'>
               <div className='keynote-text-area'>
                 <img src={viss}
                   alt='Dan Tentler'
-                  width="300" />
+                  width='300'/>
               </div>
               <div className='keynote-image-area'>
                 <h2>Dan Tentler</h2>

@@ -145,6 +145,11 @@ h1, h2 {
   }
   .keynote-section {
     flex-direction: column;
+    align-items: center;
+
+    &.keynote-reversed {
+      flex-direction: column-reverse;
+    }
   }
 }
 @media screen and (min-width: 380px) {
@@ -289,6 +294,12 @@ h1, h2 {
   }
   .keynote-section {
     flex-direction: row;
+    align-items: top;
+
+    &.keynote-reversed {
+      flex-direction: row;
+      align-items: flex-start;
+    }
   }
 }
 @media screen and (min-width: 992px) {
