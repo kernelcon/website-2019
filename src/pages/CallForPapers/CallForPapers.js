@@ -18,6 +18,7 @@ class CallForPapers extends Component {
         <div className='container'>
           <div className='venue-section'>
             <h1 className='title'>Call For Papers</h1>
+            <h1 className='closed'>The CFP is now Closed. Thank you to all of our entries!</h1>
             <div className='text-block'>
               <h3 className='highlight-text'>The Kernelcon Crew is soliciting presentations for the inaugural Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 5-6, 2019.   </h3>
               <p>Download as PDF at <a href={pdf} download>https://kernelcon.org/cfp/CFP-2019.pdf</a></p>
