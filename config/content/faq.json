@@ -30,5 +30,9 @@
   {
     "question": "Do you offer a group discount?",
     "answer": "We do!  Please contact <a class='gold' href='mailto:info@kernelcon.org'>info@kernelcon.org</a> for group orders of 10 or more!"
+  },
+  {
+    "question": "Do you offer CPEs?",
+    "answer": "Kernelcon topics satisfy CPE requirements for several certifications, you may self-report and we will support if necessary."
   }
 ]
