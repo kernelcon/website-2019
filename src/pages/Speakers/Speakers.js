@@ -1,12 +1,64 @@
 import React, { Component } from 'react';
-import './Speakers.scss';
+import Individuals from './Individuals';
+
 import davek from '../../static/images/davek.png';
 import viss from '../../static/images/viss.png';
+
+import speakerConfig from 'speakerConfig';
+import './Speakers.scss';
 
 class Speakers extends Component {
   static displayName = 'Speakers';
 
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+
+  getRandomKernel(lengthOfArray, indexToExclude, secondLastKernelIndex) {
+    // This function just grabs a random index that wasn't one of the last two.
+    // Obviously, due to math, you need to send in at least an array of length 3.
+    let rand = null;
+
+    while (rand === null || rand === indexToExclude || rand === secondLastKernelIndex) {
+      rand = Math.round(Math.random() * (lengthOfArray - 1));
+    }
+    return rand;
+  }
+
+  getSpeakers() {
+    // Order Alphabetically
+    const speakers = speakerConfig.sort((a,b) => (a.speaker > b.speaker) ? 1 : ((b.speaker > a.speaker) ? -1 : 0));
+    
+    // Because of the way I stack two per row, get a new kernel that's not it's neighbor either up or down.
+    let lastKernelIndex = 99;
+    let secondLastKernelIndex = 100;
+    const speakerGroup = speakers.map((ele, idx) => {
+      const randKernel = this.getRandomKernel(5, lastKernelIndex, secondLastKernelIndex);
+      secondLastKernelIndex = lastKernelIndex;
+      lastKernelIndex = randKernel;
+
+      // If image DNE, assign the random kernel we've generated.
+      const img = ele.image ? ele.image : randKernel;
+      console.log(ele);
+      console.log(img);
+
+      return (
+        <Individuals key={idx}
+          speaker={ele.speaker} 
+          company={ele.company}
+          twitter={ele.twitter}
+          image={ele.image}
+          bio={ele.bio}
+        />
+      )
+    });
+
+    return speakerGroup;
+  }
+
   render() {
+    const speakers = this.getSpeakers();
     return (
       <div id='main_hero' className=''>
         <div className='container'>
@@ -37,7 +89,7 @@ class Speakers extends Component {
               <div className='keynote-text-area'>
                 <img src={viss}
                   alt='Dan Tentler'
-                  width='300'/>
+                  width='240'/>
               </div>
               <div className='keynote-image-area'>
                 <h2>Dan Tentler</h2>
@@ -55,8 +107,9 @@ class Speakers extends Component {
           </div>
           <div className='speaker-section'>
             <h1 className='title'>Speakers</h1>
-            <p>Tentative Schedule Announced February 14th, 2019.</p>
-            <a className='highlight-text' href="/call-for-papers">Submit to the Call For Papers!</a>
+            <div className='speakers'>
+              {speakers}
+            </div>
           </div>
         </div>
       </div>

@@ -285,5 +285,6 @@ module.exports = {
     bioConfig: JSON.stringify(require('./content/bios.json')), //eslint-disable-line
     ocConfig: JSON.stringify(require('./content/oc.json')), //eslint-disable-line
     faqConfig: JSON.stringify(require('./content/faq.json')), //eslint-disable-line
+    speakerConfig: JSON.stringify(require('./content/speakers.json')), //eslint-disable-line
   },
 };

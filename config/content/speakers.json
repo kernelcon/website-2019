@@ -1,0 +1,98 @@
+[
+  {
+    "title": "DSLAMing: Testing WAN Services on DSL Modems",
+    "speaker": "Nicholas Starke",
+    "company": "Aruba Threat Labs",
+    "twitter": "",
+    "image": "",
+    "type": [
+      1,
+      2,
+      3
+    ],
+    "length": "",
+    "bio": "Nicholas Starke is a Threat Researcher at Aruba Threat Labs where he conducts network security research on enterprise networking hardware. Aruba Threat Labs serves as the Red Team for Aruba Networks, an HPE Company. Nick is a transplant to Des Moines, IA and a proud member of SecDSM. SecDSM is a security user group focused on Infosec Education in Iowa.",
+    "abstract": "IoT Testing, particularly for consumer grade networking devices, can be difficult when the device doesn't use 802.11 or RJ45 for IP traffic.  Take for example the DSL Modem: one of the most commonly deployed networking devices for home users.  A typical DSL Modem will have one or more RJ45 LAN ports, but testing the WAN port proves problematic: most DSL Modems use RJ14 ports for the WAN!  Enter the DSLAM.  The DSLAM is the head end unit for DSL Modems.  We'll talk about the underlying technologies used in communicating with the head end system (DSLAM) as well as how you can source, setup, and successfully test WAN services on a DSL modem using a DSLAM. We'll also talk about why you might want to do this and what you might find."
+  },
+  {
+    "title": "More Than Tor: Shining a Light on Different Corners of the Dark Web",
+    "speaker": "Benjamin Brown",
+    "company": "Veracode",
+    "twitter": "@ajnachakra",
+    "image": "",
+    "type": [
+      1,
+      3
+    ],
+    "length": "",
+    "bio": "Benjamin Brown’s current research focuses on emerging technology areas where security research is novel such as IoT, AI/ML, cryptocurrencies, the dark web, and new underground digital economies. This leads to speaking engagements, publications, and media interaction to assist in generating new and expanded security insights and knowledge stores. His day job is with CA | Veracode where he integrates his anthropology and international relations degrees with security research into large-scale, internet-level problems. Hobbies include blacksmithing, competitive axe throwing, Software-defined radio (SDR), and hiking.",
+    "abstract": "When the terms darknet or dark web are invoked it is almost always in reference to the Tor network, but what about the other extant darknet frameworks? A true understanding of the dark web would be impossible and misleading if it only included the Tor network. In this talk I will expand the field of view to include frameworks such as Freenet, I2P, and OpenBazaar. We’ll take a quick look at the origins and technical underpinnings of these darknets as well as their actors and offerings. I will also discuss the differentiators that set these networks apart from Tor and highlight why they too should be included in modeling our knowledge of the dark web. Audience members will walk away with a fuller understanding of the internet’s hidden corners, the goals of it’s users, and the technologies that help keep them in the dark."
+  },
+  {
+    "title": "Social Forensication: A Multidisciplinary Approach to Successful Social Engineering",
+    "speaker": "Joe Gray",
+    "company": "",
+    "twitter": "",
+    "image": "",
+    "type": [
+      1,
+      3
+    ],
+    "length": "",
+    "bio": "Joe Gray joined the U.S. Navy directly out of High School and served for 7 years as a Submarine Navigation Electronics Technician. Joe is currently a Senior Security Architect and maintains his own blog and podcast called Advanced Persistent Security. In his spare time, Joe enjoys attending information security conferences, contributing blogs to various outlets, and flying his drone. Joe is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe has contributed material for the likes of AlienVault, ITSP Magazine, CSO Online, and Dark Reading.",
+    "abstract": "This presentation outlines a new twist on an existing social engineering attack. In the past, we have worked on getting users to plug in USB devices to drop malicious documents and executables. While this attack sometimes proves our point, it is the tip of the iceberg that can be done. Enter Social Forensication. This is a two-pronged attack, consisting first of collecting a memory image for offsite offensive forensic analysis, the second being a rogue Wi-Fi access point attack. During this presentation, we will walk through the steps to perform each attack. Since defense is just as (if not more) important as the attack itself, we will also discuss mitigations (technical and procedural) and relevant windows detections for these attacks."
+  },
+  {
+    "title": "Fuzzing with AFL",
+    "speaker": "Dhiraj Mishra",
+    "company": "",
+    "twitter": "@mishradhiraj_",
+    "image": "",
+    "type": [
+      1,
+      2
+    ],
+    "length": "",
+    "bio": "An active speaker and a bug hunter, Dhiraj has discovered multiple zero days in modern web browsers and is a Metasploit Contributor. His work has been published on TheHackerNews, TheRegister, ZDNet & BleepingComputer.",
+    "abstract": "The talk focuses on fuzzing approach that can be used to uncover different types of vulnerabilities on open source project. It will also introduce the general idea and the approach to fuzz real-life targets using AFL."
+  },
+  {
+    "title": "Chip-level vulnerability assessment using CHIPSEC and LuvOS",
+    "speaker": "Dr. Jeffrey (Jeff) Struik",
+    "company": "",
+    "twitter": "",
+    "image": "",
+    "type": [
+      3,
+      6
+    ],
+    "length": "",
+    "bio": "Dr. Struik has 10+ years of cybersecurity experience primarily in the defense industry. His primary interests are embedded systems security, board-level security, and sharing knowledge with future cybersecurity professionals.",
+    "abstract": "ardware level vulnerability assessment is becoming increasingly important with the increase of state-sponsored threats. The ability to perform chip-level vulnerability assessments provides valuable insights for security managers, specifically for critical assets. This presentation demonstrates the value of using CHIPSEC and LuvOS to conduct chip-level vulnerability assessments. The presentation will provide a demonstration of the various functions of CHIPSEC and LuvOS and will also examine how to install and use CHIPSEC for the purpose of hardware, firmware, and chip-level vulnerability assessments."
+  },
+  {
+    "title": "Building the badge - How you can make small, cheap and custom hardware for function or fashion",
+    "speaker": "James Dietle",
+    "company": "",
+    "twitter": "",
+    "image": "",
+    "type": [],
+    "length": "",
+    "bio": "James is a computer enthusiast who started off slinging CAT5, coax and silver satin in exchange for ice cream at the age of eight. As a naval officer in the intelligence community, he worked with NSA across the world and has over 13 years of Information Technology management experience. More recently he has been burning out GPUs, stopping criminals, and spreading comradery through cheap pcb",
+    "abstract": "Drawn to increase in neck bling that people wear around looking like futuristic disco balls? Curious about the rise of IoT and how you can start making your hardware for tests?  Want to make your own blinking monstrosity that can scare the cat and blind your neighbors. Cheap PCB fab houses and some free software offers the ability to make all these oddly specific dreams come true. This talk will cover an overview of how you can get your board designed, printed and distributed for your next event without going broke in the process."
+  },
+  {
+    "title": "",
+    "speaker": "",
+    "company": "",
+    "twitter": "",
+    "image": "",
+    "type": [
+      1,
+      3
+    ],
+    "length": "",
+    "bio": "",
+    "abstract": ""
+  }
+]
