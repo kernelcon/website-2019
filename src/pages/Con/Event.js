@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button';
 import PropTypes from 'prop-types';
 import './Con.scss';
 
@@ -17,7 +18,8 @@ class Event extends Component {
     bullets: PropTypes.array,
     description: PropTypes.string,
     leftCol: PropTypes.bool,
-    sessions: PropTypes.array
+    sessions: PropTypes.array,
+    button: PropTypes.array
   };
 
   static defaultProps = {
@@ -26,7 +28,8 @@ class Event extends Component {
     bullets: null,
     description: '',
     leftCol: false,
-    sessions: []
+    sessions: [],
+    button: []
   };
 
   getBullets() {
@@ -51,6 +54,7 @@ class Event extends Component {
 
   getSessions() {
     return this.props.sessions.map((ele, idx) => {
+      const spotsClass = ele.spots === "SOLD OUT" ? "red-text " : "";
       return (
         <div className='session-box'
           key={idx}>
@@ -65,7 +69,7 @@ class Event extends Component {
           <div className='session-heading'>
             # SPOTS
           </div>
-          <div className='session-text'>{ele.spots}</div>
+          <div className={`${spotsClass}session-text`}>{ele.spots}</div>
           <div className='session-heading'>
             COST
           </div>
@@ -96,22 +100,29 @@ class Event extends Component {
     const eventClassName = this.props.leftCol ? 'event-left' : '';
 
     return (
-      <div className='event'>
-        <div className={eventClassName}>
-          <div className='tab-title'>
-            {this.props.title}
+      <div className='event-border'>
+        <div className='event'>
+          <div className={eventClassName}>
+            <div className='tab-title'>
+              {this.props.title}
+            </div>
+            {authorList && <div className='event-authors'>
+              {authorGroup}
+            </div>}
+            <div className='event-description'>
+              <span dangerouslySetInnerHTML={{ __html: this.props.description }} />
+            </div>
+            {this.props.bullets && this.getBullets()}
           </div>
-          {authorList && <div className='event-authors'>
-            {authorGroup}
-          </div>}
-          <div className='event-description'>
-            <span dangerouslySetInnerHTML={{ __html: this.props.description }} />
+          <div className='sessions'>
+            {this.props.sessions && this.getSessions()}
           </div>
-          {this.props.bullets && this.getBullets()}
         </div>
-        <div className='sessions'>
-          {this.props.sessions && this.getSessions()}
-        </div>
+        {this.props.button.length > 0 && <div className='buttons'>
+          <Button href={this.props.button[0].href}
+            title={this.props.button[0].title}
+            class="baltic-sea volunteer-btn"/>
+        </div>}
       </div>
     );
   }

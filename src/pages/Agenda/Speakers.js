@@ -5,7 +5,7 @@ import davek from '../../static/images/davek.png';
 import viss from '../../static/images/viss.png';
 
 import speakerConfig from 'speakerConfig';
-import './Speakers.scss';
+import './Agenda.scss';
 
 class Speakers extends Component {
   static displayName = 'Speakers';
@@ -34,21 +34,19 @@ class Speakers extends Component {
     let lastKernelIndex = 99;
     let secondLastKernelIndex = 100;
     const speakerGroup = speakers.map((ele, idx) => {
-      const randKernel = this.getRandomKernel(5, lastKernelIndex, secondLastKernelIndex);
+      const randKernel = this.getRandomKernel(17, lastKernelIndex, secondLastKernelIndex);
       secondLastKernelIndex = lastKernelIndex;
       lastKernelIndex = randKernel;
 
       // If image DNE, assign the random kernel we've generated.
-      const img = ele.image ? ele.image : randKernel;
-      console.log(ele);
-      console.log(img);
+      const img = ele.image ? `2019-speakers/${ele.image}.png` : `kernels/${randKernel}.png`;
 
       return (
         <Individuals key={idx}
           speaker={ele.speaker} 
           company={ele.company}
           twitter={ele.twitter}
-          image={ele.image}
+          image={img}
           bio={ele.bio}
         />
       )
@@ -62,7 +60,7 @@ class Speakers extends Component {
     return (
       <div id='main_hero' className=''>
         <div className='container'>
-          <div className='venue-section'>
+          <div className='speakers'>
             <h1 className='title'>Keynotes</h1>
             <div className='keynote-section'>
               <div className='keynote-text-area'>
@@ -106,7 +104,7 @@ class Speakers extends Component {
             </div>
           </div>
           <div className='speaker-section'>
-            <h1 className='title'>Speakers</h1>
+            <h1 className='title-reversed'>Speakers</h1>
             <div className='speakers'>
               {speakers}
             </div>

@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, TabPanel, TabList } from 'react-web-tabs';
 import MediaQuery from 'react-responsive';
-//import Tabs from 'react-responsive-tabs';
+import './Agenda.scss';
 
-import Activities from './Activities';
-import Competitions from './Competitions';
-import Villages from './Villages';
-import Workshops from './Workshops';
-import './Con.scss';
+import Speakers from './Speakers';
 
-class Con extends Component {
-  static displayName = 'Con';
+
+
+class Agenda extends Component {
+  static displayName = 'Agenda';
 
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: 'workshops'
+      defaultTab: 'speakers'
     }
   }
 
   componentWillMount() {
-    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'workshops';
+    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'speakers';
     this.setState({
       defaultTab: defaultTab
     });
@@ -36,27 +34,26 @@ class Con extends Component {
       <Tabs defaultTab={this.state.defaultTab}
         onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
-        <TabList>
-          <Tab tabFor="workshops">Workshops</Tab>
-          <Tab tabFor="villages">Villages</Tab>
-          <Tab tabFor="competitions">Competitions</Tab>
-          <Tab tabFor="activities">Activities</Tab>
+        <TabList vertical>
+          <Tab tabFor="speakers">Speakers</Tab>
+          <Tab tabFor="talks">Talks</Tab>
+          <Tab tabFor="schedule">Schedule</Tab>
         </TabList>
-
-        <TabPanel tabId="workshops">
-          <Workshops />
-        </TabPanel>
-        <TabPanel tabId="villages">
-          <Villages />
-        </TabPanel>
-        <TabPanel tabId="competitions">
-          <Competitions />
-        </TabPanel>
-        <TabPanel tabId="activities">
-          <Activities />
-        </TabPanel>
+        <span>
+          <TabPanel tabId="speakers">
+            <Speakers />
+          </TabPanel>
+          <TabPanel tabId="talks">
+            <h1>Talks</h1>
+            <h3>Coming Soon...</h3>
+          </TabPanel>
+          <TabPanel tabId="schedule">
+            <h1>Schedule</h1>
+            <h3>Coming Soon...</h3>
+          </TabPanel>
+        </span>
       </Tabs>
-    )
+    );
   }
 
   render() {
@@ -64,7 +61,7 @@ class Con extends Component {
       <div id='main_hero' className=''>
         <div className='container'>
           <div className='venue-section'>
-            <h1 className='title'>Con</h1>
+            <h1 className='title'>Agenda</h1>
               <MediaQuery minDeviceWidth={761}>
                 {this.getTabs(true)}
               </MediaQuery>
@@ -78,7 +75,4 @@ class Con extends Component {
   }
 }
 
-export default Con;
-
-
-
+export default Agenda;

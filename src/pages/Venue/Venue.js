@@ -29,7 +29,7 @@ class Venue extends Component {
     this.setState({
       defaultTab: defaultTab
     });
-    window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
+    //window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
   }
 
   changeTab(tabId) {

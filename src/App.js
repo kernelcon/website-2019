@@ -12,7 +12,7 @@ import Home from './pages/Home/Home';
 // Import Pages
 import Sponsors from './pages/Sponsors/Sponsors';
 import Venue from './pages/Venue/Venue';
-import Speakers from './pages/Speakers/Speakers';
+import Agenda from './pages/Agenda/Agenda';
 import Dates from './pages/Dates/Dates';
 import Register from './pages/Registration/Registration';
 import About from './pages/About/About';
@@ -38,7 +38,7 @@ class App extends Component {
             <Route exact path="/sponsors" component={Sponsors} />
             <Route exact path="/venue" component={Venue} />
             <Route exact path="/dates" component={Dates} />
-            <Route exact path="/speakers" component={Speakers} />
+            <Route exact path="/agenda" component={Agenda} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/about" component={About} />
             <Route exact path="/call-for-papers" component={CallForPapers} />

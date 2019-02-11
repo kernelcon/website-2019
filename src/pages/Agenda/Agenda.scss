@@ -1,5 +1,11 @@
 @import '../../static/styles/colors';
 
+.speakers {
+  .title {
+    margin-top: 0px;
+  }
+}
+
 .speaker-section {
   margin-top: 30px;
   padding-bottom: 50px;
@@ -53,6 +59,9 @@
   .title {
     padding-bottom: 30px;
   }
+  .title-reversed {
+    padding: 20px 0px;
+  }
 
   .speakers {
     display: flex;
@@ -64,7 +73,7 @@
       padding-bottom: 30px;
       display: flex;
       flex-direction: row;
-      width: 550px;
+      width: 460px;
 
       .bio-image {
         border-radius: 50%;
