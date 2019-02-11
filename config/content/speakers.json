@@ -332,7 +332,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
-    "bio": "Michael works on the DART team @ Dropbox. I have spent a lot of time investigating macOS host-monitoring solutions.",
+    "bio": "Michael works on the DART team @ Dropbox. Michael has spent a lot of time investigating macOS host-monitoring solutions.",
     "abstract": "I will talk about a example piece of malware(Handbrake/Proton) and how you can use open source tooling detection tooling to do detection and light forensics. Since I will be talking about the handbrake malware, I will also be sharing some of the TTPs the malware used if you want to find this activity in your fleet."
   },
   {
