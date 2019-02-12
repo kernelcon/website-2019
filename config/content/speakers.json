@@ -68,7 +68,7 @@
     "linkedin": "/in/jamesdietle",
     "image": "JamesDietle",
     "length": "50",
-    "bio": "James is a computer enthusiast who started off slinging CAT5, coax and silver satin in exchange for ice cream at the age of eight. As a naval officer in the intelligence community, he worked with NSA across the world and has over 13 years of Information Technology management experience. More recently he has been burning out GPUs, stopping criminals, and spreading comradery through cheap pcb",
+    "bio": "James is a computer enthusiast who started off slinging CAT5, coax and silver satin in exchange for ice cream at the age of eight. As a naval officer in the intelligence community, he worked with NSA across the world and has over 13 years of Information Technology management experience. More recently he has been burning out GPUs, stopping criminals, and spreading comradery through cheap pcb.",
     "abstract": "Drawn to increase in neck bling that people wear around looking like futuristic disco balls? Curious about the rise of IoT and how you can start making your hardware for tests?  Want to make your own blinking monstrosity that can scare the cat and blind your neighbors. Cheap PCB fab houses and some free software offers the ability to make all these oddly specific dreams come true. This talk will cover an overview of how you can get your board designed, printed and distributed for your next event without going broke in the process."
   },
   {
@@ -78,9 +78,9 @@
     "twitter": "",
     "github": "",
     "linkedin": "",
-    "image": "",
+    "image": "NickBeede",
     "length": "20",
-    "bio": "Nick Beede is a security researcher at the MITRE corporation and is going to talk about Python obfuscation.",
+    "bio": "Nick is a security professional based in the Washington, DC area. He spends most of his time reverse engineering malware and developing new ways to improve digital forensics. Nick graduated from the University of Nebraska at Omaha in 2013 and when he's not staring at assembly you can find him climbing up or snowboarding down any mountain he can find.",
     "abstract": "Python was designed for rapid development and ease of use which allows for complex tasks to be completed much faster than its counterparts. However, by nature of the language it can be reverse engineered much faster than a compiled language. This limits the language's potential to be used for developing malware and other nefarious tools. We have surveyed current obfuscation and anti-reversing techniques available to harden Python code. We propose that implementing the most advanced and effective obfuscation techniques currently requires too much effort for adversaries at this time, but that situation may rapidly change as frameworks and tools evolve. Our presentation will discuss obfuscation techniques currently seen in the wild and available to adversaries, as well as more advanced techniques that malware analysts should be prepared for in the future."
   },
   {
@@ -128,7 +128,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
-    "bio": "Bioinformatician by day, hobbyist hacker by night with interest in hardware and wireless security",
+    "bio": "Bioinformatician by day, hobbyist hacker by night with interest in hardware and wireless security.",
     "abstract": "Radio security is often times neglected because they are only subject  to domestic/local threats (physical access). This has left many radio protocols  vulnerable to a variety of easy attacksTalk will focus on using  inexpensive($20-30) RTL-SDR to intercept & decode various wireless signals,  including train telemetry, alarm sensors, smart meters, garage doors, and  infrastructure communications. Decode and cloning techniques/hardware will also be covered."
   },
   {
@@ -174,7 +174,7 @@
     "twitter": "",
     "github": "",
     "linkedin": "",
-    "image": "",
+    "image": "JustinWilliams",
     "length": "50",
     "bio": "Justin Williams is currently working in an Information Security Manager role with a background in numerous areas of Information Technology and Information Security. He runs a blog for newcomers to security, is very active in the Omaha security community. His primary areas of focus of late are in new and exciting automation ideas, improving defense strategies, and boundary defense in zero trust models.",
     "abstract": "This talk will focus on a period of my life where I was facing incredible burnout while working in IT while ignoring red flags.  It will then cover how I switched to Information Security, but apply the lessons learned from my past life in IT to avoid that same scenario from ever re-occurring.  The takeaway will be importance of self care."
@@ -200,19 +200,19 @@
     "linkedin": "",
     "image": "",
     "length": "50",
-    "bio": "I began my career in DFIR at Rapid7, where I helped to build attacker signatures for customers of the InsightIDR Platform. I am currently employed by Dropbox on the Detection and Response Team.",
+    "bio": "Colin began his career in DFIR at Rapid7, where he helped to build attacker signatures for customers of the InsightIDR Platform. Colin is currently employed by Dropbox on the Detection and Response Team.",
     "abstract": "Traditionally, detection has been performed on point anomalies - a log comes in, the log is analyzed, and a decision is made to alert based on that analysis. Similarly, investigations are based on searches over isolated events - an alert fires and you manually try to find related events based on ad-hoc queries. Grapl aims to move beyond individual events as the fundamental abstraction and focus instead on relationships. Logs are parsed into graph representations and merged into a master graph representing all actions occurring across your environments. This approach allows for relationship-based detections (ex: word isn't scary, and bash isn't scary, but word spawning bash is scary) and more efficient, ergonomic investigations. Grapl handles the work of turning logs into subgraphs, orchestrating signatures executing across the graph, and automatically scoping investigations through expansion of the graph. I hope to demonstrate the benefits of a Graph based approach to DFIR, and how Grapl can aid in that approach."
   },
   {
     "title": "PCAP Feature Engineering for Machine Learning",
-    "speaker": "Anon",
-    "company": "",
-    "twitter": "Anon",
+    "speaker": "Heather Lawrence",
+    "company": "NARI",
+    "twitter": "@infosecanon",
     "github": "",
     "linkedin": "",
-    "image": "",
+    "image": "HeatherLawrence",
     "length": "20",
-    "bio": "Anon has anonymous duties and various anonymities.",
+    "bio": "Heather is a data scientist for the Nebraska Applied Research Institute who earned her undergraduate and masters degrees in Computer Engineering from the University of Central Florida. In previous lives she was a USN nuke, VA photographer, NCCDC winner, Hack@UCF mom, and darknet marketplace miner. Her current research centers on the application of machine learning to intrusion detection.",
     "abstract": "Once signature-based methods of intrusion detection were considered fallible, we turned to machine learning to detect malicious traffic. Each machine learning algorithm is only as effective as the data its fed and the data points, also called features, used to train it. This talk will discuss feature engineering of network traffic in a pcap format including a discussion of recent research on features that can help detect malicious traffic when deep packet inspection capabilities are lost in TLS 1.3."
   },
   {
