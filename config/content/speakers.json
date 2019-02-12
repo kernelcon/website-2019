@@ -276,7 +276,7 @@
     "abstract": "It's happened before and it will happen again: that one ancient business application that refuses to die. It's riddled with security holes and is so fragile that a strong gust of wind could take it down. I'll take three perspectives through moving that app into the micro-services climate. Builders, breakers and defenders each get tools and techniques on how this radically popular but 'equally ancient' technology can be their friend."
   },
   {
-    "title": "The Art and Science of Report Writing, or, How to present your penetration testing findings well",
+    "title": "The Art and Science of Report Writing",
     "speaker": "Michael Born",
     "company": "",
     "twitter": "@Blu3gl0w13",
@@ -284,7 +284,7 @@
     "linkedin": "/in/michael-born-89080324/",
     "image": "MichaelBorn",
     "length": "20",
-    "bio": "Michael Born has worked is a Sr. Security Consultant focusing primarily on Network and Application Security Assessments, Purple Team Assessments, and Mobile Application Security Assessments. Michael has earned several industry certifications, has presented locally in Omaha at various chapters of national organizations, he's served on the Chapter Board locally for OWASP, and has co-taught offensive Python courses at various AppSec USA and AppSec Europe conferences. Currently Michael is working on a cookbook style book for a well known publisher and is scheduled for release in the Fall of 2019.",
+    "bio": "Michael Born has worked as a Sr. Security Consultant focusing primarily on Network and Application Security Assessments, Purple Team Assessments, and Mobile Application Security Assessments. Michael has earned several industry certifications, has presented locally in Omaha at various chapters of national organizations, he's served on the Chapter Board locally for OWASP, and has co-taught offensive Python courses at various AppSec USA and AppSec Europe conferences. Currently Michael is working on a cookbook style book for a well known publisher and is scheduled for release in the Fall of 2019.",
     "abstract": "Over the past 17 years, working in various industries including Airport Weather Observation, Broadcast Communication, Video Engineering and Technology, and finally Information Security, I've learned a thing or two about presenting information. Specifically, how to present a topic that could stir negative emotions, in a way that is non-threatening. I'm a firm believer in presenting penetration testing findings in a way that communicate their urgency without presenting the information using a harsh tone of voice in the writing. This talk will give you, the audience, some useful communication tips on presenting Penetration Testing Findings in a way that doesn't stir negative emotions from the recipient. Tips will include communication styles per personality type, and what I call danger terms, which are words that have a harsh tone when presented in findings, along with alternative words that communicate more effectively."
   },
   {
@@ -393,7 +393,7 @@
     "image": "BlaineBurnham",
     "length": "50",
     "bio": "Blaine W. Burnham has dedicated many years to cybersecurity education as a founder of research organizations, first at the NSA and later at leading universities, where he worked to formalize undergraduate, master's and doctorate-level degree programs.",
-    "abstract": "We have been pouring (that might be something of an overstatement) money into computer Security research for decades.  How we doing? What have been the research priorities as stated by many of the funding agencies?  How we doing?  What is not getting done and why? What does the future portend, near and not so near?"
+    "abstract": "We have been pouring (that might be something of an overstatement) money into Computer Security research for decades.  How we doing? What have been the research priorities as stated by many of the funding agencies?  How we doing?  What is not getting done and why? What does the future portend, near and not so near?"
   },
   {
     "title": "SOC Transformation - From 3-Tier to Functional SOC",
