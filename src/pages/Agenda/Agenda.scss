@@ -1,4 +1,6 @@
 @import '../../static/styles/colors';
+@import '../../static/styles/variables';
+
 
 .speakers {
   .title {
@@ -129,3 +131,85 @@
     }
   }
 }
+
+
+
+
+/************
+    TALKS
+*************/
+.talks {
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .single-talk {
+    padding-bottom: 30px;
+
+    .talk-title {
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 900;
+      font-family: 'Jura', 'Roboto', sans-serif;
+    }
+
+
+    .talk-sub-title {
+      display: flex;
+      padding:  20px 0px;
+      align-items: center;
+
+      .speaker-name {
+        padding-right: 20px;
+        font-size: 20px;
+        font-family: 'Jura';
+        color: $gold;
+      }
+
+      .speaker-icon-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 20px;
+        border-left: 1px solid #777;
+
+        & :not(:first-child) {
+          margin-left: 20px;
+        }
+
+        .speaker-icons {
+          width: 20px;
+          fill: $gold;
+          display: flex;
+        }
+        .speaker-icons:hover{
+          cursor: pointer;
+          fill: #cfad7d;
+        }
+      }
+      .length {
+        white-space: nowrap;
+        font-family: 'Jura';
+        padding-left: 20px;
+        border-left: 1px solid #777;
+      }
+    }
+
+    .abstract {
+      font-family: 'Roboto', sans-serif;
+      line-height:20px;
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+  }
+}
+
+
+
+
+
+
+
+

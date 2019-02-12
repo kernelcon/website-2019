@@ -4,7 +4,7 @@ import MediaQuery from 'react-responsive';
 import './Agenda.scss';
 
 import Speakers from './Speakers';
-
+import Talks from './Talks';
 
 
 class Agenda extends Component {
@@ -44,8 +44,7 @@ class Agenda extends Component {
             <Speakers />
           </TabPanel>
           <TabPanel tabId="talks">
-            <h1>Talks</h1>
-            <h3>Coming Soon...</h3>
+            <Talks />
           </TabPanel>
           <TabPanel tabId="schedule">
             <h1>Schedule</h1>
