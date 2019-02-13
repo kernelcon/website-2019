@@ -2,6 +2,8 @@
   {
     "title": "DSLAMing: Testing WAN Services on DSL Modems",
     "speaker": "Nicholas Starke",
+    "talk_id": "dslam",
+    "speaker_id": "starke",
     "company": "Aruba Threat Labs",
     "twitter": "@nstarke",
     "github": "",
@@ -14,6 +16,8 @@
   {
     "title": "More Than Tor: Shining a Light on Different Corners of the Dark Web",
     "speaker": "Benjamin Brown",
+    "talk_id": "darkweb",
+    "speaker_id": "brown",
     "company": "Veracode",
     "twitter": "@ajnachakra",
     "github": "",
@@ -26,6 +30,8 @@
   {
     "title": "Social Forensication: A Multidisciplinary Approach to Successful Social Engineering",
     "speaker": "Joe Gray",
+    "talk_id": "socialforensication",
+    "speaker_id": "gray",
     "company": "",
     "twitter": "",
     "github": "",
@@ -38,6 +44,8 @@
   {
     "title": "Fuzzing with AFL",
     "speaker": "Dhiraj Mishra",
+    "talk_id": "afl",
+    "speaker_id": "mishra",
     "company": "",
     "twitter": "@mishradhiraj_",
     "github": "",
@@ -50,6 +58,8 @@
   {
     "title": "Chip-level vulnerability assessment using CHIPSEC and LuvOS",
     "speaker": "Dr. Jeffrey (Jeff) Struik",
+    "talk_id": "chipsec",
+    "speaker_id": "struik",
     "company": "",
     "twitter": "",
     "github": "",
@@ -62,6 +72,8 @@
   {
     "title": "Building the badge - How you can make small, cheap and custom hardware for function or fashion",
     "speaker": "James Dietle",
+    "talk_id": "badge",
+    "speaker_id": "dietle",
     "company": "",
     "twitter": "@jamesdietle",
     "github": "",
@@ -74,6 +86,8 @@
   {
     "title": "Python Obfucation and Evasion Techniques",
     "speaker": "Nick Beede",
+    "talk_id": "python",
+    "speaker_id": "beede",
     "company": "MITRE",
     "twitter": "",
     "github": "",
@@ -86,6 +100,8 @@
   {
     "title": "Dev[Sec]Ops != Dev[Suck]Ops: Mutual of Omaha's Journey Toward a DevOps Security Culture",
     "speaker": "Rob Temple",
+    "talk_id": "devsecops",
+    "speaker_id": "temple",
     "company": "Mutual of Omaha",
     "twitter": "",
     "github": "",
@@ -98,6 +114,8 @@
   {
     "title": "It's the little things",
     "speaker": "Ben Sadeghipour",
+    "talk_id": "littlethings",
+    "speaker_id": "sadeghipour",
     "company": "HackerOne",
     "twitter": "@nahamsec",
     "github": "https://github.com/nahamsec",
@@ -110,6 +128,8 @@
   {
     "title": "Capture the Flag != Pentest (and other Hackworthy shenanigans)",
     "speaker": "Mark Bayley",
+    "talk_id": "ctfnot",
+    "speaker_id": "bayley",
     "company": "",
     "twitter": "",
     "github": "",
@@ -122,6 +142,8 @@
   {
     "title": "Basics of Radio Hacking with RTL-SDR",
     "speaker": "Gus Gorman",
+    "talk_id": "rtlsdr",
+    "speaker_id": "gorman",
     "company": "",
     "twitter": "",
     "github": "",
@@ -134,6 +156,8 @@
   {
     "title": "Under the Unfluence: The Dark Side of Influence",
     "speaker": "Ron Woerner",
+    "talk_id": "unfluence",
+    "speaker_id": "worner",
     "company": "RWX Security Solutions",
     "twitter": "",
     "github": "",
@@ -146,6 +170,8 @@
   {
     "title": "Containers: Your Ally in Improving Security",
     "speaker": "Hillary Benson",
+    "talk_id": "containers",
+    "speaker_id": "benson",
     "company": "StackRox",
     "twitter": "",
     "github": "",
@@ -158,6 +184,8 @@
   {
     "title": "Stop talking about it? Mentoring the next generation",
     "speaker": "John Winger",
+    "talk_id": "mentor",
+    "speaker_id": "winger",
     "company": "",
     "twitter": "@kcgeek",
     "github": "",
@@ -170,6 +198,8 @@
   {
     "title": "Self Care in a 24/7 World",
     "speaker": "Justin Williams",
+    "talk_id": "selfcare",
+    "speaker_id": "williams",
     "company": "",
     "twitter": "",
     "github": "",
@@ -182,6 +212,8 @@
   {
     "title": "The Beginner's Guide to the Musical Scales of Cyberwar",
     "speaker": "Jessica 'Zhanna' Malekos Smith",
+    "talk_id": "cyberwar",
+    "speaker_id": "smith",
     "company": "",
     "twitter": "",
     "github": "",
@@ -194,6 +226,8 @@
   {
     "title": "Grapl - A Graph Analytics Platform for DFIR",
     "speaker": "Colin O'Brien",
+    "talk_id": "grapl",
+    "speaker_id": "obrien",
     "company": "Dropbox",
     "twitter": "@insanitybit",
     "github": "",
@@ -206,6 +240,8 @@
   {
     "title": "PCAP Feature Engineering for Machine Learning",
     "speaker": "Heather Lawrence",
+    "talk_id": "pcapml",
+    "speaker_id": "lawrence",
     "company": "NARI",
     "twitter": "@infosecanon",
     "github": "",
@@ -218,6 +254,8 @@
   {
     "title": "NTLM Relay Risk Is Coming: A New Exploit Technique Makes It Reborn",
     "speaker": "Wangyong Wang",
+    "talk_id": "ntlm",
+    "speaker_id": "wang",
     "company": "Qihoo 360",
     "twitter": "",
     "github": "",
@@ -230,6 +268,8 @@
   {
     "title": "HASSH it real good",
     "speaker": "Ben Reardon",
+    "talk_id": "hassh",
+    "speaker_id": "reardon",
     "company": "Salesforce",
     "twitter": "",
     "github": "",
@@ -242,6 +282,8 @@
   {
     "title": "Bushwacking your way around a bootloader",
     "speaker": "Rebecca (.bx) Shapiro",
+    "talk_id": "bushwacking",
+    "speaker_id": "shapiro",
     "company": "Narf Industries",
     "twitter": "",
     "github": "",
@@ -254,6 +296,8 @@
   {
     "title": "IPv6 Security, or... How Not to Deploy IPv6",
     "speaker": "Mark Ciecior",
+    "talk_id": "ipv6",
+    "speaker_id": "ciecior",
     "company": "",
     "twitter": "@mciecior",
     "github": "",
@@ -266,6 +310,8 @@
   {
     "title": "Detasseling Docker and Other Kernel Related Protections",
     "speaker": "Zach Giezen",
+    "talk_id": "docker",
+    "speaker_id": "giezen",
     "company": "",
     "twitter": "@cf_man",
     "github": "",
@@ -278,6 +324,8 @@
   {
     "title": "The Art and Science of Report Writing",
     "speaker": "Michael Born",
+    "talk_id": "reports",
+    "speaker_id": "born",
     "company": "",
     "twitter": "@Blu3gl0w13",
     "github": "",
@@ -290,6 +338,8 @@
   {
     "title": "The Power of Physical Access",
     "speaker": "Ian Trent",
+    "talk_id": "physical",
+    "speaker_id": "trent",
     "company": "",
     "twitter": "",
     "github": "",
@@ -302,6 +352,8 @@
   {
     "title": "Business Email Compromise (BEC) - The Highly Effective Evolution of Nigerian Fraud Schemes",
     "speaker": "Jake Foiles",
+    "talk_id": "bec",
+    "speaker_id": "foiles",
     "company": "FBI",
     "twitter": "",
     "github": "",
@@ -314,6 +366,8 @@
   {
     "title": "Security of Industrial Control Systems: How IEC 62443 Can Help",
     "speaker": "Alex Nicoll",
+    "talk_id": "iec",
+    "speaker_id": "nicoll",
     "company": "Rockwell Automation",
     "twitter": "",
     "github": "",
@@ -326,6 +380,8 @@
   {
     "title": "MacOS host monitoring - the open source way",
     "speaker": "Michael George",
+    "talk_id": "macos",
+    "speaker_id": "george",
     "company": "Dropbox",
     "twitter": "",
     "github": "",
@@ -338,6 +394,8 @@
   {
     "title": "WTF, 2FA!? - Y U No Protect Me?",
     "speaker": "Christine Seeman",
+    "talk_id": "2fa",
+    "speaker_id": "seeman",
     "company": "Flywheel",
     "twitter": "",
     "github": "",
@@ -350,6 +408,8 @@
   {
     "title": "Building an Application Security Program from Scratch",
     "speaker": "Douglas Swartz",
+    "talk_id": "appsec",
+    "speaker_id": "swartz",
     "company": "",
     "twitter": "",
     "github": "",
@@ -362,6 +422,8 @@
   {
     "title": "Neurodiversity in the workplace",
     "speaker": "Carla Raisler & George Walker",
+    "talk_id": "neuro",
+    "speaker_id": "raiker",
     "company": "",
     "twitter": "@KyCarla",
     "github": "",
@@ -374,6 +436,8 @@
   {
     "title": "Note from Underground: Compromised Credentials",
     "speaker": "Brian C. Carter",
+    "talk_id": "creds",
+    "speaker_id": "carter",
     "company": "",
     "twitter": "",
     "github": "",
@@ -386,6 +450,8 @@
   {
     "title": "An Overview of hard research problems in Computer Security; Something of a Historical Perspective",
     "speaker": "Blaine Burnham, PhD",
+    "talk_id": "research",
+    "speaker_id": "burnham",
     "company": "",
     "twitter": "",
     "github": "",
@@ -398,6 +464,8 @@
   {
     "title": "SOC Transformation - From 3-Tier to Functional SOC",
     "speaker": "Kevin Houle",
+    "talk_id": "soc",
+    "speaker_id": "houle",
     "company": "",
     "twitter": "",
     "github": "",
@@ -410,6 +478,8 @@
   {
     "title": "What's a Ghidra, and why should you care?",
     "speaker": "Chris Eagle",
+    "talk_id": "ghidra",
+    "speaker_id": "eagle",
     "company": "",
     "twitter": "@sk3wl",
     "github": "",
@@ -422,6 +492,8 @@
   {
     "title": "Cybersecurity Education: Inside and Out",
     "speaker": "Jessica Rooney & Owen Parkins",
+    "talk_id": "edu",
+    "speaker_id": "rookins",
     "company": "",
     "twitter": "",
     "github": "",
@@ -434,6 +506,8 @@
   {
     "title": "Building Security Playbooks 101",
     "speaker": "Lior Kolnik",
+    "talk_id": "playbook",
+    "speaker_id": "kolnik",
     "company": "Demisto",
     "twitter": "",
     "github": "",

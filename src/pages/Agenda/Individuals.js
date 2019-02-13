@@ -10,6 +10,8 @@ class Individuals extends Component {
   }
 
   static propTypes = {
+    speaker_id: PropTypes.string,
+    talk_id: PropTypes.string,
     speaker: PropTypes.string,
     company: PropTypes.string,
     twitter: PropTypes.string,
@@ -18,6 +20,8 @@ class Individuals extends Component {
   };
 
   static defaultProps = {
+    speaker_id: '',
+    talk_id: '',
     speaker: '',
     company: '',
     twitter: '',
@@ -30,14 +34,28 @@ class Individuals extends Component {
     return imgSrc;
   }
 
+  changeTab(id) {
+    window.location.reload(false); 
+    // const url = window.location.href.split('#')[0];
+    // console.log(url)
+    // console.log('gets to changeTab: ', id);
+    // window.location.href = `#${id}`;
+  }
+
   render() {
     const imgSrc = this.getImage(this.props.image);
 
     return (
-      <div className='individual-speaker-section'>
+      <div id={this.props.speaker_id}
+        className='individual-speaker-section'>
         <div className='speaker-wording'>
           <span>
-          <h3>{this.props.speaker}</h3>
+          <h3>
+            <a onClick={() => {this.changeTab(this.props.talk_id)}} 
+              href={`#talks`}>
+              {this.props.speaker}
+            </a>
+          </h3>
           {(this.props.company || this.props.twitter) && <span className='speaker-titles'>
             {this.props.company && <span>{this.props.company}</span>}
             {this.props.twitter && <span>{this.props.twitter}</span>}

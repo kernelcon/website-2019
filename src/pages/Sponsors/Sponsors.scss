@@ -27,6 +27,13 @@
       text-transform: uppercase;
     }
 
+    .two-line {   
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 0vw 5vw;
+    }
     .spons-img {
       max-width:100%;
       max-height:100%;
@@ -34,6 +41,9 @@
 
     .gold-spons {
       width: calc(30vh + 30vw);
+    }
+    .half-gold-spons {
+      width: calc(12vh + 12vw);
     }
     .silver-spons {
       width: calc(25vh + 25vw);

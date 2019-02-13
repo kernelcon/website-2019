@@ -14,6 +14,15 @@ class Talks extends Component {
   static propTypes = {};
   static defaultProps = {};
 
+
+  changeTab(id) {
+    window.location.reload(false); 
+    // const url = window.location.href.split('#')[0];
+    // console.log(url)
+    // console.log('gets to changeTab: ', id);
+    // window.location.href = `#${id}`;
+  }
+
   getTalks() {
     // Order Alphabetically
     const talksOrdered = speakerConfig.sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0));
@@ -22,10 +31,15 @@ class Talks extends Component {
       const twitterUrl = ele.twitter.replace('@', '');
 
       return (
-        <div className='single-talk'>
+        <div id={ele.talk_id}
+          key={idx}
+          className='single-talk'>
           <div className='talk-title'>{ele.title}</div>
           <div className='talk-sub-title'>
-            <div className='speaker-name'>{ele.speaker}</div>
+            <div className='speaker-name'>
+              <a onClick={() => {this.changeTab(ele.speaker_id)}}
+                href={`#speakers`}>{ele.speaker}</a>
+            </div>
             {(ele.twitter || ele.github || ele.linkedin) && <div className='speaker-icon-bar'>
               {ele.twitter && <span className='speaker-icons'>
                 <a href={`https://twitter.com/${twitterUrl}`}

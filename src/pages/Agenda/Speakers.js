@@ -43,6 +43,8 @@ class Speakers extends Component {
 
       return (
         <Individuals key={idx}
+          speaker_id={ele.speaker_id}
+          talk_id={ele.talk_id}
           speaker={ele.speaker} 
           company={ele.company}
           twitter={ele.twitter}

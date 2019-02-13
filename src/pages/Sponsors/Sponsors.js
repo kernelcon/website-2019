@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Sponsors.scss';
 import swlogo from '../../static/images/swlogo.svg';
 import fnbo from '../../static/images/fnbo.png';
+import fnts from '../../static/images/fnbo2.jpg';
 import nttlogo from '../../static/images/ntt-logo.png';
 import toool from '../../static/images/toool.svg';
 
@@ -43,14 +44,23 @@ class Sponsors extends Component {
                   className='spons-img gold-spons'
                   alt="Secure Works"/>
               </a>
-              <h3 className='gold'>Silver</h3>
-              <a href="https://fnbo.com/"
-                target="_blank"
-                rel='noopener noreferrer'>
-                <img src={fnbo}
-                  className='spons-img other-spons'
-                  alt="First National Bank"/>
-              </a>
+              <div className='two-line'>
+                <a href="https://fnbo.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={fnbo}
+                    className='spons-img half-gold-spons'
+                    alt="First National Bank"/>
+                </a>
+                <a href="https://www.fnts.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={fnts}
+                    className='spons-img half-gold-spons'
+                    alt="First National Technology Solutions"/>
+                </a>
+              </div>
+              {/* <h3 className='gold'>Silver</h3> */}
 
               <h4 className='gold'>Party Sponsor</h4>
               <a href="https://www.nttsecurity.com/en-us"
