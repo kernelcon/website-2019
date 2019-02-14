@@ -21,31 +21,38 @@ class Agenda extends Component {
     this.setState({
       defaultTab: defaultTab
     });
-    //window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
-    window.addEventListener('hashchange', this.handleHashChange(), false);
+    this.handleHashChange();
+    window.addEventListener('hashchange', this.handleHashChange);
   }
-
-  handleHashChange() {
-    const hash = window.location.hash;
-    const hashesIReactTo = [
+  handleHashChange = () => {
+    // given `#speakers/dave` now you have tabName='speakers', speakerHash='dave'
+    const [tabName, speakerHash] = window.location.hash.replace('#', '').split('/');
+    const tabNamesToWatchFor = [
       'schedule',
       'speakers'
     ];
-    if (hashesIReactTo.includes(hash)) {
+    if (tabNamesToWatchFor.includes(tabName)) {
       this.setState({
-        defaultTab: hash
+        defaultTab: tabName,
+        // pass this.state.speakerHash to <Speakers/> and use this for scrollIntoView in componentDidMount
+        speakerHash: speakerHash
       });
     }
   }
 
   changeTab(tabId) {
-    window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
+    const [currentTabName] = window.location.hash.replace('#', '').split('/');
+    // don't push a state if the hash change is what triggered this change in the first place
+    if (currentTabName !== tabId) {
+      window.history.pushState(this.props.location.pathname, '', `#${tabId}`);
+    }
   }
 
   getTabs(vert) {
     return (
       <Tabs key={this.state.defaultTab}
         defaultTab={this.state.defaultTab}
+        onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList vertical>
           <Tab tabFor="schedule">Schedule</Tab>
@@ -56,7 +63,7 @@ class Agenda extends Component {
             <Schedule />
           </TabPanel>
           <TabPanel tabId="speakers">
-            <Speakers />
+            <Speakers speakerHash={this.state.speakerHash}/>
           </TabPanel>
         </span>
       </Tabs>
@@ -68,7 +75,7 @@ class Agenda extends Component {
       <div id='main_hero' className=''>
         <div className='container'>
           <div className='venue-section'>
-            <h1 className='title'>Tentative Agenda</h1>
+            <h1 className='title'>Agenda</h1>
               <MediaQuery minDeviceWidth={761}>
                 {this.getTabs(true)}
               </MediaQuery>

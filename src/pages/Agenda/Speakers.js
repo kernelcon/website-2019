@@ -14,6 +14,23 @@ class Speakers extends Component {
     super(props);
     this.state = {}
   }
+  componentDidMount() {
+    this.handleScrollToSpeaker(this.props.speakerHash);
+  }
+  componentDidUpdate(prevProps) {
+    if (prevProps.speakerHash !== this.props.speakerHash) {
+      this.handleScrollToSpeaker(this.props.speakerHash);
+    }
+  }
+  handleScrollToSpeaker = hash => {
+      window.setTimeout(() => {
+        const ele = document.querySelector(`#${hash}`);
+        if (ele) {
+          ele.scrollIntoView();
+        }
+      // leave 1 full second for page to finish rendering lol... There's probably a better way/time than this
+      }, 1000)
+  }
 
   getRandomKernel(lengthOfArray, indexToExclude, secondLastKernelIndex) {
     // This function just grabs a random index that wasn't one of the last two.
