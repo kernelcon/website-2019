@@ -4,8 +4,7 @@ import MediaQuery from 'react-responsive';
 import './Agenda.scss';
 
 import Speakers from './Speakers';
-import Talks from './Talks';
-
+import Schedule from './Schedule';
 
 class Agenda extends Component {
   static displayName = 'Agenda';
@@ -13,12 +12,12 @@ class Agenda extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      defaultTab: 'speakers'
+      defaultTab: 'schedule'
     }
   }
 
   componentWillMount() {
-    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'speakers';
+    const defaultTab = this.props.location.hash ? this.props.location.hash.split('#')[1] : 'schedule';
     this.setState({
       defaultTab: defaultTab
     });
@@ -35,20 +34,15 @@ class Agenda extends Component {
         onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList vertical>
-          <Tab tabFor="speakers">Speakers</Tab>
-          <Tab tabFor="talks">Talks</Tab>
           <Tab tabFor="schedule">Schedule</Tab>
+          <Tab tabFor="speakers">Speakers</Tab>
         </TabList>
         <span>
+          <TabPanel tabId="schedule">
+            <Schedule />
+          </TabPanel>
           <TabPanel tabId="speakers">
             <Speakers />
-          </TabPanel>
-          <TabPanel tabId="talks">
-            <Talks />
-          </TabPanel>
-          <TabPanel tabId="schedule">
-            <h1>Schedule</h1>
-            <h3>Coming Soon...</h3>
           </TabPanel>
         </span>
       </Tabs>
