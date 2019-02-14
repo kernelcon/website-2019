@@ -516,5 +516,35 @@
     "length": "50",
     "bio": "Lior has spent the past decade working on various security projects, spanning from reverse engineering to designing and developing secure systems. Currently, Lior is working as Head of Security Research at Demisto, where he and his team investigate new threats and build security playbooks to arm the next generation of blue teams. Before joining Demisto in 2016, Lior served 7 years in an elite technological unit of the IDF and studied for his M.Sc in CompSci.",
     "abstract": "SOC and IR professionals are required to use myriad different tools and services to handle alerts and investigate cases, including EDR, Sandboxes, SIEM, pDNS, TIPs and more. Working through all of these GUIs is time consuming and has a learning curve due to the hundreds of different tools and vendors out there - every environment will have different tools. False positives must often be identified manually due to the lack of direct communication between the siloed tools."
+  },
+  {
+    "title": "Friday Keynote",
+    "speaker": "Dave Kennedy",
+    "talk_id": "keynotefri",
+    "speaker_id": "davek",
+    "company": "TrustedSec",
+    "twitter": "@HackingDave",
+    "github": "",
+    "linkedin": "",
+    "image": "",
+    "length": "50",
+    "bio": "David Kennedy is the founder of TrustedSec, Binary Defense Systems (BD) and DerbyCon, a large-scale information security conference. David is an avid gamer, father of three, and passionate about coding. David previously was a Chief Security Officer (CSO) for a Fortune 1000 company with offices in over 77 countries. Considered a forward thinker in the security field, he is a keynote speaker at some of the nation’s largest conferences in addition to guest appearances on Fox News, CNN, CNBC, MSNBC, Bloomberg and the BBC. His has advised on several TV shows and assisted in some of the content for the popular “Mr. Robot” series. David has testified in front of US Congress on multiple occasions on the threats faced in security and the government space. A prolific author, he is also the creator of several widely popular open-source tools including “The Social-Engineer Toolkit” (SET). Prior to the private sector, he worked in the United States Marines (USMC) for cyber warfare and forensics analysis activities for the intelligence community including two tours to Iraq.",
+    "abstract": "TBA",
+    "hidden": "true"
+  },
+  {
+    "title": "Saturday Keynote",
+    "speaker": "Dan Tentler (Viss)",
+    "talk_id": "keynotesat",
+    "speaker_id": "viss",
+    "company": "Phobos Group",
+    "twitter": "@Viss",
+    "github": "",
+    "linkedin": "",
+    "image": "",
+    "length": "50",
+    "bio": "Dan Tentler is the Executive Founder of Phobos Group. He's got a long history of both attack and defense roles, as well as public speaking engagements and press interviews. He is a professional troublemaker and gets excited about getting on stage to share stories about troublemaking, and tips on how to make trouble.",
+    "abstract": "Do you keep expensive stuff in your hotel room? Did defcon last year completely chap your ass? Do you like the idea of having visibility of your expensive stuff when you're not in your hotel room? I got you covered. I travel quite a lot for work and I carry lots of expensive things around. I've learned how to deploy 'tells', as well as a slurry of cameras in hotel rooms in an effort to keep tabs on things. This talk will elaborate on stories and experiences, talk about how to build hotel room networks, and cover some of the camera models I bought and use. What's good, What's bad, and how you can fall into this rabbit hole too.",
+    "hidden": "true"
   }
 ]

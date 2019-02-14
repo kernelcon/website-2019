@@ -140,7 +140,7 @@ class Schedule extends Component {
               <span className="talk-time">0750</span>
               <span>Opening Remarks</span>
             </div></a>
-            <a className="both-tracks"><div className="box">
+            <a className="both-tracks" href="#keynotefri"><div className="box">
               <span className="talk-time">0800</span>
               <span>Keynote: Dave Kennedy</span>
             </div></a>
@@ -247,9 +247,9 @@ class Schedule extends Component {
             <div className="schedule both-tracks">{`${day}Speaking Schedule`}</div>
             <div className="track">Track 1</div>
             <div className="track">Track 2</div>
-            <a className="both-tracks"><div className="box">
+            <a className="both-tracks" href="#keynotesat"><div className="box">
               <span className="talk-time">0800</span>
-              <span>Keynote: Viss</span>
+              <span>Keynote: Dan Tentler (Viss)</span>
             </div></a>
             <a href="#cyberwar"><div className="box">
               <span className="talk-time">0900</span>

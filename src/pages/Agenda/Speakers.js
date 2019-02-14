@@ -33,7 +33,12 @@ class Speakers extends Component {
     // Because of the way I stack two per row, get a new kernel that's not it's neighbor either up or down.
     let lastKernelIndex = 99;
     let secondLastKernelIndex = 100;
-    const speakerGroup = speakers.map((ele, idx) => {
+    const speakerGroup = speakers.filter((el) => {
+      if (el.hidden === "true") {
+        return false;
+      }
+      return true;
+    }).map((ele, idx) => {
       const randKernel = this.getRandomKernel(17, lastKernelIndex, secondLastKernelIndex);
       secondLastKernelIndex = lastKernelIndex;
       lastKernelIndex = randKernel;
