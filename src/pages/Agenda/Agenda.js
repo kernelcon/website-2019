@@ -22,6 +22,20 @@ class Agenda extends Component {
       defaultTab: defaultTab
     });
     //window.history.pushState(this.props.location.pathname, '', `#${defaultTab}`);
+    window.addEventListener('hashchange', this.handleHashChange(), false);
+  }
+
+  handleHashChange() {
+    const hash = window.location.hash;
+    const hashesIReactTo = [
+      'schedule',
+      'speakers'
+    ];
+    if (hashesIReactTo.includes(hash)) {
+      this.setState({
+        defaultTab: hash
+      });
+    }
   }
 
   changeTab(tabId) {
@@ -30,8 +44,8 @@ class Agenda extends Component {
 
   getTabs(vert) {
     return (
-      <Tabs defaultTab={this.state.defaultTab}
-        onChange={(tabId) => { this.changeTab(tabId) }}
+      <Tabs key={this.state.defaultTab}
+        defaultTab={this.state.defaultTab}
         vertical={vert}>
         <TabList vertical>
           <Tab tabFor="schedule">Schedule</Tab>
@@ -54,7 +68,7 @@ class Agenda extends Component {
       <div id='main_hero' className=''>
         <div className='container'>
           <div className='venue-section'>
-            <h1 className='title'>Agenda</h1>
+            <h1 className='title'>Tentative Agenda</h1>
               <MediaQuery minDeviceWidth={761}>
                 {this.getTabs(true)}
               </MediaQuery>

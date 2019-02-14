@@ -17,8 +17,8 @@ import Dates from './pages/Dates/Dates';
 import Register from './pages/Registration/Registration';
 import About from './pages/About/About';
 import CallForPapers from './pages/CallForPapers/CallForPapers';
-import Con from './pages/Con/Con';
-import Bio from './pages/Con/Bio';
+import Conf from './pages/Conf/Conf';
+import Bio from './pages/Conf/Bio';
 import Emails from './pages/Emails/Emails';
 
 class App extends Component {
@@ -42,7 +42,7 @@ class App extends Component {
             <Route exact path="/register" component={Register} />
             <Route exact path="/about" component={About} />
             <Route exact path="/call-for-papers" component={CallForPapers} />
-            <Route exact path="/con" component={Con} />
+            <Route exact path="/con" component={Conf} />
             <Route path="/bio" component={Bio} />
             <Route path="/email" component={Emails} />
           </div>
