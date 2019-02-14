@@ -186,7 +186,7 @@ class Schedule extends Component {
             </div></a>
             <a className="both-tracks"><div className="box">
               <span className="talk-time">1200</span>
-              <span>Lunch</span>
+              <span>Break for Lunch</span>
             </div></a>
             <a href="#python"><div className="box">
               <span className="talk-time">1300</span>
@@ -277,7 +277,7 @@ class Schedule extends Component {
             </div></a>
             <a className="both-tracks"><div className="box">
               <span className="talk-time">1200</span>
-              <span>Lunch</span>
+              <span>Break for Lunch</span>
             </div></a>
             <a href="#socialforensication"><div className="box">
               <span className="talk-time">1300</span>
