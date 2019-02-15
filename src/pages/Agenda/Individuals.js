@@ -48,7 +48,7 @@ class Individuals extends Component {
           <span>
           <h3>
             <a onClick={() => {this.changeTab(this.props.talk_id)}} 
-              href={`#talks`}>
+              href={`#schedule`}>
               {this.props.speaker}
             </a>
           </h3>
