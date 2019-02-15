@@ -10,6 +10,7 @@
     "linkedin": "",
     "image": "NickStarke",
     "length": "50",
+    "technical": "3.5",
     "bio": "Nicholas Starke is a Threat Researcher at Aruba Threat Labs where he conducts network security research on enterprise networking hardware. Aruba Threat Labs serves as the Red Team for Aruba Networks, an HPE Company. Nick is a transplant to Des Moines, IA and a proud member of SecDSM. SecDSM is a security user group focused on Infosec Education in Iowa.",
     "abstract": "IoT Testing, particularly for consumer grade networking devices, can be difficult when the device doesn't use 802.11 or RJ45 for IP traffic.  Take for example the DSL Modem: one of the most commonly deployed networking devices for home users.  A typical DSL Modem will have one or more RJ45 LAN ports, but testing the WAN port proves problematic: most DSL Modems use RJ14 ports for the WAN!  Enter the DSLAM.  The DSLAM is the head end unit for DSL Modems.  We'll talk about the underlying technologies used in communicating with the head end system (DSLAM) as well as how you can source, setup, and successfully test WAN services on a DSL modem using a DSLAM. We'll also talk about why you might want to do this and what you might find."
   },
@@ -24,6 +25,7 @@
     "linkedin": "",
     "image": "BenjaminBrown",
     "length": "50",
+    "technical": "3",
     "bio": "Benjamin Brown’s current research focuses on emerging technology areas where security research is novel such as IoT, AI/ML, cryptocurrencies, the dark web, and new underground digital economies. This leads to speaking engagements, publications, and media interaction to assist in generating new and expanded security insights and knowledge stores. His day job is with CA | Veracode where he integrates his anthropology and international relations degrees with security research into large-scale, internet-level problems. Hobbies include blacksmithing, competitive axe throwing, Software-defined radio (SDR), and hiking.",
     "abstract": "When the terms darknet or dark web are invoked it is almost always in reference to the Tor network, but what about the other extant darknet frameworks? A true understanding of the dark web would be impossible and misleading if it only included the Tor network. In this talk I will expand the field of view to include frameworks such as Freenet, I2P, and OpenBazaar. We’ll take a quick look at the origins and technical underpinnings of these darknets as well as their actors and offerings. I will also discuss the differentiators that set these networks apart from Tor and highlight why they too should be included in modeling our knowledge of the dark web. Audience members will walk away with a fuller understanding of the internet’s hidden corners, the goals of it’s users, and the technologies that help keep them in the dark."
   },
@@ -38,6 +40,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "3.141592654",
     "bio": "Joe Gray joined the U.S. Navy directly out of High School and served for 7 years as a Submarine Navigation Electronics Technician. Joe is currently a Senior Security Architect and maintains his own blog and podcast called Advanced Persistent Security. In his spare time, Joe enjoys attending information security conferences, contributing blogs to various outlets, and flying his drone. Joe is the inaugural winner of the DerbyCon Social Engineering Capture the Flag (SECTF) and was awarded a DerbyCon Black Badge. Joe has contributed material for the likes of AlienVault, ITSP Magazine, CSO Online, and Dark Reading.",
     "abstract": "This presentation outlines a new twist on an existing social engineering attack. In the past, we have worked on getting users to plug in USB devices to drop malicious documents and executables. While this attack sometimes proves our point, it is the tip of the iceberg that can be done. Enter Social Forensication. This is a two-pronged attack, consisting first of collecting a memory image for offsite offensive forensic analysis, the second being a rogue Wi-Fi access point attack. During this presentation, we will walk through the steps to perform each attack. Since defense is just as (if not more) important as the attack itself, we will also discuss mitigations (technical and procedural) and relevant windows detections for these attacks."
   },
@@ -52,6 +55,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "3",
     "bio": "An active speaker and a bug hunter, Dhiraj has discovered multiple zero days in modern web browsers and is a Metasploit Contributor. His work has been published on TheHackerNews, TheRegister, ZDNet & BleepingComputer.",
     "abstract": "The talk focuses on fuzzing approach that can be used to uncover different types of vulnerabilities on open source project. It will also introduce the general idea and the approach to fuzz real-life targets using AFL."
   },
@@ -66,6 +70,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "4",
     "bio": "Dr. Struik has 10+ years of cybersecurity experience primarily in the defense industry. His primary interests are embedded systems security, board-level security, and sharing knowledge with future cybersecurity professionals.",
     "abstract": "ardware level vulnerability assessment is becoming increasingly important with the increase of state-sponsored threats. The ability to perform chip-level vulnerability assessments provides valuable insights for security managers, specifically for critical assets. This presentation demonstrates the value of using CHIPSEC and LuvOS to conduct chip-level vulnerability assessments. The presentation will provide a demonstration of the various functions of CHIPSEC and LuvOS and will also examine how to install and use CHIPSEC for the purpose of hardware, firmware, and chip-level vulnerability assessments."
   },
@@ -80,6 +85,7 @@
     "linkedin": "/in/jamesdietle",
     "image": "JamesDietle",
     "length": "50",
+    "technical": "2",
     "bio": "James is a computer enthusiast who started off slinging CAT5, coax and silver satin in exchange for ice cream at the age of eight. As a naval officer in the intelligence community, he worked with NSA across the world and has over 13 years of Information Technology management experience. More recently he has been burning out GPUs, stopping criminals, and spreading comradery through cheap pcb.",
     "abstract": "Drawn to increase in neck bling that people wear around looking like futuristic disco balls? Curious about the rise of IoT and how you can start making your hardware for tests?  Want to make your own blinking monstrosity that can scare the cat and blind your neighbors. Cheap PCB fab houses and some free software offers the ability to make all these oddly specific dreams come true. This talk will cover an overview of how you can get your board designed, printed and distributed for your next event without going broke in the process."
   },
@@ -94,6 +100,7 @@
     "linkedin": "",
     "image": "NickBeede",
     "length": "20",
+    "technical": "4",
     "bio": "Nick is a security professional based in the Washington, DC area. He spends most of his time reverse engineering malware and developing new ways to improve digital forensics. Nick graduated from the University of Nebraska at Omaha in 2013 and when he's not staring at assembly you can find him climbing up or snowboarding down any mountain he can find.",
     "abstract": "Python was designed for rapid development and ease of use which allows for complex tasks to be completed much faster than its counterparts. However, by nature of the language it can be reverse engineered much faster than a compiled language. This limits the language's potential to be used for developing malware and other nefarious tools. We have surveyed current obfuscation and anti-reversing techniques available to harden Python code. We propose that implementing the most advanced and effective obfuscation techniques currently requires too much effort for adversaries at this time, but that situation may rapidly change as frameworks and tools evolve. Our presentation will discuss obfuscation techniques currently seen in the wild and available to adversaries, as well as more advanced techniques that malware analysts should be prepared for in the future."
   },
@@ -108,6 +115,7 @@
     "linkedin": "/in/robtemple",
     "image": "",
     "length": "20",
+    "technical": "3",
     "bio": "Rob is a Software Security Engineer and the lead security advisor on the DevOps Delivery & Practice team at Mutual of Omaha. Rob is current member and past President of the OWASP Omaha Chapter as well as member of the newly formed Cloud Security Alliance (CSA) DevSecOps Working Group. Coming from several years as a software developer, his recent mission has been to help design automated software assurance processes and solutions that plug-n-play into native developer workflows.",
     "abstract": "The traditional approach to software security testing typically involves some form of human interaction. It is accompanied by long wait times, and large, overwhelming scan results. This hardly lives up to the automation hype of the DevOps culture. With the traditional model, follow-up remediation typically includes lengthy conversations with security engineers to a back-and-forth fix and retest cycle. This process is often an afterthought towards the end of the SDLC when code fixes are costly and deployment schedules are tight. The traditional approach does not scale with today's software engineering demands. DevOps, 12 Factor apps, quick agile iterations, and aggressive deployment schedules require security to operate at a new speed; the speed of DevSecOps.  How many product owners have had to hit the pause button on a roll-out in order to complete a full SAST or DAST of the entire world before going live? Traditional find, fix, rinse, and repeat methods are being upstaged by more streamlined solutions that integrate directly into the developer's native workflow allowing a real-world shift-left. This includes allowing the developer to interact with SAST/DAST/IAST/Open Source Monitoring from their development workspace, and also in the CI/CD pipeline. Advanced DevSecOps implementations facilitate agility, early fixes, open source visualization, and developer-centric tooling that give dev teams much more control over secure coding models."
   },
@@ -122,6 +130,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "",
     "bio": "Ben is a part of the Hacker Operations team at HackerOne, the #1 most popular bug bounty platform by day, and a hacker by night. Prior to joining HackerOne, he has helped identify and exploit over 500 security vulnerabilities across 100s of web and mobile applications for companies such as Yahoo, Airbnb, Snapchat, The US Department of Defense, Yelp, Github, and more. He also invested time in the security community, by creating a community of 200+ active hackers who share ideas and their experience. He has also held a few free workshops and trainings to teach others about security and web application hacking.",
     "abstract": "Reconnaissance plays a huge role while hacking. While there are 100s of different tools available to make this process easier, you may not be maximizing your recon process without a working methodology. This methodology helps create an automated process that will actively look for vulnerabilities using OSINT and other well known recon tools."
   },
@@ -136,6 +145,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "2",
     "bio": "Mark is a Penetration Tester by day and Adjunct Professor of IT Security by night. He has recently competed in the SANS Tournament of Champions in Washington, D.C after taking first at a regional tournament. He is also active in SecKC where he has given talks and runs the mentoring program to help connect veteran security professionals with budding hackers looking for a way to ‘break in’ to the industry.",
     "abstract": "Capture the flags are a great way to gain talent and increase technical skill. They’re fun, they bring people together (many who admittedly don’t like to be “together” under normal circumstances), and sites like hackthebox can show you some really unusual and unorthodox ways to break into stuff you’ve probably never considered. Despite their fun and popularity, however, capture the flag events do not always translate into real skill as a penetration tester."
   },
@@ -150,6 +160,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "2",
     "bio": "Bioinformatician by day, hobbyist hacker by night with interest in hardware and wireless security.",
     "abstract": "Radio security is often times neglected because they are only subject  to domestic/local threats (physical access). This has left many radio protocols  vulnerable to a variety of easy attacksTalk will focus on using  inexpensive($20-30) RTL-SDR to intercept & decode various wireless signals,  including train telemetry, alarm sensors, smart meters, garage doors, and  infrastructure communications. Decode and cloning techniques/hardware will also be covered."
   },
@@ -164,6 +175,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "3",
     "bio": "Ron Woerner, CISSP, CISM has over 25 years of IT Security experience and is a noted consultant, speaker and writer in the Security industry. As President / Chief Trusted Advisor at RWX Security Solutions, he works as an IT Security Consultant performing security audit and risk assessments for all types international organizations. He is a featured speaker at the (ISC)2, ISACA, and RSA conferences. Ron was the AFA CyberPatriot Mentor of the Year in 2014. Ron loves to talk to others who are passionate about Security and Privacy.",
     "abstract": "Unfluence is the negative side of influence. It’s a common form of manipulation used to trick people into giving up their access or information. In this talk, the speaker demonstrates principles of influence and psychology and how black hat hackers use them on their victims. You need to identify and stop them before you, your clients, and your employees under their unfluence. Learn how here."
   },
@@ -178,6 +190,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "1",
     "bio": "Hillary Benson is Senior Product Manager at StackRox, where she drives product strategy for the StackRox Container Security Platform. Prior to her current role, she worked as a Software Engineer and Red Team Operator at Intuit, and served as a technical intelligence analyst and collector with the National Security Agency. Hillary holds an S.B. in Management Science from MIT and an M.S. in Security Studies from the Georgetown Walsh School of Foreign Service.",
     "abstract": "Container and orchestration technologies have brought new standard interfaces to the way applications are built, deployed, and operated. In this session, we’ll show how security, development, and operations teams can speak the common “language” of Kubernetes to operationalize security controls and risk management with greater precision, testability, and clarity than before. We’ll give a brief overview of key container and orchestration technologies and show how to put specific features to work for better security, with live examples."
   },
@@ -192,6 +205,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "1",
     "bio": "John Winger is a veteran, dad, hacker and just happens to work in information security, John has been involved in IT professionally for nearly 20 years the last 10 years have been focused on information security. He spends his spare time supporting local Kansas City security groups like SecKC, Missouri Innovation Campus and Summit Technology Academy. John is the founder of BsidesKC and an active organizer plus an OG member of SecKC. John is an AFA Cyber Patriot technical mentor at Summit Technology Academy in Lee’s Summit Missouri.",
     "abstract": "Seems like all you read in the twitter verse and in the news is about the shortage of information security talent. This session will highlight personal experiences in mentoring the next generation of information security practicioners and give some options on how to get involved. It will also feature some positive outcomes from giving up some of your precious free time. This talk is for anyone who is sitting on the fence or wonders how they can make a difference."
   },
@@ -206,6 +220,7 @@
     "linkedin": "",
     "image": "JustinWilliams",
     "length": "50",
+    "technical": "1",
     "bio": "Justin Williams is currently working in an Information Security Manager role with a background in numerous areas of Information Technology and Information Security. He runs a blog for newcomers to security, is very active in the Omaha security community. His primary areas of focus of late are in new and exciting automation ideas, improving defense strategies, and boundary defense in zero trust models.",
     "abstract": "This talk will focus on a period of my life where I was facing incredible burnout while working in IT while ignoring red flags.  It will then cover how I switched to Information Security, but apply the lessons learned from my past life in IT to avoid that same scenario from ever re-occurring.  The takeaway will be importance of self care."
   },
@@ -220,6 +235,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "1",
     "bio": "Jessica 'Zhanna' Malekos Smith is the Reuben Everett Cyber Scholar at Duke University Law School. Previously, she served as a Captain in the U.S. Air Force Judge Advocate General’s Corps. Prior to military service, Malekos Smith was a post-doctoral fellow at the Belfer Center’s Cyber Security Project at the Harvard Kennedy School. She holds a J.D. from the University of California, Davis; a B.A. from Wellesley College, where she was a Fellow of the Madeleine Korbel Albright Institute for Global Affairs; and is finishing her M.A. with the Department of War Studies at King’s College London.",
     "abstract": "Whether you have a background in technology, academia, or national security, this talk is a beginner’s guide to understanding the law of war in cyberspace. By juxtaposing the law of war with a piano keyboard, the process of how states evaluate the scale and effects of a cyber operation and determine a basis for resorting to a use of force under the Law of Armed Conflict, can be more readily conceptualized. For if music is indeed, the universal language of mankind, then by encouraging society to learn about this area we can collectively better strategize ways to mitigate cyber conflict."
   },
@@ -234,6 +250,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "2",
     "bio": "Colin began his career in DFIR at Rapid7, where he helped to build attacker signatures for customers of the InsightIDR Platform. Colin is currently employed by Dropbox on the Detection and Response Team.",
     "abstract": "Traditionally, detection has been performed on point anomalies - a log comes in, the log is analyzed, and a decision is made to alert based on that analysis. Similarly, investigations are based on searches over isolated events - an alert fires and you manually try to find related events based on ad-hoc queries. Grapl aims to move beyond individual events as the fundamental abstraction and focus instead on relationships. Logs are parsed into graph representations and merged into a master graph representing all actions occurring across your environments. This approach allows for relationship-based detections (ex: word isn't scary, and bash isn't scary, but word spawning bash is scary) and more efficient, ergonomic investigations. Grapl handles the work of turning logs into subgraphs, orchestrating signatures executing across the graph, and automatically scoping investigations through expansion of the graph. I hope to demonstrate the benefits of a Graph based approach to DFIR, and how Grapl can aid in that approach."
   },
@@ -248,6 +265,7 @@
     "linkedin": "",
     "image": "HeatherLawrence",
     "length": "20",
+    "technical": "3",
     "bio": "Heather is a data scientist for the Nebraska Applied Research Institute who earned her undergraduate and masters degrees in Computer Engineering from the University of Central Florida. In previous lives she was a USN nuke, VA photographer, NCCDC winner, Hack@UCF mom, and darknet marketplace miner. Her current research centers on the application of machine learning to intrusion detection.",
     "abstract": "Once signature-based methods of intrusion detection were considered fallible, we turned to machine learning to detect malicious traffic. Each machine learning algorithm is only as effective as the data its fed and the data points, also called features, used to train it. This talk will discuss feature engineering of network traffic in a pcap format including a discussion of recent research on features that can help detect malicious traffic when deep packet inspection capabilities are lost in TLS 1.3."
   },
@@ -262,6 +280,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "5",
     "bio": "Yongtao Wang(sanr) works in Qihoo 360, a senior security researcher in PegasusTeam team. He specializes in penetration testing and wireless security research. He has extensive experience in security research and penetration testing. He is a lecturer at the China Internet Security Conference (ISC) security training camp, Blackhat, etc. Conference speaker.",
     "abstract": "NTLM relay attacks have been around for more than a decade. The oldest method is SMB Relay, which can be traced back to a security tool released by Sir Dystic in 2001, it needs to be emphasized that it's independent of application layer protocol (such as SMB). In fact, there is a security issue in the NT-LAN-Manager authentication protocol."
   },
@@ -276,6 +295,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "",
     "bio": "Ben is a member of the Detection Cloud team at Salesforce. Based in Australia, he has been involved in Information Security R&D, Detection, Incident Response, Intelligence. Investigations, and Data Visualization since the early days of Internet banking malware around 2003.",
     "abstract": "Is that SSH client/server really what it says it is ? Now you can tell this and more - with HASSH!  Looking for signals in the initialization of encrypted communication channels is not a new concept. There are many examples of fingerprinting both unencrypted and encrypted protocols such as TLS. However somewhat surprisingly, no open source scalable fingerprinting method has been developed for one of our most common and relied upon encrypted protocols SSH — an integral component of the internet. Enter, the HASSH. HASSH is a network fingerprinting standard invented within the Detection Cloud team at Salesforce. It can be used to help identify specific Client and Server SSH implementations. These fingerprints can be easily stored, searched and shared in the form of a standard string of summary text, a hassh for the Client and hasshServer for the Server.  Gaining a greater insight into the observable nature of SSH clients and servers opens up a few really interesting possibilities. HASSH can highlight Deceptive implementations, Detect novel exfiltration attempts within the SSH negotiation packets themselves, baseline devices including IOT devices, make a passive assessment of patch levels of SSH servers and clients, and can easily detect anomalous SSH components in highly controlled well understood operational environments. Further to Detection uses, HASSH can also be built into the control pipeline as an active component."
   },
@@ -290,6 +310,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "4",
     "bio": "Rebecca “.bx” Shapiro enjoys tinkering with systems in undocumented manners to find hidden sources of computation. She has previously studied the weird machines present in application linkers and loaders, publishing some nifty PoC along the way, but has since turned her focus towards the kinds of loaders that bootstrap systems. .bx is currently a senior security researcher at Narf Industries.",
     "abstract": "Even when you have access to some binary’s source code, it can still be challenging to un- derstand said software. In this talk, I will discuss the techniques and tools I developed in order to understand and navigate the pile of code that is the open-source Das U-Boot bootloader. The tools I developed do not rely on proprietary software and instead make use of free and powerful debugging tools such as Capstone, Unicorn, and the GDB Python plugin API. My approach strives to highlight the temporal and mechanical connections that exist between higher-level behaviors and regions of the code base/binary by instrumenting, tracing, and analyzing all memory writes with respect to the software’s current execution path. This technique allows us to develop and test our understanding of the relationships between code and objects (data structures and/or regions of memory). I will discuss how these tools and techniques can be used to identify and distinguish between different phases of U-Boot execution (including distinct phases of initialization and relocation) and then show how such information can be used to design a coarse-grained memory region-based access control policy."
   },
@@ -304,6 +325,7 @@
     "linkedin": "/in/markciecior/",
     "image": "MarkCiecior",
     "length": "50",
+    "technical": "3.8",
     "bio": "Mark is a network engineer, dual-CCIE, husband, father, RAGBRAI rider, Scott Frost-advocate, and taxpaying citizen.",
     "abstract": "IPv6 has been the Next Big Thing for at least 20 years. Yet few organizations have deployed it since RFC 1883 was formalized in 1995. Or have they? Google has measured US IPv6 adoption at over 35%. Over 25% of the Alexa Top 1000 sites are IPv6-enabled. Chances are good you (and your users) have used IPv6 as well. Was your deployment planned? Did you address common vulnerabilities? Or do you just want to wreak havoc on your local IT guy? Come learn about the state of IPv6 security. All motivations are welcome."
   },
@@ -318,6 +340,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "2.5",
     "bio": "Zach has many years of appsec and development experience; he currently works as a defender for a large payment processor. In his spare time he likes to be with his wife and four children, ride his Harley, go target shooting, 3d print everything, teach computer science courses for his homeschool cooperative, and rock a drum set if there’s any time left!",
     "abstract": "It's happened before and it will happen again: that one ancient business application that refuses to die. It's riddled with security holes and is so fragile that a strong gust of wind could take it down. I'll take three perspectives through moving that app into the micro-services climate. Builders, breakers and defenders each get tools and techniques on how this radically popular but 'equally ancient' technology can be their friend."
   },
@@ -332,6 +355,7 @@
     "linkedin": "/in/michael-born-89080324/",
     "image": "MichaelBorn",
     "length": "20",
+    "technical": "1",
     "bio": "Michael Born has worked as a Sr. Security Consultant focusing primarily on Network and Application Security Assessments, Purple Team Assessments, and Mobile Application Security Assessments. Michael has earned several industry certifications, has presented locally in Omaha at various chapters of national organizations, he's served on the Chapter Board locally for OWASP, and has co-taught offensive Python courses at various AppSec USA and AppSec Europe conferences. Currently Michael is working on a cookbook style book for a well known publisher and is scheduled for release in the Fall of 2019.",
     "abstract": "Over the past 17 years, working in various industries including Airport Weather Observation, Broadcast Communication, Video Engineering and Technology, and finally Information Security, I've learned a thing or two about presenting information. Specifically, how to present a topic that could stir negative emotions, in a way that is non-threatening. I'm a firm believer in presenting penetration testing findings in a way that communicate their urgency without presenting the information using a harsh tone of voice in the writing. This talk will give you, the audience, some useful communication tips on presenting Penetration Testing Findings in a way that doesn't stir negative emotions from the recipient. Tips will include communication styles per personality type, and what I call danger terms, which are words that have a harsh tone when presented in findings, along with alternative words that communicate more effectively."
   },
@@ -346,6 +370,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "2",
     "bio": "Ian recently moved from Florida to Nebraska to get in on the fantastic weather here. His playful attitude towards security has fueled most of his career which has primarily revolved around embedded assembly, the Linux kernel, and exploit development/mitigation.",
     "abstract": "With the glaring financial strain put on the video game industry by hackers, they were among the first private-sector industries to truly focus on security and push for keeping attackers out, but in the face of physical access all their provisions, and yours, are razed in the blink of an eye by adversaries with little to no funding for the project. This will contain a brief history of DRM in the video game industry, how those measures have failed, and why they ultimately always will with an inspection of the Nintendo Switch modding community and the devastating capabilities developed there less than 2 years from the launch date."
   },
@@ -360,6 +385,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "2",
     "bio": "FBI Special Agent assigned to the Omaha Division's Cyber Squad.",
     "abstract": "According to the Internet Crime Complaint Center (IC3.gov), Business Email Compromise and other related schemes account for over half of all cyber crime losses.  Learn what BEC is and how you can join the fight against this exploding cyber crime type."
   },
@@ -374,6 +400,7 @@
     "linkedin": "",
     "image": "AlexNicoll",
     "length": "50",
+    "technical": "2",
     "bio": "Alex Nicoll is a member of the Advanced Technology division at Rockwell Automation. As an Industrial Security Architect, Alex works across all of Rockwell’s business units to identify trends and needs in Information Assurance, and helps to lay the ground work for integrating new innovations and technologies into Rockwell Automation products.",
     "abstract": "The IEC 62443 series of standards describes a set of industrial control system security standards that apply to asset owners, system integrators, and product suppliers. There are substantial challenges in applying these standards to existing technologies, but adoption of these standards is beginning to be seen as table stakes by the discrete manufacturing and process communities. This talk will discuss a high level overview of the IEC 62443 series of standards, and some of the challenges in applying them to an industrial control environment. Specific focus will be placed on new initiatives in the industry as a result of a renewed focus on cybersecurity."
   },
@@ -388,6 +415,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "4",
     "bio": "Michael works on the DART team @ Dropbox. Michael has spent a lot of time investigating macOS host-monitoring solutions.",
     "abstract": "I will talk about a example piece of malware(Handbrake/Proton) and how you can use open source tooling detection tooling to do detection and light forensics. Since I will be talking about the handbrake malware, I will also be sharing some of the TTPs the malware used if you want to find this activity in your fleet."
   },
@@ -402,6 +430,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "3",
     "bio": "Christine is from Omaha, Nebraska where she works as a full stack Ruby on Rails engineer at Flywheel, WordPress hosting for creatives. She has 12 years experience as a Java software engineer with a focus on APIs, incorporating security through the whole SDLC and micro-services and took the plunge into Ruby just this May. In her spare time she is an avid long form reader, lover of all true-crime podcasts and is attempting to work through the primary Ashtanga yoga series. ",
     "abstract": "An exploration of two factor authentication from a developers prospective, and why it is so hard to find two factor implementation best practices. Attendees will come out of this talk learning some trials and tribulations of a real life implementation of two factor authentication, why the sms based authentication is by far the least secure, and why two factor is not the security bandage that it is billed to be."
   },
@@ -416,6 +445,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "1",
     "bio": "Doug is a software developer. He fell into application security a while ago when helping to design two factor authentication for a 2400 baud dial-up application. After that, security became an avocation. Now it is his vocation. Doug has a life outside of technology.",
     "abstract": "Have you spent lots of money on firewalls. network security, intrusion detection, and exfiltration prevention? What about the glaring hole left even after all that expenditure: Applications. Join me as I take you through a journey from no application security program at all, to five years later. We'll explore what my team did right, and our failures. I'll provide you with pointers to application security resources, and a possible approach to get started. If your company hasn't headed off on the application security journey yet, maybe you can avoid some of our mis-steps."
   },
@@ -430,6 +460,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "1",
     "bio": "Carla Raisler is a security professional in the healthcare industry. She works to build diverse teams and support understanding throughout the infosec community. She’s also spent a couple of decades in the Army National Guard as a signal officer. George Walker is an autistic security professional in the utility industry who has learned to cope with politicized, neurotypical corporate environments, largely through trial and error. Outside the office, George has worked with people all over the spectrum in schools, workplaces, bars, his home, and the first autism-access camp at Burning Man, Camp Shiney.",
     "abstract": "A neurotypical coworker and a neurodiverse coworker walk into a meeting. The rest of that story depends on how we choose to understand one another and adjust our communication styles. Listen as two security professionals discuss how they’ve learned to communicate with people on and off the spectrum. George will explain about what he hears when Carla skips from subject to subject, and Carla will talk about listening to George go into detail about subjects he is interested in. In addition, both Carla and George will talk about the importance of diversity on our teams and throughout the information security community."
   },
@@ -444,6 +475,7 @@
     "linkedin": "",
     "image": "BrianCarter",
     "length": "50",
+    "technical": "3",
     "bio": "Brian Carter has split his career working as an intelligence analyst and more recently in computer network defense. He spends most of his time working on threat intelligence research and consulting for incidents and SOC issues. Brian lives in Indianapolis.",
     "abstract": "'Notes from Underground:  Compromised Credentials' presents several novel use cases for collecting, enriching, and searching so-called dumps of stolen online accounts.  Although there are many commercial offerings and some free search tools, these tend to focus on the obvious use of stolen credentials to notify potential victims to change their account password.  Victim notification is an important use of the data but researchers can also benefit from collecting and analyzing all of the other relevant details such as IP addresses, user handles, password choice, dates, and sometimes information collected by malicious software.  The audience will see tools to parse, enrich, and format stolen data along with multiple ways to index it, search it, and visualize it.  The tools will be made available publicly at the time of the presentation using GitLab.  Although the presenter cannot give away the data in bulk, sources of compromised credentials will be shared."
   },
@@ -458,6 +490,7 @@
     "linkedin": "",
     "image": "BlaineBurnham",
     "length": "50",
+    "technical": "1",
     "bio": "Blaine W. Burnham has dedicated many years to cybersecurity education as a founder of research organizations, first at the NSA and later at leading universities, where he worked to formalize undergraduate, master's and doctorate-level degree programs.",
     "abstract": "We have been pouring (that might be something of an overstatement) money into Computer Security research for decades.  How we doing? What have been the research priorities as stated by many of the funding agencies?  How we doing?  What is not getting done and why? What does the future portend, near and not so near?"
   },
@@ -472,6 +505,7 @@
     "linkedin": "",
     "image": "KevinHoule",
     "length": "20",
+    "technical": "1",
     "bio": "Kevin has a 29 year career spanning the telecom/ISP, CSIRT, security vendor, and enterprise security spaces. He's helped build ISPs, applied research programs, security research teams, threat intelligence capabilities, and security operations centers. In his spare time he enjoys family, woodworking, and boating.",
     "abstract": "There are many ways to organize a Security Operations Center (SOC). Among the most pervasive models is the 3-tier SOC model. This talk explores one organization's journey to transform away from a 3-tier SOC model to a functional SOC model focused on Detection, Monitoring, and Response. Discussion includes reasons for making the change and lessons learned along the way."
   },
@@ -486,6 +520,7 @@
     "linkedin": "",
     "image": "ChrisEagle",
     "length": "20",
+    "technical": "3",
     "bio": "Chris Eagle has been a computer engineer/scientist for over 30 years, his research interests include computer network operations, computer forensics and reverse/anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA's Cyber Grand Challenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of 'The IDA Pro Book'. In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon.",
     "abstract": "The NSA recently announced that they will be releasing one of their in-house  reverse engineering tools, named GHIDRA, to the public on March 5th at RSA USA 2019 (https://bit.ly/2sO1GBt). GHIDRA is a disassembler with a feature set similar to  that of IDA Pro. In this talk we will highlight GHIDRA's feature set, compare and contrast it with IDA Pro, point out some of its strengths and weaknesses, all in an attempt to help you decide whether GHIDRA or worth adopting for your  reverse engineering needs."
   },
@@ -500,6 +535,7 @@
     "linkedin": "",
     "image": "",
     "length": "20",
+    "technical": "1",
     "bio": "Jessica Rooney and Owen Parkins are students at New Mexico Institute of Mining and Technology pursuing their Masters' degrees in Computer Science with a focus in cybersecurity. It has not been scientifically proven that they share a brain though there have been recorded instances of this claim. Both presenters enjoy performing red team exercises, nerding out about exploits, and racing up the stairs.",
     "abstract": "Cybersecurity is a developing field that is difficult to learn and even more difficult to teach. This talk describes the challenges of learning various aspects of cybersecurity and of teaching it from the perspective of cybersecurity-focused college seniors. The speakers provide unique perspectives on the state of cybersecurity education in universities, and how this education is helping and hindering students in preparation for the workforce."
   },
@@ -514,6 +550,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "3",
     "bio": "Lior has spent the past decade working on various security projects, spanning from reverse engineering to designing and developing secure systems. Currently, Lior is working as Head of Security Research at Demisto, where he and his team investigate new threats and build security playbooks to arm the next generation of blue teams. Before joining Demisto in 2016, Lior served 7 years in an elite technological unit of the IDF and studied for his M.Sc in CompSci.",
     "abstract": "SOC and IR professionals are required to use myriad different tools and services to handle alerts and investigate cases, including EDR, Sandboxes, SIEM, pDNS, TIPs and more. Working through all of these GUIs is time consuming and has a learning curve due to the hundreds of different tools and vendors out there - every environment will have different tools. False positives must often be identified manually due to the lack of direct communication between the siloed tools."
   },
@@ -528,6 +565,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "",
     "bio": "David Kennedy is the founder of TrustedSec, Binary Defense Systems (BD) and DerbyCon, a large-scale information security conference. David is an avid gamer, father of three, and passionate about coding. David previously was a Chief Security Officer (CSO) for a Fortune 1000 company with offices in over 77 countries. Considered a forward thinker in the security field, he is a keynote speaker at some of the nation’s largest conferences in addition to guest appearances on Fox News, CNN, CNBC, MSNBC, Bloomberg and the BBC. His has advised on several TV shows and assisted in some of the content for the popular “Mr. Robot” series. David has testified in front of US Congress on multiple occasions on the threats faced in security and the government space. A prolific author, he is also the creator of several widely popular open-source tools including “The Social-Engineer Toolkit” (SET). Prior to the private sector, he worked in the United States Marines (USMC) for cyber warfare and forensics analysis activities for the intelligence community including two tours to Iraq.",
     "abstract": "TBA",
     "hidden": "true"
@@ -543,6 +581,7 @@
     "linkedin": "",
     "image": "",
     "length": "50",
+    "technical": "",
     "bio": "Dan Tentler is the Executive Founder of Phobos Group. He's got a long history of both attack and defense roles, as well as public speaking engagements and press interviews. He is a professional troublemaker and gets excited about getting on stage to share stories about troublemaking, and tips on how to make trouble.",
     "abstract": "Do you keep expensive stuff in your hotel room? Did defcon last year completely chap your ass? Do you like the idea of having visibility of your expensive stuff when you're not in your hotel room? I got you covered. I travel quite a lot for work and I carry lots of expensive things around. I've learned how to deploy 'tells', as well as a slurry of cameras in hotel rooms in an effort to keep tabs on things. This talk will elaborate on stories and experiences, talk about how to build hotel room networks, and cover some of the camera models I bought and use. What's good, What's bad, and how you can fall into this rabbit hole too.",
     "hidden": "true"

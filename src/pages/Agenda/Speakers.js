@@ -14,6 +14,23 @@ class Speakers extends Component {
     super(props);
     this.state = {}
   }
+  componentDidMount() {
+    this.handleScrollToSpeaker(this.props.speakerHash);
+  }
+  componentDidUpdate(prevProps) {
+    if (prevProps.speakerHash !== this.props.speakerHash) {
+      this.handleScrollToSpeaker(this.props.speakerHash);
+    }
+  }
+  handleScrollToSpeaker = hash => {
+      window.setTimeout(() => {
+        const ele = document.querySelector(`#${hash}`);
+        if (ele) {
+          ele.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+        }
+      // leave 1 full second for page to finish rendering lol... There's probably a better way/time than this
+      }, 500)
+  }
 
   getRandomKernel(lengthOfArray, indexToExclude, secondLastKernelIndex) {
     // This function just grabs a random index that wasn't one of the last two.
@@ -69,7 +86,7 @@ class Speakers extends Component {
         <div className='container'>
           <div className='speakers'>
             <h1 className='title'>Keynotes</h1>
-            <div className='keynote-section'>
+            <div id="davek" className='keynote-section'>
               <div className='keynote-text-area'>
                 <h2>David Kennedy</h2>
                 <h3 className='bio-title'>
@@ -96,7 +113,7 @@ class Speakers extends Component {
                   alt='Dan Tentler'
                   width='240'/>
               </div>
-              <div className='keynote-image-area'>
+              <div id="viss" className='keynote-image-area'>
                 <h2>Dan Tentler</h2>
                 <h3 className='bio-title'>
                   <a href='https://phobos.io/'

@@ -203,8 +203,19 @@
       .length {
         white-space: nowrap;
         font-family: 'Jura';
-        padding-left: 20px;
+        padding: 0px 20px;
         border-left: 1px solid #777;
+        border-right: 1px solid #777;
+      }
+      .technical {
+        margin-left: 20px;
+        font-family: 'Jura';
+        display: flex;
+        align-items: center;
+
+        .tech-label {
+          padding-left: 30px;
+        }
       }
     }
 
@@ -385,7 +396,9 @@
       display: flex;
       width: 50px !important;
       margin-right: 10px;
+      margin-bottom: 10px;
     }
+
   }
   .schedule {
     justify-content: center;

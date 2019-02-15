@@ -36,10 +36,6 @@ class Individuals extends Component {
 
   changeTab(id) {
     window.location.reload(false); 
-    // const url = window.location.href.split('#')[0];
-    // console.log(url)
-    // console.log('gets to changeTab: ', id);
-    // window.location.href = `#${id}`;
   }
 
   render() {

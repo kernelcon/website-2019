@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import speakerConfig from 'speakerConfig';
+import DonutChart from '../../components/Charts/Donut.js';
 import './Agenda.scss';
 
 class Schedule extends Component {
@@ -27,6 +28,7 @@ class Schedule extends Component {
     
     const talks = talksOrdered.map((ele, idx) => {
       const twitterUrl = ele.twitter.replace('@', '');
+      const percentTechnical = (ele.technical / 5) * 100;
 
       return (
         <div id={ele.talk_id}
@@ -36,7 +38,7 @@ class Schedule extends Component {
           <div className='talk-sub-title'>
             <div className='speaker-name'>
               <a onClick={() => {this.changeTab(ele.speaker_id)}}
-                href={`#speakers`}>{ele.speaker}</a>
+                href={`#speakers/${ele.speaker_id}`}>{ele.speaker}</a>
             </div>
             {(ele.twitter || ele.github || ele.linkedin) && <div className='speaker-icon-bar'>
               {ele.twitter && <span className='speaker-icons'>
@@ -83,6 +85,10 @@ class Schedule extends Component {
               </span>}
             </div>}
             <div className='length'>{`${ele.length} minutes`}</div>
+            {ele.technical && <div className='technical'>
+              <DonutChart value={percentTechnical} />
+              <span className='tech-label'>% technical</span>
+            </div>}
           </div>
           <div className='abstract'>
             {ele.abstract}
@@ -115,20 +121,20 @@ class Schedule extends Component {
         <ul className='tabs'>
             <li>
                 <input type='radio'
-                  onClick={() => {this.toggleDate('Friday')}}
+                  onChange={() => {this.toggleDate('Friday')}}
                   name='tabs'
                   id='tab1'
                   checked={this.state.showFriday} />
-                <label for='tab1'>Friday<span>5</span></label>
+                <label htmlFor='tab1'>Friday<span>5</span></label>
             </li>
           
             <li>
                 <input type='radio'
-                  onClick={() => {this.toggleDate('Saturday')}}
+                  onChange={() => {this.toggleDate('Saturday')}}
                   name='tabs'
                   id='tab2' 
                   checked={this.state.showSaturday} />
-                <label for='tab2'>Saturday<span>6</span></label>
+                <label htmlFor='tab2'>Saturday<span>6</span></label>
             </li>
         </ul>
         {this.state.showFriday && 
