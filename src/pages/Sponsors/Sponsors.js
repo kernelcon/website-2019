@@ -5,6 +5,7 @@ import fnbo from '../../static/images/fnbo.png';
 import fnts from '../../static/images/fnbo2.jpg';
 import nttlogo from '../../static/images/ntt-logo.png';
 import toool from '../../static/images/toool.svg';
+import caglogo from '../../static/images/conagra.png';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -61,6 +62,14 @@ class Sponsors extends Component {
                 </a>
               </div>
               {/* <h3 className='gold'>Silver</h3> */}
+              <h3 className='gold'>Bronze</h3>
+              <a href="https://www.conagrabrands.com/"
+                target="_blank"
+                rel='noopener noreferrer'>
+                <img src={caglogo}
+                  className='spons-img other-spons'
+                  alt="ConAgra"/>
+              </a>
 
               <h4 className='gold'>Party Sponsor</h4>
               <a href="https://www.nttsecurity.com/en-us"

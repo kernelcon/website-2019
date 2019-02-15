@@ -25,6 +25,7 @@
       font-weight: 900;
       font-size: calc(2.5vh + 2.5vw);
       text-transform: uppercase;
+      margin-top:20px;
     }
 
     .two-line {   
@@ -33,6 +34,7 @@
       align-items: center;
       justify-content: space-evenly;
       padding: 0vw 5vw;
+      margin-bottom: 30px;
     }
     .spons-img {
       max-width:100%;
@@ -40,17 +42,18 @@
     }
 
     .gold-spons {
-      width: calc(30vh + 30vw);
+      max-width: calc(30vh + 30vw);
     }
     .half-gold-spons {
-      width: calc(12vh + 12vw);
+      max-width: calc(12vh + 12vw);
     }
     .silver-spons {
-      width: calc(25vh + 25vw);
+      max-width: calc(25vh + 25vw);
     }
 
     .other-spons {
-      width: calc(20vh + 20vw);
+      max-width: calc(20vh + 20vw);
+      max-height: calc(15vh + 5vw);
     }
 
     .spons-text-block {
