@@ -94,8 +94,8 @@ class Venue extends Component {
           <div className='amnenities-list'>
             <div className='venue-hotel-info'>
                <div className='venue-text'>We have a special Kernelcon room block!</div>
-               <div className='venue-sub-text'>The URL is <a href='http://group.embassysuites.com/KernelCon2019'>http://group.embassysuites.com/KernelCon2019</a>.</div>
-               <div className='venue-sub-text'>When making phone reservations, please use the Hotel Code: <b>OMADT</b> and Group Code: <b>NSC</b>. </div>
+               <div className='about-sub-text'>The URL is <a className='gold' href='http://group.embassysuites.com/KernelCon2019'>http://group.embassysuites.com/KernelCon2019</a>.</div>
+               <div className='about-sub-text'>When making phone reservations, please use the Hotel Code: <b>OMADT</b> and Group Code: <b>NSC</b>. </div>
             </div>
           </div>
           <div className='amnenities-list'>
@@ -123,16 +123,16 @@ class Venue extends Component {
         </TabPanel>
         <TabPanel tabId="omaha">
           <div className='tab-title'>Why Omaha?</div>
-          <p className='venue-sub-text'>Kernelcon was founded with one goal in mind:</p>
+          <p className='about-sub-text'>Kernelcon was founded with one goal in mind:</p>
           <p className='venue-hightlight-text'> To be the midwest's premier information security conference.</p>
-          <p className='venue-sub-text'>Therefore, the event needs to be centrally located, with a large local infosec community. Omaha has three universities certified as Centers of Academic Excellence through the NSA, multiple local cyber security groups such as <a href="http://dc402.org" rel="noopener noreferrer" target="_blank">DEF CON 402</a>, <a href="https://www.nebraskacert.org/" rel="noopener noreferrer" target="_blank">NebraskaCERT</a>, and <a href="https://www.unomaha.edu/college-of-information-science-and-technology/school-of-interdisciplinary-informatics/student-involvement/index.php" rel="noopener noreferrer" target="_blank">NULLify</a>, and plenty of opportunities in the information security field.</p>
-          <p className='venue-sub-text'>Kernelcon will be held in the heart of Omaha’s historic Old Market, alongside the Missouri River.  The Old Market is the hub of Omaha’s nightlife, with excellent bars, breweries, restaurants and shops all around.</p>
-          <p className='venue-sub-text'>Our venue, the Embassy Suites Omaha, is a quick drive/shuttle ride from Omaha Eppley Airfield.  Omaha is less than a day’s drive from many large cities in the Midwest and is an easy flight from both coasts.  Pack your bags and plan for a trip where the people are friendly, the steaks are fresh, and hacking goes all night.</p>
+          <p className='about-sub-text'>Therefore, the event needs to be centrally located, with a large local infosec community. Omaha has three universities certified as Centers of Academic Excellence through the NSA, multiple local cyber security groups such as <a className='gold' href="http://dc402.org" rel="noopener noreferrer" target="_blank">DEF CON 402</a>, <a className='gold' href="https://www.nebraskacert.org/" rel="noopener noreferrer" target="_blank">NebraskaCERT</a>, and <a className='gold' href="https://www.unomaha.edu/college-of-information-science-and-technology/school-of-interdisciplinary-informatics/student-involvement/index.php" rel="noopener noreferrer" target="_blank">NULLify</a>, and plenty of opportunities in the information security field.</p>
+          <p className='about-sub-text'>Kernelcon will be held in the heart of Omaha’s historic Old Market, alongside the Missouri River.  The Old Market is the hub of Omaha’s nightlife, with excellent bars, breweries, restaurants and shops all around.</p>
+          <p className='about-sub-text'>Our venue, the Embassy Suites Omaha, is a quick drive/shuttle ride from Omaha Eppley Airfield.  Omaha is less than a day’s drive from many large cities in the Midwest and is an easy flight from both coasts.  Pack your bags and plan for a trip where the people are friendly, the steaks are fresh, and hacking goes all night.</p>
         </TabPanel>
         <TabPanel tabId="parking">
           <div className='tab-title'>Where to Park</div>
-          <p className='venue-sub-text'>For the locals:</p>
-          <p className='venue-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
+          <p className='about-sub-text'>For the locals:</p>
+          <p className='about-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
           <img className='parking-map' src={parking} height="400" alt="parking-map"/>
         </TabPanel>
       </Tabs>

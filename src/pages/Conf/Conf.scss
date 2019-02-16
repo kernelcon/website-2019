@@ -28,11 +28,13 @@
       flex-direction: row;
       padding-top: 10px;
       line-height: 20px;
+      margin-bottom: 10px;
     }
 
     .event-bullet-list {
       list-style-position: outside;
       padding-left: 20px;
+      margin: 15px 0px;
       
       .event-bullet-header {
         font-weight: 500;

@@ -44,9 +44,9 @@ class About extends Component {
         <span>
           <TabPanel tabId="kernelcon">
             <div className='tab-title'>About Kernelcon</div>
-            <p className='venue-sub-text'>Kernelcon is the result of many motivated information security professionals who recognized the opportunity to create an awesome security conference in Omaha.  The idea for Kernelcon started within the local DEF CON Group, <a href="http://dc402.org" rel="noopener noreferrer" target="_blank">DC402</a>, with lots of help from other members of other local security groups such as <a href="https://www.nebraskacert.org/" rel="noopener noreferrer" target="_blank">NebraskaCERT</a> and <a href="https://www.owasp.org/index.php/Omaha" rel="noopener noreferrer" target="_blank">OWASP</a>.  We are inspired by many other conferences including DEF CON, DerbyCon, ShmooCon, etc., and wanted to bring those same experiences to the Mid-West here in Omaha.</p>
-            <p className='venue-sub-text'>Our goal is to make Omaha an annual destination for security professionals around the world that want to have a unique conference experience.</p>
-            <p className='venue-sub-text'>We hope you enjoy the conference as much as we did planning it.</p>
+            <p className='about-sub-text'>Kernelcon is the result of many motivated information security professionals who recognized the opportunity to create an awesome security conference in Omaha.  The idea for Kernelcon started within the local DEF CON Group, <a className="gold" href="http://dc402.org" rel="noopener noreferrer" target="_blank">DC402</a>, with lots of help from other members of other local security groups such as <a className="gold" href="https://www.nebraskacert.org/" rel="noopener noreferrer" target="_blank">NebraskaCERT</a> and <a className="gold" href="https://www.owasp.org/index.php/Omaha" rel="noopener noreferrer" target="_blank">OWASP</a>.  We are inspired by many other conferences including DEF CON, DerbyCon, ShmooCon, etc., and wanted to bring those same experiences to the Mid-West here in Omaha.</p>
+            <p className='about-sub-text'>Our goal is to make Omaha an annual destination for security professionals around the world that want to have a unique conference experience.</p>
+            <p className='about-sub-text'>We hope you enjoy the conference as much as we did planning it.</p>
           </TabPanel>
           <TabPanel tabId="code-of-conduct">
             <CodeOfConduct />

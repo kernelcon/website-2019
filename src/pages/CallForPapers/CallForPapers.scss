@@ -6,7 +6,6 @@
   font-weight: 300 !important;
 }
 
-
 .image-area {
   float: right;
   padding: 40px 10px 10px 20px;
@@ -18,4 +17,15 @@
 
 .closed {
   color: #e00000;
+}
+
+.cfp-text-block {
+  ul, ol {
+    margin-left: 40px;
+  }
+
+  .tab-title {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
 }
