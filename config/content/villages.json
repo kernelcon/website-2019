@@ -10,7 +10,11 @@
       "href": "https://docs.google.com/forms/d/e/1FAIpQLSfvwmkMpL0wSYpe8TNnLQb1Ag3VwDlbf9Xp2KcmLpLNSqDlZQ/viewform?usp=sf_link",
       "title": "Register Now"
     }]
-  },
+  }, 
+  {
+   "title": "Hardware Hacking Village",
+   "description": "Have you ever wanted to learn how to solder and create something tangible?  Come join us in the Hardware Hacking Village, where you can meet the people that created the electronic Kernelcon badge, and have an opportunity to modify it as much as you want.  There will also be small electronics kits available for everyone to practice thier soldering skills on.  Please feel free to bring your own electronics projects and equipment!"
+  }, 
   {
     "title": "Chillout Room",
     "description": "Want a break from the con or just a place to relax?  Come hang out in the Chillout room with all your hacker friends!  We've got video games, music, free popcorn and other activities.  We will have Retro-Raspberry-Pi devices for all types of gaming emulation and maybe even a video game tournament or two!"
