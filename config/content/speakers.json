@@ -570,6 +570,21 @@
     "abstract": "Machine learning is the new hype in security to defend, detect, and respond. Equip yourself to critically evaluate the foundations of next generation AI-powered cybersecurity tools by understanding key machine learning algorithms, training methodologies, development options, and machine learning examples for attacker behavior detection. Cut through the hyperbole and empower yourself to ask insightful and probing questions that validate or expose vendor claims around AI."
   },
   {
+    "title": "Pen Testing VS Red Teaming and how to get more from your pen test reports",
+    "speaker": "Sampson Chandler",
+    "talk_id": "ptvsrt",
+    "speaker_id": "chandler",
+    "company": "RSA",
+    "twitter": "@SecuritySampson",
+    "github": "",
+    "linkedin": "",
+    "image": "",
+    "length": "50",
+    "technical": "1",
+    "bio": "As a Senior Analyst at RSA Security, Sampson Chandler has helped numerous clients during audits, penetration tests, vulnerability scans, and improved the security posture of many fortune 500 companies including the DoD.",
+    "abstract": "What is the difference between a penetration tester and a person on a red team? Why does it matter?  Are you getting the most out of your penetration reports? Clearly identifying what our role is, and how we explain our investigations, is how we justify our position. Are we just checking a box in an audit, just pointing out weaknesses, or are we improving the corporation's security posture while providing value? In this talk, I will discuss the major differences between penetration testers and red teams, how each effects a corporation, how each acts differently, the importance of each, how to improve your penetration tests reports, and why they need to be improved."
+  },
+  {
     "title": "Friday Keynote",
     "speaker": "Dave Kennedy",
     "talk_id": "keynotefri",
