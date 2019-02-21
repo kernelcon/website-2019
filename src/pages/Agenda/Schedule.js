@@ -168,7 +168,7 @@ class Schedule extends Component {
             </div></a>
             <a href="#devsecops"><div className="box">
               <span className="talk-time">1100</span>
-              <span>Dev[Sec]Ops != Dev[Suck]Ops: Mutual of Omaha's Journey Toward a DevOps Security Culture - Rob Temple</span>
+              <span>Dev[Sec]Ops != Dev[Suck]Ops: A Journey Toward a DevOps Security Culture - Rob Temple</span>
             </div></a>
             <a href="#reports"><div className="box">
               <span className="talk-time">1100</span>

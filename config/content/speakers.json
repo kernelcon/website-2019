@@ -105,7 +105,7 @@
     "abstract": "Python was designed for rapid development and ease of use which allows for complex tasks to be completed much faster than its counterparts. However, by nature of the language it can be reverse engineered much faster than a compiled language. This limits the language's potential to be used for developing malware and other nefarious tools. We have surveyed current obfuscation and anti-reversing techniques available to harden Python code. We propose that implementing the most advanced and effective obfuscation techniques currently requires too much effort for adversaries at this time, but that situation may rapidly change as frameworks and tools evolve. Our presentation will discuss obfuscation techniques currently seen in the wild and available to adversaries, as well as more advanced techniques that malware analysts should be prepared for in the future."
   },
   {
-    "title": "Dev[Sec]Ops != Dev[Suck]Ops: Mutual of Omaha's Journey Toward a DevOps Security Culture",
+    "title": "Dev[Sec]Ops != Dev[Suck]Ops: A Journey Toward a DevOps Security Culture",
     "speaker": "Rob Temple",
     "talk_id": "devsecops",
     "speaker_id": "temple",

@@ -38,7 +38,7 @@ class Event extends Component {
         return (
           <li className='event-bullet'
             key={`${id}`}>
-            {el}
+            <span dangerouslySetInnerHTML={{ __html: `${el}` }} />
           </li>
         )
       })

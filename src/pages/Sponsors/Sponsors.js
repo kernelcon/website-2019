@@ -6,6 +6,7 @@ import fnts from '../../static/images/fnbo2.jpg';
 import nttlogo from '../../static/images/ntt-logo.png';
 import toool from '../../static/images/toool.svg';
 import caglogo from '../../static/images/conagra.png';
+import secureskylogo from '../../static/images/securesky-logo.png';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -31,62 +32,86 @@ class Sponsors extends Component {
               <h4 className='no-margin-bottom'>Would you like to hear more?  Please contact <a href="mailto:sponsor@kernelcon.org?Subject=Sponorship" target="_top">sponsor@kernelcon.org</a>.</h4>  
             </div>
           </div>
-          <div className='spons-block'>
+          <div className='spons-page'>
             <h1 className='title'>2019 Sponsors</h1>
             <div className='text-block'>
               <p>We would like to thank all of our sponsors who make Kernelcon the best it can be.  Without our sponsors, our conference wouldn't happen.</p>
             </div>
+
             <div className='text-block spons-groups'>
-              <h3 className='gold'>Gold</h3>
-              <a href="https://www.secureworks.com/"
-                target="_blank"
-                rel='noopener noreferrer'>
-                <img src={swlogo}
-                  className='spons-img gold-spons'
-                  alt="Secure Works"/>
-              </a>
-              <div className='two-line'>
-                <a href="https://fnbo.com/"
+              <div className='spons-block'>
+                <h3 className='gold'>Gold</h3>
+                <a href="https://www.secureworks.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
-                  <img src={fnbo}
-                    className='spons-img half-gold-spons'
-                    alt="First National Bank"/>
+                  <img src={swlogo}
+                    className='spons-img gold-spons'
+                    alt="Secure Works"/>
                 </a>
-                <a href="https://www.fnts.com/"
+                <div className='two-line'>
+                  <a href="https://fnbo.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'>
+                    <img src={fnbo}
+                      className='spons-img half-gold-spons'
+                      alt="First National Bank"/>
+                  </a>
+                  <a href="https://www.fnts.com/"
+                    target="_blank"
+                    rel='noopener noreferrer'>
+                    <img src={fnts}
+                      className='spons-img half-gold-spons'
+                      alt="First National Technology Solutions"/>
+                  </a>
+                </div>
+              </div>
+              
+              {/* <h3 className='gold'>Silver</h3> */}
+
+              <div className='spons-block'>
+                <h3 className='gold'>Bronze</h3>
+                <a href="https://www.conagrabrands.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
-                  <img src={fnts}
-                    className='spons-img half-gold-spons'
-                    alt="First National Technology Solutions"/>
+                  <img src={caglogo}
+                    className='spons-img other-spons'
+                    alt="ConAgra"/>
                 </a>
               </div>
-              {/* <h3 className='gold'>Silver</h3> */}
-              <h3 className='gold'>Bronze</h3>
-              <a href="https://www.conagrabrands.com/"
-                target="_blank"
-                rel='noopener noreferrer'>
-                <img src={caglogo}
-                  className='spons-img other-spons'
-                  alt="ConAgra"/>
-              </a>
 
-              <h4 className='gold'>Party Sponsor</h4>
-              <a href="https://www.nttsecurity.com/en-us"
-                target="_blank"
-                rel='noopener noreferrer'>
-                <img src={nttlogo}
-                  className='spons-img other-spons'
-                  alt="NTT Security"/>
-              </a>
-              <h4 className='gold'>Other Sponsors</h4>
-              <a href="https://toool.us/"
-                target="_blank"
-                rel='noopener noreferrer'>
-                <img src={toool}
-                  className='spons-img other-spons'
-                  alt="TOOOL"/>
-              </a>
+              <div className='spons-block'>
+                <h4 className='gold'>Party Sponsor</h4>
+                <a href="https://www.nttsecurity.com/en-us"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={nttlogo}
+                    className='spons-img other-spons'
+                    alt="NTT Security"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h4 className='gold'>CTF Sponsor</h4>
+                <a href="https://www.securesky.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={secureskylogo}
+                    className='spons-img other-spons'
+                    alt="Secure Sky"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h4 className='gold'>Other Sponsors</h4>
+                <a href="https://toool.us/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={toool}
+                    className='spons-img other-spons'
+                    alt="TOOOL"/>
+                </a>
+              </div>
+
             </div>
           </div>
         </div>

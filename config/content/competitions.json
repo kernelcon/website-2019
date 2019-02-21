@@ -5,7 +5,17 @@
   },
   {
     "title": "WiFi Fox and Hound Challenge",
-    "description": "Learn the basics of wireless network penetration, and put them to use in this fun, sanctioned environment!  Learn to use the aircrack-ng suite, kismet, coWPAtty, WiFisher, and more in the classroom session, and then put the skills to use in the WiFi Fox & Hound challenge.  Can you find all the hidden WAP's and break the encryption to get the flag?"
+    "description": "Learn the basics of wireless network penetration, and put them to use in this fun, sanctioned environment!  Learn to use the aircrack-ng suite, kismet, coWPAtty, WiFisher, and more in the classroom session, and then put the skills to use in the WiFi Fox & Hound challenge.  Can you find all the hidden WAP's and break the encryption to get the flag?",
+    "extra": [
+      {
+        
+        "heading": "Recommended Prerequisites:",
+        "bullets": [
+          "WiFi USB adapter capable of packet injection. <a class='gold' target='_blank' rel='noopener noreferrer' href='https://www.amazon.com/dp/B00JDVRCI0/ref=cm_sw_r_tw_dp_U_x_LL6ACb3VFZAV5'>Recommendation.</a>",
+          "Kali Linux with pyrit, hashcat, and bettercap installed."
+        ]
+      }
+    ]
   },
   {
     "title": "Technology Olympics",

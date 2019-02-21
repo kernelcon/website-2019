@@ -59,6 +59,13 @@
     "title": "Cisco Systems Engineer",
     "bio": "Matt Virus (yes, real name) is an engineer @ Cisco (10+ years) , an above-average husband and father of 2, a fan of loud angry rock music, and a hardware junkie with tons of experience with build/hack projects.  Whatever “it” is -- it can be disassembled and examined…it can be made more secure, more functional and more use useful.  No fear of burned fingers, desks set on fire, or escape of the magic smoke here.  BS/MS in MIS and information assurance, former DoD forensic and malware analyst, firm believer of local control and auditability of software/firmware.  Lover of all things containerized and API-enabled, blackbelt in google-fu, passionate about facilitation, enablement, and helping people reach beyond their technical comfort zone. Fueled by monster energy. ",
     "image": ""
+  }, {
+    "id": 11,
+    "name": "Samuel Curry",
+    "title": "Security Consultant",
+    "bio": "Samuel is a web application security researcher from Omaha, Nebraska. He has over two years of experience in developing web applications and four years of experience penetration testing them. Over the last three years, he has worked closely with organizations in identifying and reporting security vulnerabilities. In his free time, he runs a blog dedicated to security research and additionally has given talks regarding his work. Samuel is involved with local groups like DC402, NULLify, and OWASP Omaha. In the past, Samuel has participated in various bug bounty programs and competed in live hacking events organized by platforms like HackerOne and Bugcrowd. On the weekends, he helps organize University of Nebraska at Omaha’s Cyber Security club.",
+    "image": ""
+
   }
 ]
 

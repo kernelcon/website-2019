@@ -180,6 +180,10 @@
       {
         "id": 8,
         "name": "Matt South"
+      },
+      {
+        "id": 11,
+        "name": "Samuel Curry"
       }
     ],
     "description": "Learn the tools and techniques for conducting a web application penetration test. Get your hands dirty with HTTP and Burp Suite. This workshop will provide a solid introduction to web application penetration testing. This class is designed for those with little to no web application penetration testing experience, although it will move quickly. This class will include hands on challenges where attendees use skills acquired during the class to exploit web applications. Attendees will walk away with a basic understanding of the tools and processes for conducting a web application penetration test.",
