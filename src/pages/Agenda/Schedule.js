@@ -230,9 +230,9 @@ class Schedule extends Component {
               <span className="talk-time">1500</span>
               <span>Bushwacking your way around a bootloader - .bx</span>
             </div></a>
-            <a href="#containers"><div className="box">
+            <a href="#ptvsrt"><div className="box">
               <span className="talk-time">1500</span>
-              <span>Containers: Your Ally in Improving Security - Hillary Benson</span>
+              <span>Pen Testing VS Red Teaming and how to get more from your pen test reports - Sampson Chandler</span>
             </div></a>
             <a href="#research"><div className="box">
               <span className="talk-time">1600</span>
@@ -257,9 +257,9 @@ class Schedule extends Component {
               <span className="talk-time">0800</span>
               <span>Keynote: Dan Tentler (Viss)</span>
             </div></a>
-            <a href="#cyberwar"><div className="box">
+            <a href="#mlfundamentals"><div className="box">
               <span className="talk-time">0900</span>
-              <span>The Beginner's Guide to the Musical Scales of Cyberwar - Zhanna Malekos Smith</span>
+              <span>Building Security That Thinks - Machine Learning Fundamentals for Cybersecurity Professionals - Chris Morales</span>
             </div></a>
             <a href="#grapl"><div className="box">
               <span className="talk-time">0900</span>

@@ -180,21 +180,6 @@
     "abstract": "Unfluence is the negative side of influence. It’s a common form of manipulation used to trick people into giving up their access or information. In this talk, the speaker demonstrates principles of influence and psychology and how black hat hackers use them on their victims. You need to identify and stop them before you, your clients, and your employees under their unfluence. Learn how here."
   },
   {
-    "title": "Containers: Your Ally in Improving Security",
-    "speaker": "Hillary Benson",
-    "talk_id": "containers",
-    "speaker_id": "benson",
-    "company": "StackRox",
-    "twitter": "",
-    "github": "",
-    "linkedin": "",
-    "image": "",
-    "length": "50",
-    "technical": "1",
-    "bio": "Hillary Benson is Senior Product Manager at StackRox, where she drives product strategy for the StackRox Container Security Platform. Prior to her current role, she worked as a Software Engineer and Red Team Operator at Intuit, and served as a technical intelligence analyst and collector with the National Security Agency. Hillary holds an S.B. in Management Science from MIT and an M.S. in Security Studies from the Georgetown Walsh School of Foreign Service.",
-    "abstract": "Container and orchestration technologies have brought new standard interfaces to the way applications are built, deployed, and operated. In this session, we’ll show how security, development, and operations teams can speak the common “language” of Kubernetes to operationalize security controls and risk management with greater precision, testability, and clarity than before. We’ll give a brief overview of key container and orchestration technologies and show how to put specific features to work for better security, with live examples."
-  },
-  {
     "title": "Stop talking about it? Mentoring the next generation",
     "speaker": "John Winger",
     "talk_id": "mentor",
@@ -223,21 +208,6 @@
     "technical": "1",
     "bio": "Justin Williams is currently working in an Information Security Manager role with a background in numerous areas of Information Technology and Information Security. He runs a blog for newcomers to security, is very active in the Omaha security community. His primary areas of focus of late are in new and exciting automation ideas, improving defense strategies, and boundary defense in zero trust models.",
     "abstract": "This talk will focus on a period of my life where I was facing incredible burnout while working in IT while ignoring red flags.  It will then cover how I switched to Information Security, but apply the lessons learned from my past life in IT to avoid that same scenario from ever re-occurring.  The takeaway will be importance of self care."
-  },
-  {
-    "title": "The Beginner's Guide to the Musical Scales of Cyberwar",
-    "speaker": "Jessica 'Zhanna' Malekos Smith",
-    "talk_id": "cyberwar",
-    "speaker_id": "smith",
-    "company": "",
-    "twitter": "",
-    "github": "",
-    "linkedin": "",
-    "image": "",
-    "length": "50",
-    "technical": "1",
-    "bio": "Jessica 'Zhanna' Malekos Smith is the Reuben Everett Cyber Scholar at Duke University Law School. Previously, she served as a Captain in the U.S. Air Force Judge Advocate General’s Corps. Prior to military service, Malekos Smith was a post-doctoral fellow at the Belfer Center’s Cyber Security Project at the Harvard Kennedy School. She holds a J.D. from the University of California, Davis; a B.A. from Wellesley College, where she was a Fellow of the Madeleine Korbel Albright Institute for Global Affairs; and is finishing her M.A. with the Department of War Studies at King’s College London.",
-    "abstract": "Whether you have a background in technology, academia, or national security, this talk is a beginner’s guide to understanding the law of war in cyberspace. By juxtaposing the law of war with a piano keyboard, the process of how states evaluate the scale and effects of a cyber operation and determine a basis for resorting to a use of force under the Law of Armed Conflict, can be more readily conceptualized. For if music is indeed, the universal language of mankind, then by encouraging society to learn about this area we can collectively better strategize ways to mitigate cyber conflict."
   },
   {
     "title": "Grapl - A Graph Analytics Platform for DFIR",
