@@ -13,7 +13,7 @@
   },
   {
     "question": "What is the refund policy?",
-    "answer": "<ul><li>100% ticket or sales refund if cancelled before March 1st, 2019.</li><li>50% ticket or sales refund if cancelled between March 1st and March 29th, 2019.</li><li>0% ticket or sales refund after March 29th, 2019.</li></ul>"
+    "answer": "<ul><li>100% ticket or sales refund if canceled before March 1st, 2019.</li><li>50% ticket or sales refund if canceled between March 1st and March 29th, 2019.</li><li>0% ticket or sales refund after March 29th, 2019.</li></ul>"
   },
   {
     "question": "I want to submit a talk, does it have to be about kernels?",
@@ -24,8 +24,16 @@
     "answer": "There are currently no plans for this."
   },
   {
-    "question": "I can't or don't want to register online (technical issue, privacy issue, etc), can I still attend?",
+    "question": "I can't or don't want to register online (technical issue, privacy issue, etc), can I still attend? Can I pay at the door?",
     "answer": "<span className='flex-override'>Yes!  If you have an issue but still want to register early, please contact us at <a class='gold' href='mailto:info@kernelcon.org'>info@kernelcon.org</a>.  We will be accepting cash at the door.  Keep in mind that registering early guarantees you swag, that clothing is appropriate size, that workshops you want aren't full, etc.</span>"
+  },
+  {
+    "question": "Does the payment name need to match the attendee name?",
+    "answer": "Appropriating the long tradition of other hacking conferences, Kernelcon does not require a 'registration name.'  However, with the desire many folks have to pre-register (e.g. to reserve a workshop space, ensure they have a ticket prior to selling out, etc) we do facilitate pre-sales which limits attendee anonymity in some ways."
+  },
+  {
+    "question": "What do I need to bring with me to the registration desk?",
+    "answer": "If you pre-registered online, you need to bring the barcode you received at the end of the pre-registration process.  If you intend to register at the door you need to bring payment."
   },
   {
     "question": "Do you offer a group discount?",
