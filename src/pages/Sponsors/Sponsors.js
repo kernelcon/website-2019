@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './Sponsors.scss';
-import swlogo from '../../static/images/swlogo.svg';
+import swlogo from '../../static/images/swlogo.png';
 import fnbo from '../../static/images/fnbo.png';
 import fnts from '../../static/images/fnbo2.jpg';
 import nttlogo from '../../static/images/ntt-logo.png';
 import toool from '../../static/images/toool.svg';
 import caglogo from '../../static/images/conagra.png';
 import secureskylogo from '../../static/images/securesky-logo.png';
+import netscout from '../../static/images/netscout-logo.png';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -38,9 +39,22 @@ class Sponsors extends Component {
               <p>We would like to thank all of our sponsors who make Kernelcon the best it can be.  Without our sponsors, our conference wouldn't happen.</p>
             </div>
 
+
             <div className='text-block spons-groups'>
+
               <div className='spons-block'>
-                <h3 className='gold'>Gold</h3>
+                <h2 className='gold spons-title'>Platinum</h2>
+                <a href="https://www.netscout.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={netscout}
+                    className='spons-img plat-spons'
+                    alt="NETSCOUT"/>
+                </a>
+              </div>
+
+              <div className='spons-block'>
+                <h3 className='gold spons-title'>Gold</h3>
                 <a href="https://www.secureworks.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
@@ -69,7 +83,7 @@ class Sponsors extends Component {
               {/* <h3 className='gold'>Silver</h3> */}
 
               <div className='spons-block'>
-                <h3 className='gold'>Bronze</h3>
+                <h3 className='gold spons-title'>Bronze</h3>
                 <a href="https://www.conagrabrands.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
@@ -80,7 +94,7 @@ class Sponsors extends Component {
               </div>
 
               <div className='spons-block'>
-                <h4 className='gold'>Party Sponsor</h4>
+                <h4 className='gold spons-title'>Party Sponsor</h4>
                 <a href="https://www.nttsecurity.com/en-us"
                   target="_blank"
                   rel='noopener noreferrer'>
@@ -91,7 +105,7 @@ class Sponsors extends Component {
               </div>
 
               <div className='spons-block'>
-                <h4 className='gold'>CTF Sponsor</h4>
+                <h4 className='gold spons-title'>CTF Sponsor</h4>
                 <a href="https://www.securesky.com/"
                   target="_blank"
                   rel='noopener noreferrer'>
@@ -102,7 +116,7 @@ class Sponsors extends Component {
               </div>
 
               <div className='spons-block'>
-                <h4 className='gold'>Other Sponsors</h4>
+                <h4 className='gold spons-title'>Other Sponsors</h4>
                 <a href="https://toool.us/"
                   target="_blank"
                   rel='noopener noreferrer'>
@@ -110,6 +124,35 @@ class Sponsors extends Component {
                     className='spons-img other-spons'
                     alt="TOOOL"/>
                 </a>
+              </div>
+
+
+              <div className='spons-block'>
+                <div className='foodbev-spons'>
+                
+                  <div className='single-foodbev-spons'>
+                    <h6 className='gold spons-title'>Coffee</h6>
+                    <a href="https://www.securesky.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={secureskylogo}
+                        className='spons-img fdbev-spons'
+                        alt="Secure Sky"/>
+                    </a>
+                  </div>
+
+                  <div className='single-foodbev-spons'>
+                    <h6 className='gold spons-title'>Popcorn</h6>
+                    <a href="https://www.secureworks.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={swlogo}
+                        className='spons-img fdbev-spons'
+                        alt="Secure Works"/>
+                    </a>
+                  </div>
+
+                </div>
               </div>
 
             </div>

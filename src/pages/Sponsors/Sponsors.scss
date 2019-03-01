@@ -12,23 +12,33 @@
     padding-bottom: 50px !important;
 
     .spons-block {
-      padding: 30px 0px;
+      padding-top: 30px;
 
-      h3 {
+      .spons-title {
         font-family: 'Montserrat', sans-serif;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         font-weight: 900;
-        font-size: calc(3vh + 3vw);
         text-transform: uppercase;
       }
 
+      h2 {
+        font-size: calc(4vh + 4vw);
+      }
+
+      h3 {
+        font-size: calc(3.5vh + 3.5vw);
+      }
+
       h4 {
-        font-family: 'Montserrat', sans-serif;
-        margin-bottom: 10px;
-        font-weight: 900;
         font-size: calc(2.5vh + 2.5vw);
-        text-transform: uppercase;
-        margin-top:20px;
+      }
+
+      h5 {
+        font-size: calc(2vh + 2vw);
+      }
+
+      h6 {
+        font-size: calc(1.75vh + 1.75vw);
       }
 
       .two-line {   
@@ -37,25 +47,28 @@
         align-items: center;
         justify-content: space-evenly;
         padding: 0vw 5vw;
-        margin-bottom: 30px;
       }
       .spons-img {
         max-width:100%;
         max-height:100%;
+        margin-bottom: 50px;
       }
 
+      .plat-spons {
+        max-width: calc(28vh + 28vw);
+      }
       .gold-spons {
-        max-width: calc(30vh + 30vw);
+        max-width: calc(25vh + 25vw);
       }
       .half-gold-spons {
-        max-width: calc(12vh + 12vw);
+        max-width: calc(10vh + 10vw);
       }
       .silver-spons {
-        max-width: calc(25vh + 25vw);
+        max-width: calc(22vh + 22vw);
       }
 
       .other-spons {
-        max-width: calc(20vh + 20vw);
+        max-width: calc(18vh + 18vw);
         max-height: calc(15vh + 5vw);
       }
 
@@ -67,6 +80,22 @@
           font-size: calc(1.2vh + 1.2vw);
           color: $gold;
           font-weight: 500;
+        }
+      }
+
+      .foodbev-spons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .single-foodbev-spons {
+
+
+
+          .fdbev-spons {
+            max-width: calc(15vh + 15vw);
+          }
         }
       }
     }
