@@ -555,7 +555,7 @@
     "abstract": "What is the difference between a penetration tester and a person on a red team? Why does it matter?  Are you getting the most out of your penetration reports? Clearly identifying what our role is, and how we explain our investigations, is how we justify our position. Are we just checking a box in an audit, just pointing out weaknesses, or are we improving the corporation's security posture while providing value? In this talk, I will discuss the major differences between penetration testers and red teams, how each effects a corporation, how each acts differently, the importance of each, how to improve your penetration tests reports, and why they need to be improved."
   },
   {
-    "title": "Friday Keynote",
+    "title": "Friday Keynote: Moving Ahead and Beyond Common Tool Detections",
     "speaker": "Dave Kennedy",
     "talk_id": "keynotefri",
     "speaker_id": "davek",
@@ -567,7 +567,7 @@
     "length": "50",
     "technical": "",
     "bio": "David Kennedy is the founder of TrustedSec, Binary Defense Systems (BD) and DerbyCon, a large-scale information security conference. David is an avid gamer, father of three, and passionate about coding. David previously was a Chief Security Officer (CSO) for a Fortune 1000 company with offices in over 77 countries. Considered a forward thinker in the security field, he is a keynote speaker at some of the nation’s largest conferences in addition to guest appearances on Fox News, CNN, CNBC, MSNBC, Bloomberg and the BBC. His has advised on several TV shows and assisted in some of the content for the popular “Mr. Robot” series. David has testified in front of US Congress on multiple occasions on the threats faced in security and the government space. A prolific author, he is also the creator of several widely popular open-source tools including “The Social-Engineer Toolkit” (SET). Prior to the private sector, he worked in the United States Marines (USMC) for cyber warfare and forensics analysis activities for the intelligence community including two tours to Iraq.",
-    "abstract": "TBA",
+    "abstract": "There’s no question that companies continue to try and get better when it comes to detecting attacks in multiple phases. Instead of just patching and hoping for the best, organizations are spending a substantial amount of investment in trying to detect the 'well what if they get through' situation. As companies focus on enhanced detection capabilities, the focus is often hard to grasp in what to actually look for – there is so much. This talk will dive into where we see most companies fail at detection and how red teams are helping push the bar forward in not just leveraging a checklist, but focusing on the identification of attack patterns in varying levels of sophistication. The over reliance on technology as a method for trying to jump start these programs often causes more harm than good, and we’ll dive into how effective off the shelf endpoint detection tools do when confronted with even basic attackers. As an industry, we have everything we need to get better – it’s a matter of prioritization, focus, and time.",
     "hidden": "true"
   },
   {
