@@ -285,13 +285,13 @@ class Schedule extends Component {
               <span className="talk-time">1200</span>
               <span>Break for Lunch</span>
             </div></a>
-            <a href="#socialforensication"><div className="box">
+            <a href="#socialforensication" className='mult-rows'><div className="box">
               <span className="talk-time">1300</span>
               <span>Social Forensication: A Multidisciplinary Approach to Successful Social Engineering - Joe Gray</span>
             </div></a>
             <a href="#ctfnot"><div className="box">
               <span className="talk-time">1300</span>
-              <span>Capture the Flage != Pentest (and other Hackworthy shenanigans) - Mark Bayley</span>
+              <span>Capture the Flag != Pentest (and other Hackworthy shenanigans) - Mark Bayley</span>
             </div></a>
             <a href="#macos"><div className="box">
               <span className="talk-time">1320</span>

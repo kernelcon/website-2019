@@ -377,6 +377,11 @@
     }
   }
 
+  .mult-rows {
+    grid-row-start: 8;
+    grid-row-end: 11;
+  }
+
   .box {
     background-color: $gallery;
     color: $mine-shaft;
