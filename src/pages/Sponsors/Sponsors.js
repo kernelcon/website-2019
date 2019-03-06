@@ -8,6 +8,7 @@ import toool from '../../static/images/toool.svg';
 import caglogo from '../../static/images/conagra.png';
 import secureskylogo from '../../static/images/securesky-logo.png';
 import netscout from '../../static/images/netscout-logo.png';
+import endgamelogo from '../../static/images/endgame-logo.png';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -50,6 +51,13 @@ class Sponsors extends Component {
                   <img src={netscout}
                     className='spons-img plat-spons'
                     alt="NETSCOUT"/>
+                </a>
+                <a href="https://www.endgame.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={endgamelogo}
+                    className='spons-img plat-spons'
+                    alt="ENDGAME"/>
                 </a>
               </div>
 

@@ -10,8 +10,13 @@
   "cfp/index.md": "cfp/index.md",
   "main.css": "static/css/main.e130155f.css",
   "main.css.map": "static/css/main.e130155f.css.map",
+<<<<<<< Updated upstream
   "main.js": "static/js/main.b71a43ec.js",
   "main.js.map": "static/js/main.b71a43ec.js.map",
+=======
+  "main.js": "static/js/main.22f8deb8.js",
+  "main.js.map": "static/js/main.22f8deb8.js.map",
+>>>>>>> Stashed changes
   "static/media/0.png": "static/media/0.b6f1bbd7.png",
   "static/media/1.png": "static/media/1.08972f78.png",
   "static/media/12.png": "static/media/12.1ca5d8db.png",
@@ -55,6 +60,7 @@
   "static/media/drone.png": "static/media/drone.741ccc42.png",
   "static/media/embassy-suites-hotel.jpg": "static/media/embassy-suites-hotel.1b19d23a.jpg",
   "static/media/embassy-suites.jpg": "static/media/embassy-suites.e17fd154.jpg",
+  "static/media/endgame-logo.png": "static/media/endgame-logo.3b1d238c.png",
   "static/media/female-silhoutte.jpg": "static/media/female-silhoutte.100b2532.jpg",
   "static/media/field-of-corn.jpg": "static/media/field-of-corn.c796a3d8.jpg",
   "static/media/fnbo.png": "static/media/fnbo.687392e3.png",
