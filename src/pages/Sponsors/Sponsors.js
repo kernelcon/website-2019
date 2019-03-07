@@ -9,6 +9,7 @@ import caglogo from '../../static/images/conagra.png';
 import secureskylogo from '../../static/images/securesky-logo.png';
 import netscout from '../../static/images/netscout-logo.png';
 import endgamelogo from '../../static/images/endgame-logo.png';
+import proofpointlogo from '../../static/images/proofpoint-logo.png';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -146,6 +147,13 @@ class Sponsors extends Component {
                       <img src={secureskylogo}
                         className='spons-img fdbev-spons'
                         alt="Secure Sky"/>
+                    </a>
+                    <a href="https://www.proofpoint.com/us"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={proofpointlogo}
+                        className='spons-img fdbev-spons'
+                        alt="Proofpoint"/>
                     </a>
                   </div>
 

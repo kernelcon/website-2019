@@ -90,11 +90,12 @@
         flex-wrap: wrap;
 
         .single-foodbev-spons {
-
-
+          display: flex;
+          flex-direction: column;
 
           .fdbev-spons {
             max-width: calc(15vh + 15vw);
+            margin-bottom: 20px;
           }
         }
       }
