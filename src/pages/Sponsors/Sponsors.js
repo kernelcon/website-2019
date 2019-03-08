@@ -10,6 +10,7 @@ import secureskylogo from '../../static/images/securesky-logo.png';
 import netscout from '../../static/images/netscout-logo.png';
 import endgamelogo from '../../static/images/endgame-logo.png';
 import proofpointlogo from '../../static/images/proofpoint-logo.png';
+import cxlogo from '../../static/images/cxlogo.svg';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -99,6 +100,13 @@ class Sponsors extends Component {
                   <img src={caglogo}
                     className='spons-img other-spons'
                     alt="ConAgra"/>
+                </a>
+                <a href="https://www.checkmarx.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={cxlogo}
+                    className='spons-img other-spons'
+                    alt="Checkmarx"/>
                 </a>
               </div>
 

@@ -13,6 +13,8 @@
 
     .spons-block {
       padding-top: 30px;
+      display: flex;
+      flex-direction: column;
 
       .spons-title {
         font-family: 'Montserrat', sans-serif;
