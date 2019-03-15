@@ -140,8 +140,8 @@ class Schedule extends Component {
         {this.state.showFriday && 
           <div className="grid-wrapper-friday">
             <div className="schedule both-tracks">{`${day}Speaking Schedule`}</div>
-            <div className="track">Track 1</div>
-            <div className="track">Track 2</div>
+            <div className="track">Bat of Doom</div>
+            <div className="track">Terrified Chipmunk</div>
             <a className="both-tracks"><div className="box">
               <span className="talk-time">0750</span>
               <span>Opening Remarks</span>

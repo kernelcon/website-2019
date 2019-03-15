@@ -418,7 +418,7 @@
     display: flex;
     text-transform: uppercase;
     font-family: 'Jura', 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: calc(1vw + 1vh);
     color: #fff;
     background: $light-gold;
     /*background: #ad974f99;*/

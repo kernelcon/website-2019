@@ -11,6 +11,7 @@ import netscout from '../../static/images/netscout-logo.png';
 import endgamelogo from '../../static/images/endgame-logo.png';
 import proofpointlogo from '../../static/images/proofpoint-logo.png';
 import cxlogo from '../../static/images/cxlogo.svg';
+import netskopelogo from '../../static/images/netskope.jpg';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -107,6 +108,13 @@ class Sponsors extends Component {
                   <img src={cxlogo}
                     className='spons-img other-spons'
                     alt="Checkmarx"/>
+                </a>
+                <a href="https://www.netskope.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={netskopelogo}
+                    className='spons-img other-spons'
+                    alt="Netskope"/>
                 </a>
               </div>
 
