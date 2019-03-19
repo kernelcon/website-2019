@@ -87,41 +87,45 @@ class ConSchedule extends Component {
         {this.state.showFriday && 
           <div className="grid-wrapper-friday">
             <div className="schedule both-tracks">{`${day}Conference Schedule`}</div>
-            <div className="track">Fearless Coyote</div>
-            <div className="track">Stable Penguin</div>
-            <div className="track">Jurassic CTF</div>
-            <div className="track">Villages</div>
-            <div className="track">Village Classroom</div>
-            <a className="morn-mult-rows"><div className="box">
+            <div className="track coyote">Fearless Coyote</div>
+            <div className="track penguin">Stable Penguin</div>
+            <div className="track jctf">Jurassic CTF</div>
+            <div className="track vill">Villages</div>
+            <div className="track vill-c">Village Classroom</div>
+            <a className="both-tracks"><div className="box">
+              <span className="talk-time">0730</span>
+              <span>Registration Open</span>
+            </div></a>
+            <a className="morn coyote"><div className="box">
               <span className="talk-time">0800</span>
               <span>Build Your Own Microcontroller Multi-Tool</span>
             </div></a>
-            <a className="morn-mult-rows"><div className="box">
+            <a className="morn penguin"><div className="box">
               <span className="talk-time">0800</span>
               <span>Network Analysis Workshop</span>
             </div></a>
-            <a><div className="box">
+            <a className="closed jctf"><div className="box">
               <span className="talk-time">0800</span>
               <span>Closed</span>
             </div></a>
-            <a><div className="box">
+            <a className="closed vill"><div className="box">
               <span className="talk-time">0800</span>
               <span>Closed</span>
             </div></a>
-            <a><div className="box">
+            <a className="closed vill-c"><div className="box">
               <span className="talk-time">0800</span>
               <span>Closed</span>
             </div></a>
-            <a><div className="box">
-              <span className="talk-time">0900</span>
+            <a className="jctf"><div className="box">
+              <span className="talk-time">1000</span>
               <span>CTF Kickoff</span>
             </div></a>
-            <a className="ctf-mult-rows"><div className="box">
-              <span className="talk-time">0915</span>
+            <a className="jctf jctf-day1"><div className="box">
+              <span className="talk-time">1015</span>
               <span>CTF</span>
             </div></a>
-            <a className="villages-mult-rows"><div className="box">
-              <span className="talk-time">0900</span>
+            <a className="vill vill-day1"><div className="box">
+              <span className="talk-time">1000</span>
               <span>
                 <ul className='villages'>
                   <li>Lock Picking Village</li>
@@ -130,39 +134,39 @@ class ConSchedule extends Component {
                 </ul>
               </span>
             </div></a>
-            <a className='wifi-kickoff'><div className="box">
-              <span className="talk-time">0900</span>
+            <a className='vill-c wifi'><div className="box">
+              <span className="talk-time">1000</span>
               <span>WiFi Kickoff</span>
             </div></a>
-            <a className='morn-open'><div className="box">
-              <span className="talk-time">1000</span>
+            <a className='vill-c open-hard'><div className="box">
+              <span className="talk-time">1100</span>
               <span>Open</span>
             </div></a>
-            <a className="two-tracks"><div className="box">
+            <a className="cp-workshops"><div className="box">
               <span className="talk-time">1200</span>
               <span>Break for Lunch</span>
             </div></a>
-            <a className="after-mult-rows"><div className="box">
+            <a className="coyote afternoon"><div className="box">
               <span className="talk-time">1300</span>
-              <span>Build Your Own Microcontroller Multi-Tool</span>
+              <span>Resume Village</span>
             </div></a>
-            <a className="after-mult-rows"><div className="box">
+            <a className="penguin afternoon"><div className="box">
               <span className="talk-time">1300</span>
               <span>Network Analysis Workshop</span>
             </div></a>
-            <a><div className="box">
+            <a className='vill-c iot-1'><div className="box">
               <span className="talk-time">1300</span>
               <span>An Introduction to Hardware Hacking and IOT</span>
             </div></a>
-            <a className='iot-faq'><div className="box">
+            <a className='vill-c iot-faq'><div className="box">
               <span className="talk-time">1400</span>
               <span>IOT Questions and Setup</span>
             </div></a>
-            <a className='iot-2'><div className="box">
+            <a className='vill-c iot-2'><div className="box">
               <span className="talk-time">1500</span>
               <span>An Introduction to Hardware Hacking and IOT</span>
             </div></a>
-            <a><div className="box">
+            <a className='vill-c open-close'><div className="box">
               <span className="talk-time">1600</span>
               <span>Open</span>
             </div></a>
@@ -172,41 +176,41 @@ class ConSchedule extends Component {
         {this.state.showSaturday &&
           <div className="grid-wrapper-saturday">
             <div className="schedule both-tracks">{`${day}Conference Schedule`}</div>
-            <div className="track">Fearless Coyote</div>
-            <div className="track">Stable Penguin</div>
-            <div className="track">Jurassic CTF</div>
-            <div className="track">Villages</div>
-            <div className="track">Village Classroom</div>
-            <a className="morn-mult-rows"><div className="box">
+            <div className="track coyote">Fearless Coyote</div>
+            <div className="track penguin">Stable Penguin</div>
+            <div className="track jctf">Jurassic CTF</div>
+            <div className="track vill">Villages</div>
+            <div className="track vill-c">Village Classroom</div>
+            <a className="both-tracks"><div className="box">
+              <span className="talk-time">0730</span>
+              <span>Registration Open</span>
+            </div></a>
+            <a className="morn coyote"><div className="box">
               <span className="talk-time">0800</span>
               <span>Build Your Own Microcontroller Multi-Tool</span>
             </div></a>
-            <a className="morn-mult-rows"><div className="box">
+            <a className="morn penguin"><div className="box">
               <span className="talk-time">0800</span>
-              <span>Network Analysis Workshop</span>
+              <span>Building Control System - Incident Response</span>
             </div></a>
-            <a><div className="box">
-              <span className="talk-time">0800</span>
-              <span>Closed</span>
-            </div></a>
-            <a><div className="box">
+            <a className="closed jctf"><div className="box">
               <span className="talk-time">0800</span>
               <span>Closed</span>
             </div></a>
-            <a><div className="box">
+            <a className="closed vill"><div className="box">
               <span className="talk-time">0800</span>
               <span>Closed</span>
             </div></a>
-            <a><div className="box">
-              <span className="talk-time">0900</span>
-              <span>CTF Kickoff</span>
+            <a className="morn vill-c"><div className="box">
+              <span className="talk-time">0800</span>
+              <span>FPV Drone Build-n-Race Workshop</span>
             </div></a>
-            <a className="ctf-mult-rows"><div className="box">
-              <span className="talk-time">0915</span>
+            <a className="jctf jctf-day2"><div className="box">
+              <span className="talk-time">1000</span>
               <span>CTF</span>
             </div></a>
-            <a className="villages-mult-rows"><div className="box">
-              <span className="talk-time">0900</span>
+            <a className="vill vill-day1"><div className="box">
+              <span className="talk-time">1000</span>
               <span>
                 <ul className='villages'>
                   <li>Lock Picking Village</li>
@@ -215,41 +219,21 @@ class ConSchedule extends Component {
                 </ul>
               </span>
             </div></a>
-            <a className='wifi-kickoff'><div className="box">
-              <span className="talk-time">0900</span>
-              <span>WiFi Kickoff</span>
-            </div></a>
-            <a className='morn-open'><div className="box">
-              <span className="talk-time">1000</span>
+            <a className='vill-c open-sat'><div className="box">
+              <span className="talk-time">1200</span>
               <span>Open</span>
             </div></a>
-            <a className="two-tracks"><div className="box">
+            <a className="cp-workshops"><div className="box">
               <span className="talk-time">1200</span>
               <span>Break for Lunch</span>
             </div></a>
-            <a className="after-mult-rows"><div className="box">
+            <a className="coyote afternoon"><div className="box">
               <span className="talk-time">1300</span>
-              <span>Build Your Own Microcontroller Multi-Tool</span>
+              <span>Introduction to Web Application Penetration Testing</span>
             </div></a>
-            <a className="after-mult-rows"><div className="box">
+            <a className="penguin afternoon"><div className="box">
               <span className="talk-time">1300</span>
-              <span>Network Analysis Workshop</span>
-            </div></a>
-            <a><div className="box">
-              <span className="talk-time">1300</span>
-              <span>An Introduction to Hardware Hacking and IOT</span>
-            </div></a>
-            <a className='iot-faq'><div className="box">
-              <span className="talk-time">1400</span>
-              <span>IOT Questions and Setup</span>
-            </div></a>
-            <a className='iot-2'><div className="box">
-              <span className="talk-time">1500</span>
-              <span>An Introduction to Hardware Hacking and IOT</span>
-            </div></a>
-            <a><div className="box">
-              <span className="talk-time">1600</span>
-              <span>Open</span>
+              <span>Building Control System - Incident Response</span>
             </div></a>
           </div>
         }
