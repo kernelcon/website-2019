@@ -633,6 +633,10 @@
     grid-row-start: 7;
     grid-row-end: 12
   }
+  .jctf-calc {
+    grid-row-start: 12;
+    grid-row-end: 15;
+  }
   .vill-day1 {
     grid-row-start: 7;
     grid-row-end: 15;
@@ -660,6 +664,9 @@
   .open-sat {
     grid-row-start: 9;
     grid-row-end: 15;
+  }
+  .wv-close {
+    grid-row-start: 15;
   }
 
   /******************

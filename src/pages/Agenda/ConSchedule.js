@@ -170,6 +170,10 @@ class ConSchedule extends Component {
               <span className="talk-time">1600</span>
               <span>Open</span>
             </div></a>
+            <a className="both-tracks wv-close"><div className="box">
+              <span className="talk-time">1800</span>
+              <span>Workshops/Villages Close</span>
+            </div></a>
           </div>
         }
 
@@ -209,6 +213,10 @@ class ConSchedule extends Component {
               <span className="talk-time">1000</span>
               <span>CTF</span>
             </div></a>
+            <a className="jctf jctf-calc"><div className="box">
+              <span className="talk-time">1500</span>
+              <span>CTF Closed</span>
+            </div></a>
             <a className="vill vill-day1"><div className="box">
               <span className="talk-time">1000</span>
               <span>
@@ -234,6 +242,10 @@ class ConSchedule extends Component {
             <a className="penguin afternoon"><div className="box">
               <span className="talk-time">1300</span>
               <span>Building Control System - Incident Response</span>
+            </div></a>
+            <a className="both-tracks wv-close"><div className="box">
+              <span className="talk-time">1800</span>
+              <span>Workshops/Villages Close</span>
             </div></a>
           </div>
         }
