@@ -341,39 +341,39 @@ class Schedule extends Component {
               </div>
             </a>
             <a href="#mentor"><div className="box">
-              <span className="talk-time">1400</span>
+              <span className="talk-time">1520</span>
               <span>Stop talking about it? Mentoring the next generation - John Winger</span>
             </div></a>
             <a href="#soc"><div className="box">
-              <span className="talk-time">1400</span>
+              <span className="talk-time">1520</span>
               <span>SOC Transformation - From 3-Tier to Functional - Kevin Houle</span>
             </div></a>
             <a><div className="box">
-              <span className="talk-time">1420</span>
+              <span className="talk-time">1540</span>
               <span>Own the Con - Kernelcon Crew</span>
             </div></a>
             <a href="#ctfnot"><div className="box">
-              <span className="talk-time">1420</span>
+              <span className="talk-time">1540</span>
               <span>Capture the Flag != Pentest (and other Hackworthy shenanigans) - Mark Bayley</span>
             </div></a>
             <a href="#creds"><div className="box">
-              <span className="talk-time">1500</span>
+              <span className="talk-time">1600</span>
               <span>Notes from Underground - Compromised Credentials - Brian Carter</span>
             </div></a>
             <a href="#badge"><div className="box">
-              <span className="talk-time">1500</span>
+              <span className="talk-time">1600</span>
               <span>Building the badge - How you can make small, cheap, and custom hardware for function or fashion - James Dietle</span>
             </div></a>
             <a href="#socialforensication"><div className="box">
-              <span className="talk-time">1600</span>
+              <span className="talk-time">1700</span>
               <span>Social Forensication: A Multidisciplinary Approach to Successful Social Engineering - Joe Gray</span>
             </div></a>
             <a href="#afl"><div className="box">
-              <span className="talk-time">1600</span>
+              <span className="talk-time">1700</span>
               <span>Fuzzing with AFL - Dhiraj Mishra</span>
             </div></a>
             <a><div className="box">
-              <span className="talk-time">1700</span>
+              <span className="talk-time">1800</span>
               <span>Closing Ceremony and Awards</span>
             </div></a>
           </div>
