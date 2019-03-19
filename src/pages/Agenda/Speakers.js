@@ -47,6 +47,9 @@ class Speakers extends Component {
     // Order Alphabetically
     const speakers = speakerConfig.sort((a,b) => (a.speaker > b.speaker) ? 1 : ((b.speaker > a.speaker) ? -1 : 0));
     
+    console.log(JSON.stringify(speakers))
+
+
     // Because of the way I stack two per row, get a new kernel that's not it's neighbor either up or down.
     let lastKernelIndex = 99;
     let secondLastKernelIndex = 100;

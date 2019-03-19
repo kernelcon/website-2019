@@ -142,81 +142,65 @@ class Schedule extends Component {
             <div className="schedule both-tracks">{`${day}Speaking Schedule`}</div>
             <div className="track">Bat of Doom</div>
             <div className="track">Terrified Chipmunk</div>
-            <a className="both-tracks"><div className="box">
-              <span className="talk-time">0750</span>
-              <span>Opening Remarks</span>
-            </div></a>
-            <a className="both-tracks" href="#keynotefri"><div className="box">
-              <span className="talk-time">0800</span>
-              <span>Keynote: Dave Kennedy</span>
-            </div></a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">0730</span>
+                <span>Registration Open</span>
+              </div>
+            </a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">0850</span>
+                <span>Opening Remarks</span>
+              </div>
+            </a>
+            <a className="both-tracks" href="#keynotefri">
+              <div className="box">
+                <span className="talk-time">0900</span>
+                <span>Keynote: Dave Kennedy</span>
+              </div>
+            </a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">1000</span>
+                <span>Break (15 min room switch)</span>
+              </div>
+            </a>
             <a href="#dslam"><div className="box">
-              <span className="talk-time">0900</span>
+              <span className="talk-time">1015</span>
               <span>DSLAM: Testing WAN Services on DSL Modems - Nicholas Starke</span>
             </div></a>
             <a href="#darkweb"><div className="box">
-              <span className="talk-time">0900</span>
+              <span className="talk-time">1015</span>
               <span>More Than Tor: Shining a Light on Different Corners of the Dark Web - Ben Brown</span>
             </div></a>
-            <a href="#chipsec"><div className="box">
-              <span className="talk-time">1000</span>
-              <span>Chip-level vulnerability assessment using CHIPSEC and LuvOS - Jeffrey Struik</span>
-            </div></a>
-            <a href="#afl"><div className="box">
-              <span className="talk-time">1000</span>
-              <span>Fuzzing with AFL - Dhiraj Mishra</span>
-            </div></a>
             <a href="#devsecops"><div className="box">
-              <span className="talk-time">1100</span>
-              <span>Dev[Sec]Ops != Dev[Suck]Ops: A Journey Toward a DevOps Security Culture - Rob Temple</span>
+              <span className="talk-time">1115</span>
+              <span>Automating Secure Development: Practical SecDevOps - Rob Temple</span>
             </div></a>
             <a href="#reports"><div className="box">
-              <span className="talk-time">1100</span>
+              <span className="talk-time">1115</span>
               <span>The Art and Science of Report Writing - Michael Born</span>
             </div></a>
             <a href="#2fa"><div className="box">
-              <span className="talk-time">1120</span>
+              <span className="talk-time">1135</span>
               <span>WTF, 2FA!? Y U No Protect Me? - Christine Seeman</span>
             </div></a>
-            <a href="#physical"><div className="box">
-              <span className="talk-time">1120</span>
-              <span>The Power of Physical Access - Ian Trent</span>
-            </div></a>
-            <a href="#hassh"><div className="box">
-              <span className="talk-time">1140</span>
-              <span>HASSH It Real Good - Ben Reardon</span>
-            </div></a>
             <a href="#unfluence"><div className="box">
-              <span className="talk-time">1140</span>
+              <span className="talk-time">1135</span>
               <span>Under the Unfluence: The Dark Side of Influence - Ron Woerner</span>
             </div></a>
             <a className="both-tracks"><div className="box">
-              <span className="talk-time">1200</span>
+              <span className="talk-time">1155</span>
               <span>Break for Lunch</span>
             </div></a>
-            <a href="#python"><div className="box">
+            <a href="#chipsec"><div className="box">
               <span className="talk-time">1300</span>
-              <span>Python Obfuscation and Evasion Techniques - Nick Beede</span>
+              <span>Chip-level vulnerability assessment using CHIPSEC and LuvOS - Jeffrey Struik</span>
             </div></a>
-            <a href="#edu"><div className="box">
+            <a href="#selfcare"><div className="box">
               <span className="talk-time">1300</span>
-              <span>Cybersecurity Education: Inside and Out - Owen Parkins & Jessica Rooney</span>
-            </div></a>
-            <a href="#ghidra"><div className="box">
-              <span className="talk-time">1320</span>
-              <span>What's a Ghidra, and why should you care? - Chris Eagle</span>
-            </div></a>
-            <a href="#pcapml"><div className="box">
-              <span className="talk-time">1320</span>
-              <span>PCAP Feature Engineering for Machine Learning - Heather Lawrence</span>
-            </div></a>
-            <a href="#soc"><div className="box">
-              <span className="talk-time">1340</span>
-              <span>SOC Transformation - From 3-Tier to Functional - Kevin Houle</span>
-            </div></a>
-            <a href="#mentor"><div className="box">
-              <span className="talk-time">1340</span>
-              <span>Stop talking about it? Mentoring the next generation - John Winger</span>
+              <span>Self Care in a 24/7 World - Justin Williams</span>
             </div></a>
             <a href="#iec"><div className="box">
               <span className="talk-time">1400</span>
@@ -226,106 +210,169 @@ class Schedule extends Component {
               <span className="talk-time">1400</span>
               <span>Basics of Radio Hacking with RTL-SDR - Gus Gorman</span>
             </div></a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">1500</span>
+                <span>Break</span>
+              </div>
+            </a>
+            <a href="#python"><div className="box">
+              <span className="talk-time">1520</span>
+              <span>Python Obfuscation and Evasion Techniques - Nick Beede</span>
+            </div></a>
+            <a href="#edu"><div className="box">
+              <span className="talk-time">1520</span>
+              <span>Cybersecurity Education: Inside and Out - Owen Parkins & Jessica Rooney</span>
+            </div></a>
+            <a href="#ghidra"><div className="box">
+              <span className="talk-time">1540</span>
+              <span>What's a Ghidra, and why should you care? - Chris Eagle</span>
+            </div></a>
+            <a href="#pcapml"><div className="box">
+              <span className="talk-time">1540</span>
+              <span>PCAP Feature Engineering for Machine Learning - Heather Lawrence</span>
+            </div></a>
             <a href="#bushwacking"><div className="box">
-              <span className="talk-time">1500</span>
+              <span className="talk-time">1600</span>
               <span>Bushwacking your way around a bootloader - .bx</span>
             </div></a>
             <a href="#ptvsrt"><div className="box">
-              <span className="talk-time">1500</span>
+              <span className="talk-time">1600</span>
               <span>Pen Testing VS Red Teaming and how to get more from your pen test reports - Sampson Chandler</span>
             </div></a>
             <a href="#research"><div className="box">
-              <span className="talk-time">1600</span>
+              <span className="talk-time">1700</span>
               <span>An Overview of hard research problems in Computer Security; Something of a Historical Perspective - Blaine Burnham</span>
             </div></a>
-            <a href="#littlethings"><div className="box">
-              <span className="talk-time">1600</span>
-              <span>It's the Little Things - Ben Sadeghipour</span>
-            </div></a>
-            <a className="both-tracks"><div className="box">
+            <a href="#neuro"><div className="box">
               <span className="talk-time">1700</span>
-              <span>Evening Remarks</span>
+              <span>Neurodiversity in the Workplace - Carla Raisler & George Walker</span>
             </div></a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">1800</span>
+                <span>Break for Dinner</span>
+              </div>
+            </a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">1900</span>
+                <span>Kernel Panic Party</span>
+              </div>
+            </a>
           </div>
         }
+
         {this.state.showSaturday &&
           <div className="grid-wrapper-saturday">
             <div className="schedule both-tracks">{`${day}Speaking Schedule`}</div>
-            <div className="track">Track 1</div>
-            <div className="track">Track 2</div>
+            <div className="track">Bat of Doom</div>
+            <div className="track">Terrified Chipmunk</div>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">0730</span>
+                <span>Registration Open</span>
+              </div>
+            </a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">0850</span>
+                <span>Opening Remarks</span>
+              </div>
+            </a>
             <a className="both-tracks" href="#keynotesat"><div className="box">
-              <span className="talk-time">0800</span>
+              <span className="talk-time">0900</span>
               <span>Keynote: Dan Tentler (Viss)</span>
             </div></a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">1000</span>
+                <span>Break (15 min room switch)</span>
+              </div>
+            </a>
             <a href="#mlfundamentals"><div className="box">
-              <span className="talk-time">0900</span>
+              <span className="talk-time">1015</span>
               <span>Building Security That Thinks - Machine Learning Fundamentals for Cybersecurity Professionals - Chris Morales</span>
             </div></a>
             <a href="#grapl"><div className="box">
-              <span className="talk-time">0900</span>
+              <span className="talk-time">1015</span>
               <span>Grapl - A Graph Analytics Platform for DFIR - Colin O'Brien</span>
             </div></a>
-            <a href="#selfcare"><div className="box">
-              <span className="talk-time">1000</span>
-              <span>Self Care in a 24/7 World - Justin Williams</span>
-            </div></a>
-            <a href="#ipv6"><div className="box">
-              <span className="talk-time">1000</span>
-              <span>IPv6 Security, or... How Not to Deploy IPv6 - Mark Ciecior</span>
-            </div></a>
-            <a href="#neuro"><div className="box">
-              <span className="talk-time">1100</span>
-              <span>Neurodiversity in the Workplace - Carla Raisler & George Walker</span>
-            </div></a>
-            <a href="#playbook"><div className="box">
-              <span className="talk-time">1100</span>
-              <span>Building Security Playbooks 101 - Lior Kolnik</span>
-            </div></a>
-            <a className="both-tracks"><div className="box">
-              <span className="talk-time">1200</span>
-              <span>Break for Lunch</span>
-            </div></a>
-            <a href="#socialforensication" className='mult-rows'><div className="box">
-              <span className="talk-time">1300</span>
-              <span>Social Forensication: A Multidisciplinary Approach to Successful Social Engineering - Joe Gray</span>
-            </div></a>
-            <a href="#ctfnot"><div className="box">
-              <span className="talk-time">1300</span>
-              <span>Capture the Flag != Pentest (and other Hackworthy shenanigans) - Mark Bayley</span>
+            <a href="#hassh"><div className="box">
+              <span className="talk-time">1115</span>
+              <span>HASSH It Real Good - Robert Danford</span>
             </div></a>
             <a href="#macos"><div className="box">
-              <span className="talk-time">1320</span>
+              <span className="talk-time">1115</span>
               <span>MacOS host monitoring - the open source way - Michael George</span>
             </div></a>
+            <a href="#physical"><div className="box">
+              <span className="talk-time">1135</span>
+              <span>The Power of Physical Access - Ian Trent</span>
+            </div></a>
             <a href="#bec"><div className="box">
-              <span className="talk-time">1340</span>
+              <span className="talk-time">1135</span>
               <span>Business Email Compromise (BEC) - The Effective Evolution of Nigerian Fraud Schemes - Jake Foiles</span>
             </div></a>
-            <a href="#ntlm"><div className="box">
-              <span className="talk-time">1400</span>
-              <span>NTLM Relay Risk Is Coming: A New Exploit Technique Makes It Reborn - Wangyong Wang</span>
+            <a className="both-tracks"><div className="box">
+              <span className="talk-time">1155</span>
+              <span>Break for Lunch</span>
             </div></a>
             <a href="#docker"><div className="box">
-              <span className="talk-time">1400</span>
+              <span className="talk-time">1300</span>
               <span>Detasseling Docker and Other Kernel Related Protections - Zach Giezen</span>
             </div></a>
+            <a href="#ipv6"><div className="box">
+              <span className="talk-time">1300</span>
+              <span>IPv6 Security, or... How Not to Deploy IPv6 - Mark Ciecior</span>
+            </div></a>
             <a href="#appsec"><div className="box">
-              <span className="talk-time">1500</span>
+              <span className="talk-time">1400</span>
               <span>Building an Application Security Program from Scratch - Doug Swartz</span>
+            </div></a>
+            <a href="#playbook"><div className="box">
+              <span className="talk-time">1400</span>
+              <span>Building Security Playbooks 101 - Lior Kolnik</span>
+            </div></a>
+            <a className="both-tracks">
+              <div className="box">
+                <span className="talk-time">1500</span>
+                <span>Break</span>
+              </div>
+            </a>
+            <a href="#mentor"><div className="box">
+              <span className="talk-time">1400</span>
+              <span>Stop talking about it? Mentoring the next generation - John Winger</span>
+            </div></a>
+            <a href="#soc"><div className="box">
+              <span className="talk-time">1400</span>
+              <span>SOC Transformation - From 3-Tier to Functional - Kevin Houle</span>
+            </div></a>
+            <a><div className="box">
+              <span className="talk-time">1420</span>
+              <span>Own the Con - Kernelcon Crew</span>
+            </div></a>
+            <a href="#ctfnot"><div className="box">
+              <span className="talk-time">1420</span>
+              <span>Capture the Flag != Pentest (and other Hackworthy shenanigans) - Mark Bayley</span>
+            </div></a>
+            <a href="#creds"><div className="box">
+              <span className="talk-time">1500</span>
+              <span>Notes from Underground - Compromised Credentials - Brian Carter</span>
             </div></a>
             <a href="#badge"><div className="box">
               <span className="talk-time">1500</span>
               <span>Building the badge - How you can make small, cheap, and custom hardware for function or fashion - James Dietle</span>
             </div></a>
-            <a href="#creds"><div className="box">
+            <a href="#socialforensication"><div className="box">
               <span className="talk-time">1600</span>
-              <span>Notes from Underground - Compromised Credentials - Brian Carter</span>
+              <span>Social Forensication: A Multidisciplinary Approach to Successful Social Engineering - Joe Gray</span>
+            </div></a>
+            <a href="#afl"><div className="box">
+              <span className="talk-time">1600</span>
+              <span>Fuzzing with AFL - Dhiraj Mishra</span>
             </div></a>
             <a><div className="box">
-              <span className="talk-time">1600</span>
-              <span>Own the Con - Kernelcon Crew</span>
-            </div></a>
-            <a className="both-tracks"><div className="box">
               <span className="talk-time">1700</span>
               <span>Closing Ceremony and Awards</span>
             </div></a>

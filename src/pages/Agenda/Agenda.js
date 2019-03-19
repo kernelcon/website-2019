@@ -5,6 +5,7 @@ import './Agenda.scss';
 
 import Speakers from './Speakers';
 import Schedule from './Schedule';
+import ConSchedule from './ConSchedule';
 
 class Agenda extends Component {
   static displayName = 'Agenda';
@@ -59,8 +60,9 @@ class Agenda extends Component {
         onChange={(tabId) => { this.changeTab(tabId) }}
         vertical={vert}>
         <TabList vertical>
-          <Tab tabFor="schedule">Schedule</Tab>
+          <Tab tabFor="schedule">Talks Schedule</Tab>
           <Tab tabFor="speakers">Speakers</Tab>
+          <Tab tabFor="consched">Con Schedule</Tab>
         </TabList>
         <span>
           <TabPanel tabId="schedule">
@@ -68,6 +70,9 @@ class Agenda extends Component {
           </TabPanel>
           <TabPanel tabId="speakers">
             <Speakers speakerHash={this.state.speakerHash}/>
+          </TabPanel>
+          <TabPanel tabId="consched">
+            <ConSchedule />
           </TabPanel>
         </span>
       </Tabs>
