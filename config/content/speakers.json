@@ -45,21 +45,6 @@
     "abstract": "This presentation outlines a new twist on an existing social engineering attack. In the past, we have worked on getting users to plug in USB devices to drop malicious documents and executables. While this attack sometimes proves our point, it is the tip of the iceberg that can be done. Enter Social Forensication. This is a two-pronged attack, consisting first of collecting a memory image for offsite offensive forensic analysis, the second being a rogue Wi-Fi access point attack. During this presentation, we will walk through the steps to perform each attack. Since defense is just as (if not more) important as the attack itself, we will also discuss mitigations (technical and procedural) and relevant windows detections for these attacks."
   },
   {
-    "title": "Fuzzing with AFL",
-    "speaker": "Dhiraj Mishra",
-    "talk_id": "afl",
-    "speaker_id": "mishra",
-    "company": "",
-    "twitter": "@mishradhiraj_",
-    "github": "",
-    "linkedin": "",
-    "image": "",
-    "length": "50",
-    "technical": "3",
-    "bio": "An active speaker and a bug hunter, Dhiraj has discovered multiple zero days in modern web browsers and is a Metasploit Contributor. His work has been published on TheHackerNews, TheRegister, ZDNet & BleepingComputer.",
-    "abstract": "The talk focuses on fuzzing approach that can be used to uncover different types of vulnerabilities on open source project. It will also introduce the general idea and the approach to fuzz real-life targets using AFL."
-  },
-  {
     "title": "Chip-level vulnerability assessment using CHIPSEC and LuvOS",
     "speaker": "Dr. Jeffrey (Jeff) Struik",
     "talk_id": "chipsec",

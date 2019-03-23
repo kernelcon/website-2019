@@ -224,9 +224,9 @@ class Schedule extends Component {
               <span className="talk-time">1520</span>
               <span>Cybersecurity Education: Inside and Out - Owen Parkins & Jessica Rooney</span>
             </div></a>
-            <a href="#ghidra"><div className="box">
+            <a href="#soc"><div className="box">
               <span className="talk-time">1540</span>
-              <span>What's a Ghidra, and why should you care? - Chris Eagle</span>
+              <span>SOC Transformation - From 3-Tier to Functional - Kevin Houle</span>
             </div></a>
             <a href="#pcapml"><div className="box">
               <span className="talk-time">1540</span>
@@ -340,17 +340,13 @@ class Schedule extends Component {
                 <span>Break</span>
               </div>
             </a>
+            <a className='eagle' href="#ghidra"><div className="box">
+              <span className="talk-time">1520</span>
+              <span>What's a Ghidra, and why should you care? - Chris Eagle</span>
+            </div></a>
             <a href="#mentor"><div className="box">
               <span className="talk-time">1520</span>
               <span>Stop talking about it? Mentoring the next generation - John Winger</span>
-            </div></a>
-            <a href="#soc"><div className="box">
-              <span className="talk-time">1520</span>
-              <span>SOC Transformation - From 3-Tier to Functional - Kevin Houle</span>
-            </div></a>
-            <a><div className="box">
-              <span className="talk-time">1540</span>
-              <span>Own the Con - Kernelcon Crew</span>
             </div></a>
             <a href="#ctfnot"><div className="box">
               <span className="talk-time">1540</span>
@@ -368,9 +364,13 @@ class Schedule extends Component {
               <span className="talk-time">1700</span>
               <span>Social Forensication: A Multidisciplinary Approach to Successful Social Engineering - Joe Gray</span>
             </div></a>
-            <a href="#afl"><div className="box">
+            <a><div className="box">
               <span className="talk-time">1700</span>
-              <span>Fuzzing with AFL - Dhiraj Mishra</span>
+              <span>Own the Con - Kernelcon Crew</span>
+            </div></a>
+            <a><div className="">
+              <span className="talk-time"></span>
+              <span></span>
             </div></a>
             <a><div className="box">
               <span className="talk-time">1800</span>
