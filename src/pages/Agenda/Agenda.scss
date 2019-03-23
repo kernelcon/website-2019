@@ -381,7 +381,7 @@
     grid-row-start: 14;
     grid-row-end: 16;
   }
-  
+
   .mult-rows {
     grid-row-start: 8;
     grid-row-end: 11;
@@ -404,7 +404,8 @@
     .talk-time {
       color: $gold;
       display: flex;
-      width: 50px !important;
+      width: 35px !important;
+      min-width: 35px;
       margin-right: 10px;
       margin-bottom: 10px;
     }
