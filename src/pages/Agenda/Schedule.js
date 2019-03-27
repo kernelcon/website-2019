@@ -139,7 +139,7 @@ class Schedule extends Component {
         </ul>
         {this.state.showFriday && 
           <div className="grid-wrapper-friday">
-            <div className="schedule both-tracks">{`${day}Speaking Schedule`}</div>
+            <div className="schedule both-tracks">{`Tentative ${day}Speaking Schedule`}</div>
             <div className="track">Bat of Doom</div>
             <div className="track">Terrified Chipmunk</div>
             <a className="both-tracks">
@@ -265,7 +265,7 @@ class Schedule extends Component {
 
         {this.state.showSaturday &&
           <div className="grid-wrapper-saturday">
-            <div className="schedule both-tracks">{`${day}Speaking Schedule`}</div>
+            <div className="schedule both-tracks">{`Tentative ${day}Speaking Schedule`}</div>
             <div className="track">Bat of Doom</div>
             <div className="track">Terrified Chipmunk</div>
             <a className="both-tracks">
