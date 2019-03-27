@@ -228,9 +228,9 @@ class Schedule extends Component {
               <span className="talk-time">1540</span>
               <span>SOC Transformation - From 3-Tier to Functional - Kevin Houle</span>
             </div></a>
-            <a href="#pcapml"><div className="box">
+            <a href="#mentor"><div className="box">
               <span className="talk-time">1540</span>
-              <span>PCAP Feature Engineering for Machine Learning - Heather Lawrence</span>
+              <span>Stop talking about it? Mentoring the next generation - John Winger</span>
             </div></a>
             <a href="#bushwacking"><div className="box">
               <span className="talk-time">1600</span>
@@ -344,9 +344,9 @@ class Schedule extends Component {
               <span className="talk-time">1520</span>
               <span>What's a Ghidra, and why should you care? - Chris Eagle</span>
             </div></a>
-            <a href="#mentor"><div className="box">
+            <a href="#pcapml"><div className="box">
               <span className="talk-time">1520</span>
-              <span>Stop talking about it? Mentoring the next generation - John Winger</span>
+              <span>PCAP Feature Engineering for Machine Learning - Heather Lawrence</span>
             </div></a>
             <a href="#ctfnot"><div className="box">
               <span className="talk-time">1540</span>
