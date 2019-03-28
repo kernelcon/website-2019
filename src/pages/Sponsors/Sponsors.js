@@ -12,6 +12,7 @@ import endgamelogo from '../../static/images/endgame-logo.png';
 import proofpointlogo from '../../static/images/proofpoint-logo.png';
 import cxlogo from '../../static/images/cxlogo.svg';
 import netskopelogo from '../../static/images/netskope.jpg';
+import nostarch from '../../static/images/nostarchpress.png';
 
 class Sponsors extends Component {
   static displayName = 'Sponsors';
@@ -149,6 +150,14 @@ class Sponsors extends Component {
                     className='spons-img other-spons'
                     alt="TOOOL"/>
                 </a>
+                <a href="https://nostarch.com/"
+                  target="_blank"
+                  rel='noopener noreferrer'>
+                  <img src={nostarch}
+                    className='spons-img other-spons'
+                    alt="NoStarchPress"/>
+                </a>
+                <br />
               </div>
 
 

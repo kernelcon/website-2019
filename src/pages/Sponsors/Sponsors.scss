@@ -94,6 +94,7 @@
         .single-foodbev-spons {
           display: flex;
           flex-direction: column;
+          width: 50%;
 
           .fdbev-spons {
             max-width: calc(15vh + 15vw);
