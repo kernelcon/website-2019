@@ -42,5 +42,9 @@
   {
     "question": "Do you offer CPEs?",
     "answer": "Kernelcon topics satisfy CPE requirements for several certifications, you may self-report and we will support if necessary."
+  },
+  {
+    "question": "Does Kernelcon have a dress code?",
+    "answer": "No.  If you really need guidance, many attendees will likely wear jeans, shirts (t-shirt, sweatshirt, polo shirt, etc), and comfortable shoes. You do you hackers."
   }
 ]
