@@ -134,6 +134,8 @@ class Venue extends Component {
           <p className='about-sub-text'>For the locals:</p>
           <p className='about-sub-text'>We're happy to say that the conference parking is readily available. We've purchased 150 spots down the street from the con, first-come, first-serve. In addition, parking is available at the hotel at $14/day or there is metered parking all along 10th street.</p>
           <img className='parking-map' src={parking} height="400" alt="parking-map"/>
+          <p className='about-sub-text'><b>The code for free parking is 555111.</b></p>
+          <p className='about-sub-text'><b>If you get a ticket, please give it to Embassy Suites Executive Offices.</b></p>
         </TabPanel>
       </Tabs>
     );
