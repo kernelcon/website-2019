@@ -65,7 +65,12 @@
     "title": "Security Consultant",
     "bio": "Samuel is a web application security researcher from Omaha, Nebraska. He has over two years of experience in developing web applications and four years of experience penetration testing them. Over the last three years, he has worked closely with organizations in identifying and reporting security vulnerabilities. In his free time, he runs a blog dedicated to security research and additionally has given talks regarding his work. Samuel is involved with local groups like DC402, NULLify, and OWASP Omaha. In the past, Samuel has participated in various bug bounty programs and competed in live hacking events organized by platforms like HackerOne and Bugcrowd. On the weekends, he helps organize University of Nebraska at Omaha’s Cyber Security club.",
     "image": "tf_sam.png"
-
+  }, {
+    "id": 12,
+    "name": "Jeris Rue",
+    "title": "Manager Security Operations",
+    "bio": "Jeris is an Information Security professional, working by day for a global service provider and software development company, and by night as an amateur tinkerer and avid homelabber. He has experience and certifications, family and hobbies. That about do it? OK, let's get to breaking something so we can put it back together.",
+    "image": "jeris.jpg"
   }
 ]
 
