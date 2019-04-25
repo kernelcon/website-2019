@@ -360,22 +360,18 @@ class Schedule extends Component {
               <span className="talk-time">1600</span>
               <span>Building the badge - How you can make small, cheap, and custom hardware for function or fashion - James Dietle</span>
             </div></a>
-            <a href="#socialforensication"><div className="box">
-              <span className="talk-time">1700</span>
-              <span>Social Forensication: A Multidisciplinary Approach to Successful Social Engineering - Joe Gray</span>
-            </div></a>
-            <a><div className="box">
-              <span className="talk-time">1700</span>
-              <span>Own the Con - Kernelcon Crew</span>
-            </div></a>
-            <a><div className="">
-              <span className="talk-time"></span>
-              <span></span>
-            </div></a>
-            <a><div className="box">
-              <span className="talk-time">1800</span>
-              <span>Closing Ceremony and Awards</span>
-            </div></a>
+            <a className="both-tracks">
+              <a><div className="box">
+                <span className="talk-time">1700</span>
+                <span>Own the Con - Kernelcon Crew</span>
+              </div></a>
+            </a>
+            <a className="both-tracks">
+              <a><div className="box">
+                <span className="talk-time">1800</span>
+                <span>Closing Ceremony and Awards</span>
+              </div></a>
+            </a>
           </div>
         }
         <span id="talks" className='talks'>
