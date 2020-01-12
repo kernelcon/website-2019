@@ -222,14 +222,6 @@ module.exports = {
             ]
           }, 
           {
-            test: /\.(pdf)$/,
-            include: paths.appsrc,
-            loader: require.resolve('file-loader'),
-            options: {
-              name: 'files/[name].[ext]',
-            },
-          },
-          {
             test: /\.(pdf|md|txt|docx|odt|tex)$/,
             include: paths.appsrc,
             loader: require.resolve('file-loader'),
