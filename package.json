@@ -54,7 +54,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js && echo 'kernelcon.org' >> ./docs/CNAME",
+    "build": "node scripts/build.js && echo '2019.kernelcon.org' >> ./docs/CNAME",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
