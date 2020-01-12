@@ -4,6 +4,12 @@ import speakerConfig from 'speakerConfig';
 import DonutChart from '../../components/Charts/Donut.js';
 import './Agenda.scss';
 
+//this seems like a horrible hack, there must be a better way
+import tossaway1 from '../../files/eagle_ghidra_kernelcon2019.pdf';
+import tossaway2 from '../../files/radiohacking_kernelcon.pdf';
+import tossaway3 from '../../files/The-Art-&-Science-of-Report-Writing-Kernelcon-201904.pdf';
+
+
 class Schedule extends Component {
   static displayName = 'Schedule';
 
@@ -85,6 +91,14 @@ class Schedule extends Component {
               </span>}
             </div>}
             <div className='length'>{`${ele.length} minutes`}</div>
+
+            {ele.pdfdownload && <div className='pdfdownload'>
+              <a href={`cfp/${ele.pdfdownload}`}
+                  target='_blank'>
+                  PDF
+              </a>
+            </div>}
+
             {ele.technical && <div className='technical'>
               <DonutChart value={percentTechnical} />
               <span className='tech-label'>% technical</span>

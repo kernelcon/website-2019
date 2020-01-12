@@ -116,6 +116,7 @@
     "image": "",
     "length": "50",
     "technical": "2",
+    "pdfdownload": "radiohacking_kernelcon.pdf",
     "bio": "Bioinformatician by day, hobbyist hacker by night with interest in hardware and wireless security.",
     "abstract": "Radio security is often times neglected because they are only subject  to domestic/local threats (physical access). This has left many radio protocols  vulnerable to a variety of easy attacksTalk will focus on using  inexpensive($20-30) RTL-SDR to intercept & decode various wireless signals,  including train telemetry, alarm sensors, smart meters, garage doors, and  infrastructure communications. Decode and cloning techniques/hardware will also be covered."
   },
@@ -266,6 +267,7 @@
     "image": "MichaelBorn",
     "length": "20",
     "technical": "1",
+    "pdfdownload": "The-Art-&-Science-of-Report-Writing-Kernelcon-201904.pdf",
     "bio": "Michael Born has worked as a Sr. Security Consultant focusing primarily on Network and Application Security Assessments, Purple Team Assessments, and Mobile Application Security Assessments. Michael has earned several industry certifications, has presented locally in Omaha at various chapters of national organizations, he's served on the Chapter Board locally for OWASP, and has co-taught offensive Python courses at various AppSec USA and AppSec Europe conferences. Currently Michael is working on a cookbook style book for a well known publisher and is scheduled for release in the Fall of 2019.",
     "abstract": "Over the past 17 years, working in various industries including Airport Weather Observation, Broadcast Communication, Video Engineering and Technology, and finally Information Security, I've learned a thing or two about presenting information. Specifically, how to present a topic that could stir negative emotions, in a way that is non-threatening. I'm a firm believer in presenting penetration testing findings in a way that communicate their urgency without presenting the information using a harsh tone of voice in the writing. This talk will give you, the audience, some useful communication tips on presenting Penetration Testing Findings in a way that doesn't stir negative emotions from the recipient. Tips will include communication styles per personality type, and what I call danger terms, which are words that have a harsh tone when presented in findings, along with alternative words that communicate more effectively."
   },
@@ -431,6 +433,7 @@
     "image": "ChrisEagle",
     "length": "20",
     "technical": "3",
+    "pdfdownload": "eagle_ghidra_kernelcon2019.pdf",
     "bio": "Chris Eagle has been a computer engineer/scientist for over 30 years, his research interests include computer network operations, computer forensics and reverse/anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA's Cyber Grand Challenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of 'The IDA Pro Book'. In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon.",
     "abstract": "The NSA recently announced that they will be releasing one of their in-house  reverse engineering tools, named GHIDRA, to the public on March 5th at RSA USA 2019 (https://bit.ly/2sO1GBt). GHIDRA is a disassembler with a feature set similar to  that of IDA Pro. In this talk we will highlight GHIDRA's feature set, compare and contrast it with IDA Pro, point out some of its strengths and weaknesses, all in an attempt to help you decide whether GHIDRA or worth adopting for your  reverse engineering needs."
   },

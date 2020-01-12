@@ -210,11 +210,11 @@ module.exports = {
                 extractTextPluginOptions
               )
             ),
-            // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
+            // note: this won't work without `new extracttextplugin()` in `plugins`.
           },
           {
             test: /\.scss$/,
-            include: paths.appSrc,
+            include: paths.appsrc,
             loaders: [
               require.resolve('style-loader'),
               require.resolve('css-loader'),
@@ -222,8 +222,16 @@ module.exports = {
             ]
           }, 
           {
+            test: /\.(pdf)$/,
+            include: paths.appsrc,
+            loader: require.resolve('file-loader'),
+            options: {
+              name: 'files/[name].[ext]',
+            },
+          },
+          {
             test: /\.(pdf|md|txt|docx|odt|tex)$/,
-            include: paths.appSrc,
+            include: paths.appsrc,
             loader: require.resolve('file-loader'),
             options: {
               name: 'cfp/[name].[ext]',
