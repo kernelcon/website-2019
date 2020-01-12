@@ -36,7 +36,7 @@
     "raf": "3.4.0",
     "react": "^16.4.0",
     "react-dev-utils": "^5.0.2",
-    "react-dom": "^16.4.0",
+    "react-dom": "^16.4.2",
     "react-icons": "^2.2.7",
     "react-responsive": "^5.0.0",
     "react-responsive-navbar": "^1.0.11",
