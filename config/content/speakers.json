@@ -41,6 +41,7 @@
     "image": "",
     "length": "50",
     "technical": "4",
+    "pdfdownload": "Jeff_Struik_Chipsec.pdf",
     "bio": "Dr. Struik has 10+ years of cybersecurity experience primarily in the defense industry. His primary interests are embedded systems security, board-level security, and sharing knowledge with future cybersecurity professionals.",
     "abstract": "ardware level vulnerability assessment is becoming increasingly important with the increase of state-sponsored threats. The ability to perform chip-level vulnerability assessments provides valuable insights for security managers, specifically for critical assets. This presentation demonstrates the value of using CHIPSEC and LuvOS to conduct chip-level vulnerability assessments. The presentation will provide a demonstration of the various functions of CHIPSEC and LuvOS and will also examine how to install and use CHIPSEC for the purpose of hardware, firmware, and chip-level vulnerability assessments."
   },
@@ -56,6 +57,7 @@
     "image": "JamesDietle",
     "length": "50",
     "technical": "2",
+    "pdfdownload": "James_Dietle_Building the Badge.pdf",
     "bio": "James is a computer enthusiast who started off slinging CAT5, coax and silver satin in exchange for ice cream at the age of eight. As a naval officer in the intelligence community, he worked with NSA across the world and has over 13 years of Information Technology management experience. More recently he has been burning out GPUs, stopping criminals, and spreading comradery through cheap pcb.",
     "abstract": "Drawn to increase in neck bling that people wear around looking like futuristic disco balls? Curious about the rise of IoT and how you can start making your hardware for tests?  Want to make your own blinking monstrosity that can scare the cat and blind your neighbors. Cheap PCB fab houses and some free software offers the ability to make all these oddly specific dreams come true. This talk will cover an overview of how you can get your board designed, printed and distributed for your next event without going broke in the process."
   },
@@ -71,6 +73,7 @@
     "image": "NickBeede",
     "length": "20",
     "technical": "4",
+    "pdfdownload": "Nick_Beede_Python Obfuscation and Evasion Techniques .pdf",
     "bio": "Nick is a security professional based in the Washington, DC area. He spends most of his time reverse engineering malware and developing new ways to improve digital forensics. Nick graduated from the University of Nebraska at Omaha in 2013 and when he's not staring at assembly you can find him climbing up or snowboarding down any mountain he can find.",
     "abstract": "Python was designed for rapid development and ease of use which allows for complex tasks to be completed much faster than its counterparts. However, by nature of the language it can be reverse engineered much faster than a compiled language. This limits the language's potential to be used for developing malware and other nefarious tools. We have surveyed current obfuscation and anti-reversing techniques available to harden Python code. We propose that implementing the most advanced and effective obfuscation techniques currently requires too much effort for adversaries at this time, but that situation may rapidly change as frameworks and tools evolve. Our presentation will discuss obfuscation techniques currently seen in the wild and available to adversaries, as well as more advanced techniques that malware analysts should be prepared for in the future."
   },
@@ -192,6 +195,7 @@
     "image": "HeatherLawrence",
     "length": "20",
     "technical": "3",
+    "pdfdownload": "HeatherLawrence-PCAPFeatureEngforML.pdf",
     "bio": "Heather is a data scientist for the Nebraska Applied Research Institute who earned her undergraduate and masters degrees in Computer Engineering from the University of Central Florida. In previous lives she was a USN nuke, VA photographer, NCCDC winner, Hack@UCF mom, and darknet marketplace miner. Her current research centers on the application of machine learning to intrusion detection.",
     "abstract": "Once signature-based methods of intrusion detection were considered fallible, we turned to machine learning to detect malicious traffic. Each machine learning algorithm is only as effective as the data its fed and the data points, also called features, used to train it. This talk will discuss feature engineering of network traffic in a pcap format including a discussion of recent research on features that can help detect malicious traffic when deep packet inspection capabilities are lost in TLS 1.3."
   },
@@ -237,6 +241,7 @@
     "image": "MarkCiecior",
     "length": "50",
     "technical": "3.8",
+    "pdfdownload": "Mark_Ciecior_IPv6 Security.pdf",
     "bio": "Mark is a network engineer, dual-CCIE, husband, father, RAGBRAI rider, Scott Frost-advocate, and taxpaying citizen.",
     "abstract": "IPv6 has been the Next Big Thing for at least 20 years. Yet few organizations have deployed it since RFC 1883 was formalized in 1995. Or have they? Google has measured US IPv6 adoption at over 35%. Over 25% of the Alexa Top 1000 sites are IPv6-enabled. Chances are good you (and your users) have used IPv6 as well. Was your deployment planned? Did you address common vulnerabilities? Or do you just want to wreak havoc on your local IT guy? Come learn about the state of IPv6 security. All motivations are welcome."
   },
@@ -252,6 +257,7 @@
     "image": "",
     "length": "50",
     "technical": "2.5",
+    "pdfdownload": "Zach_Giezen_Detasseling Docker.pdf",
     "bio": "Zach has many years of appsec and development experience; he currently works as a defender for a large payment processor. In his spare time he likes to be with his wife and four children, ride his Harley, go target shooting, 3d print everything, teach computer science courses for his homeschool cooperative, and rock a drum set if there’s any time left!",
     "abstract": "It's happened before and it will happen again: that one ancient business application that refuses to die. It's riddled with security holes and is so fragile that a strong gust of wind could take it down. I'll take three perspectives through moving that app into the micro-services climate. Builders, breakers and defenders each get tools and techniques on how this radically popular but 'equally ancient' technology can be their friend."
   },

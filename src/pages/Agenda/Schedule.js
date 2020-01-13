@@ -5,9 +5,15 @@ import DonutChart from '../../components/Charts/Donut.js';
 import './Agenda.scss';
 
 //this seems like a horrible hack, there must be a better way
-import tossaway1 from '../../files/eagle_ghidra_kernelcon2019.pdf';
-import tossaway2 from '../../files/radiohacking_kernelcon.pdf';
-import tossaway3 from '../../files/The-Art-&-Science-of-Report-Writing-Kernelcon-201904.pdf';
+import tossaway01 from '../../files/eagle_ghidra_kernelcon2019.pdf';
+import tossaway02 from '../../files/HeatherLawrence-PCAPFeatureEngforML.pdf';
+import tossaway03 from '../../files/James_Dietle_Building the Badge.pdf';
+import tossaway04 from '../../files/Jeff_Struik_Chipsec.pdf';
+import tossaway05 from '../../files/Mark_Ciecior_IPv6 Security.pdf';
+import tossaway06 from '../../files/Nick_Beede_Python Obfuscation and Evasion Techniques .pdf';
+import tossaway07 from '../../files/radiohacking_kernelcon.pdf';
+import tossaway08 from '../../files/The-Art-&-Science-of-Report-Writing-Kernelcon-201904.pdf';
+import tossaway09 from '../../files/Zach_Giezen_Detasseling Docker.pdf';
 
 
 class Schedule extends Component {
