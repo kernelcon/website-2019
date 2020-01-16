@@ -15,6 +15,7 @@ import tossaway07 from '../../files/radiohacking_kernelcon.pdf';
 import tossaway08 from '../../files/The-Art-&-Science-of-Report-Writing-Kernelcon-201904.pdf';
 import tossaway09 from '../../files/Zach_Giezen_Detasseling Docker.pdf';
 import tossaway10 from '../../files/kernelcon-bx.pdf';
+import tossaway11 from '../../files/kernelcon-physical.pdf';
 
 
 class Schedule extends Component {

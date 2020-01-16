@@ -290,6 +290,7 @@
     "image": "",
     "length": "20",
     "technical": "2",
+    "pdfdownload": "kernelcon-physical.pdf",
     "bio": "Ian recently moved from Florida to Nebraska to get in on the fantastic weather here. His playful attitude towards security has fueled most of his career which has primarily revolved around embedded assembly, the Linux kernel, and exploit development/mitigation.",
     "abstract": "With the glaring financial strain put on the video game industry by hackers, they were among the first private-sector industries to truly focus on security and push for keeping attackers out, but in the face of physical access all their provisions, and yours, are razed in the blink of an eye by adversaries with little to no funding for the project. This will contain a brief history of DRM in the video game industry, how those measures have failed, and why they ultimately always will with an inspection of the Nintendo Switch modding community and the devastating capabilities developed there less than 2 years from the launch date."
   },
