@@ -14,6 +14,7 @@ import tossaway06 from '../../files/Nick_Beede_Python Obfuscation and Evasion Te
 import tossaway07 from '../../files/radiohacking_kernelcon.pdf';
 import tossaway08 from '../../files/The-Art-&-Science-of-Report-Writing-Kernelcon-201904.pdf';
 import tossaway09 from '../../files/Zach_Giezen_Detasseling Docker.pdf';
+import tossaway10 from '../../files/kernelcon-bx.pdf';
 
 
 class Schedule extends Component {
