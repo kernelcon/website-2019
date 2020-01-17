@@ -487,6 +487,7 @@
     "image": "ChrisMorales",
     "length": "50",
     "technical": "3",
+    "pdfdownload": "Morales_Building Security That Thinks.pdf",
     "bio": "Chris is Head of Security Analytics at Vectra, where he analyzes attacker behaviors that occur across millions of hosts inside enterprise networks globally to identify patterns and trends in cybersecurity. He has nearly two decades of information security experience in an array of cybersecurity architecture, consulting, sales, and research roles with a primary focus on incident response and security operations. Chris is a widely respected expert on cybersecurity issues and technologies and has researched, written and presented numerous information security architecture programs and processes.",
     "abstract": "Machine learning is the new hype in security to defend, detect, and respond. Equip yourself to critically evaluate the foundations of next generation AI-powered cybersecurity tools by understanding key machine learning algorithms, training methodologies, development options, and machine learning examples for attacker behavior detection. Cut through the hyperbole and empower yourself to ask insightful and probing questions that validate or expose vendor claims around AI."
   },
