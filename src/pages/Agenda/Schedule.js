@@ -17,6 +17,7 @@ import tossaway09 from '../../files/Zach_Giezen_Detasseling Docker.pdf';
 import tossaway10 from '../../files/kernelcon-bx.pdf';
 import tossaway11 from '../../files/kernelcon-physical.pdf';
 import tossaway12 from '../../files/Morales_Building Security That Thinks.pdf';
+import tossaway13 from '../../files/Parkins_kernelcon19.pdf';
 
 
 class Schedule extends Component {
