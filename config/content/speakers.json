@@ -457,6 +457,7 @@
     "image": "",
     "length": "20",
     "technical": "1",
+    "pdfdownload": "Parkins_kernelcon19.pdf",
     "bio": "Jessica Rooney and Owen Parkins are students at New Mexico Institute of Mining and Technology pursuing their Masters' degrees in Computer Science with a focus in cybersecurity. It has not been scientifically proven that they share a brain though there have been recorded instances of this claim. Both presenters enjoy performing red team exercises, nerding out about exploits, and racing up the stairs.",
     "abstract": "Cybersecurity is a developing field that is difficult to learn and even more difficult to teach. This talk describes the challenges of learning various aspects of cybersecurity and of teaching it from the perspective of cybersecurity-focused college seniors. The speakers provide unique perspectives on the state of cybersecurity education in universities, and how this education is helping and hindering students in preparation for the workforce."
   },
